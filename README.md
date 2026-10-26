@@ -1,4 +1,8 @@
-# Open Download Manager
+<p align="center">
+  <img src="odm-gtk4/src/main/resources/icons/hicolor/256x256/apps/open-download-manager.png" width="128" height="128" alt="Open Download Manager icon: ODM letters over a download arrow on a light tile">
+</p>
+
+<h1 align="center">Open Download Manager</h1>
 
 [![Test CI](https://github.com/albilu/open-download-manager/actions/workflows/test-ci.yml/badge.svg)](https://github.com/albilu/open-download-manager/actions/workflows/test-ci.yml)
 [![Release CI](https://github.com/albilu/open-download-manager/actions/workflows/release-ci.yml/badge.svg)](https://github.com/albilu/open-download-manager/actions/workflows/release-ci.yml)
