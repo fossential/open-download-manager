@@ -81,12 +81,10 @@ RUN mkdir -p /opt/odm-appimage && \
         curl -fL --retry 3 "https://raw.githubusercontent.com/AppImage/AppImages/19e30b276ffedf4d3b4b56bc6320f463625a74f8/$name" -o "/opt/odm-appimage/$name"; \
     done
 
-# Exercise gettext with installed desktop locales, including French regional fallback.
-RUN localedef -i en_US -f UTF-8 en_US.UTF-8 && \
-    localedef -i fr_FR -f UTF-8 fr_FR.UTF-8 && \
-    localedef -i fr_BE -f UTF-8 fr_BE.UTF-8 && \
-    localedef -i fr_CA -f UTF-8 fr_CA.UTF-8 && \
-    localedef -i de_DE -f UTF-8 de_DE.UTF-8
+# Exercise every catalog with installed desktop locales and regional fallback.
+RUN for locale in en_US fr_FR fr_BE fr_CA de_DE de_AT es_ES es_MX ja_JP pt_PT pt_BR zh_CN zh_SG it_IT; do \
+        localedef -i "$locale" -f UTF-8 "$locale.UTF-8" || exit 1; \
+    done
 
 # Install the matching Chromium build for headless media discovery. Keep the
 # browser available to the non-root development user; probes never download it.

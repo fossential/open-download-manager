@@ -11,19 +11,26 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Stream;
 import javax.tools.ToolProvider;
 import javax.xml.parsers.DocumentBuilderFactory;
-import org.junit.jupiter.api.Test;
+import org.manager.util.SystemLocale;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TranslationCatalogTest {
-    @Test
-    void everyMarkedJavaAndGtkMessageHasACompleteFrenchTranslation() throws Exception {
-        Map<String, String> catalog = catalog();
+    static Stream<String> languages() { return SystemLocale.supportedLanguages().stream(); }
+
+    @ParameterizedTest
+    @MethodSource("languages")
+    void everyMarkedJavaAndGtkMessageHasACompleteTranslation(String language) throws Exception {
+        Map<String, String> catalog = catalog(language);
         assertTrue(catalog.size() > 900, "The full UI catalog must be bundled");
+        assertEquals(catalog("en").keySet(), catalog.keySet(), "Catalog messages must match: " + language);
         for (var entry : catalog.entrySet()) {
             for (String form : entry.getValue().split("\u0000", -1)) {
-                assertFalse(form.isBlank(), "Missing French form: " + entry.getKey());
+                assertFalse(form.isBlank(), "Missing " + language + " form: " + entry.getKey());
             }
         }
         try (var files = Files.list(Path.of("src/main/java/org/odm/gtk4"));
@@ -75,9 +82,9 @@ class TranslationCatalogTest {
         }
     }
 
-    private static Map<String, String> catalog() throws Exception {
+    private static Map<String, String> catalog(String language) throws Exception {
         byte[] data;
-        try (var input = I18n.class.getResourceAsStream("/locale/fr/LC_MESSAGES/odm.mo")) {
+        try (var input = I18n.class.getResourceAsStream("/locale/" + language + "/LC_MESSAGES/odm.mo")) {
             assertNotNull(input, "Compiled catalog must be on the classpath");
             data = input.readAllBytes();
         }

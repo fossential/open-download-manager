@@ -148,7 +148,7 @@ public final class I18n {
                     }
                 } catch (IOException ignored) { /* The OS may have already removed temporary files. */ }
             }, "odm-locale-cleanup"));
-            for (String language : new String[]{"en", "fr"}) {
+            for (String language : org.manager.util.SystemLocale.supportedLanguages()) {
                 String resource = language + "/LC_MESSAGES/" + DOMAIN + ".mo";
                 Path target = directory.resolve(resource);
                 Files.createDirectories(target.getParent());

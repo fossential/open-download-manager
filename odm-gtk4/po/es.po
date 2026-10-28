@@ -1,0 +1,4460 @@
+# Spanish translations for Open Download Manager.
+# Copyright (C) 2026 Open Download Manager contributors
+# This file is distributed under the same license as the ODM package.
+msgid ""
+msgstr ""
+"Project-Id-Version: odm 0.3.1\n"
+"Report-Msgid-Bugs-To: https://github.com/albilu/open-download-manager/issues\n"
+"POT-Creation-Date: 2026-09-19 20:02+0200\n"
+"PO-Revision-Date: 2026-10-28 12:00+0100\n"
+"Last-Translator: Open Download Manager contributors\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2717
+#, java-printf-format
+msgid "%2$d of %1$d download loaded"
+msgid_plural "%2$d of %1$d downloads loaded"
+msgstr[0] "%2$d de %1$d descarga cargada"
+msgstr[1] "%2$d de %1$d descargas cargadas"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:507
+#, java-printf-format
+msgid "%2$d of %1$d file selected"
+msgid_plural "%2$d of %1$d files selected"
+msgstr[0] "%2$d de %1$d archivo seleccionado"
+msgstr[1] "%2$d de %1$d archivos seleccionados"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:344
+#, java-printf-format
+msgid "%2$d of %1$d indexer passed."
+msgid_plural "%2$d of %1$d indexers passed."
+msgstr[0] "%2$d de %1$d indexador superó la prueba."
+msgstr[1] "%2$d de %1$d indexadores superaron la prueba."
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:471
+#, java-printf-format
+msgid "%2$d of %1$d item selected"
+msgid_plural "%2$d of %1$d items selected"
+msgstr[0] "%2$d de %1$d elemento seleccionado"
+msgstr[1] "%2$d de %1$d elementos seleccionados"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2718
+#, java-printf-format
+msgid "%d download"
+msgid_plural "%d downloads"
+msgstr[0] "%d descarga"
+msgstr[1] "%d descargas"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2714
+#, java-printf-format
+msgid "%d download selected"
+msgid_plural "%d downloads selected"
+msgstr[0] "%d descarga seleccionada"
+msgstr[1] "%d descargas seleccionadas"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:400
+#, java-printf-format
+msgid "%d failed; retry checked items."
+msgid_plural "%d failed; retry checked items."
+msgstr[0] "%d falló; reintente los elementos marcados."
+msgstr[1] "%d fallaron; reintente los elementos marcados."
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:290
+#, java-printf-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d archivo"
+msgstr[1] "%d archivos"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:469
+#, java-printf-format
+msgid "%d file, %s — uncheck files you do not want."
+msgid_plural "%d files, %s — uncheck files you do not want."
+msgstr[0] "%d archivo, %s — desmarque los archivos que no desee."
+msgstr[1] "%d archivos, %s — desmarque los archivos que no desee."
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:205
+#, java-printf-format
+msgid "%d indexer failed."
+msgid_plural "%d indexers failed."
+msgstr[0] "%d indexador falló."
+msgstr[1] "%d indexadores fallaron."
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:269
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:285
+#, java-printf-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d elemento"
+msgstr[1] "%d elementos"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:401
+#, java-printf-format
+msgid "%d needs attention in Downloads."
+msgid_plural "%d need attention in Downloads."
+msgstr[0] "%d requiere atención en Descargas."
+msgstr[1] "%d requieren atención en Descargas."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:3093
+#, java-printf-format
+msgid "%d seed"
+msgid_plural "%d seeds"
+msgstr[0] "%d semilla"
+msgstr[1] "%d semillas"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:291
+#, java-printf-format
+msgid "%d torrent"
+msgid_plural "%d torrents"
+msgstr[0] "%d torrent"
+msgstr[1] "%d torrents"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:204
+#, java-printf-format
+msgid "%d torrent found."
+msgid_plural "%d torrents found."
+msgstr[0] "%d torrent encontrado."
+msgstr[1] "%d torrents encontrados."
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:292
+#, java-printf-format
+msgid "%d torrent unavailable; Download includes all files."
+msgid_plural "%d torrents unavailable; Download includes all files."
+msgstr[0] "%d torrent no disponible; la descarga incluye todos los archivos."
+msgstr[1] "%d torrents no disponibles; la descarga incluye todos los archivos."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1102
+#, java-printf-format
+msgid "%s defaults loaded. Press Apply or OK to save them."
+msgstr "Valores predeterminados de %s cargados. Pulse Aplicar o Aceptar para guardarlos."
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:549
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:421
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:557
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:741
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1036
+#, java-printf-format
+msgid "%s free"
+msgstr "%s libres"
+
+#: src/main/java/org/odm/gtk4/DesktopNotifications.java:34
+#, java-printf-format
+msgid "%s has completed."
+msgstr "%s ha finalizado."
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:290
+#, java-printf-format
+msgid "%s in %s."
+msgstr "%s en %s."
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:151
+#, java-printf-format
+msgid "%s — Running"
+msgstr "%s — En ejecución"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:94
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:401
+msgid "(all)"
+msgstr "(todos)"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:401
+msgid "(none)"
+msgstr "(ninguno)"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:474
+msgid "(unavailable item)"
+msgstr "(elemento no disponible)"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:340
+msgid "(untitled)"
+msgstr "(sin título)"
+
+#: src/main/resources/ui/import-sequence.ui:240
+msgid "0 items"
+msgstr "0 elementos"
+
+#: src/main/resources/ui/import-list.ui:232
+msgid "0 of 0 items selected"
+msgstr "0 de 0 elementos seleccionados"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:285
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:621
+msgid "100% · Finalizing…"
+msgstr "100% · Finalizando…"
+
+#: src/main/resources/ui/settings.ui:438
+msgid "<b>Advanced Tools</b>"
+msgstr "<b>Herramientas avanzadas</b>"
+
+#: src/main/resources/ui/main-window.ui:127
+msgid "<b>Categories</b>"
+msgstr "<b>Categorías</b>"
+
+#: src/main/resources/ui/settings.ui:465
+msgid "<b>Completion Actions</b>"
+msgstr "<b>Acciones al finalizar</b>"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1100
+msgid "<b>Delete these downloads and their files?</b>"
+msgstr "<b>¿Eliminar estas descargas y sus archivos?</b>"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1101
+msgid "<b>Delete this download and its files?</b>"
+msgstr "<b>¿Eliminar esta descarga y sus archivos?</b>"
+
+#: src/main/resources/ui/settings.ui:403
+msgid "<b>Download History</b>"
+msgstr "<b>Historial de descargas</b>"
+
+#: src/main/resources/ui/import-sequence.ui:157
+msgid "<b>Download Settings</b>"
+msgstr "<b>Configuración de descargas</b>"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2275
+msgid "<b>Download Statistics</b>"
+msgstr "<b>Estadísticas de descargas</b>"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:614
+msgid "<b>Exit Open Download Manager?</b>"
+msgstr "<b>¿Salir de Open Download Manager?</b>"
+
+#: src/main/resources/ui/settings.ui:400
+msgid "<b>File Control</b>"
+msgstr "<b>Control de archivos</b>"
+
+#: src/main/resources/ui/import-sequence.ui:173
+msgid "<b>HTTP Connection</b>"
+msgstr "<b>Conexión HTTP</b>"
+
+#: src/main/resources/ui/settings.ui:192
+msgid "<b>HTTP Defaults</b>"
+msgstr "<b>Valores predeterminados de HTTP</b>"
+
+#: src/main/resources/ui/import-list.ui:165
+#: src/main/resources/ui/network-options.ui:108
+msgid "<b>HTTP Settings</b>"
+msgstr "<b>Configuración de HTTP</b>"
+
+#: src/main/resources/ui/settings.ui:427
+msgid "<b>Import Limits</b>"
+msgstr "<b>Límites de importación</b>"
+
+#: src/main/resources/ui/main-window.ui:297
+msgid "<b>Information</b>"
+msgstr "<b>Información</b>"
+
+#: src/main/resources/ui/main-window.ui:407
+msgid "<b>Progress</b>"
+msgstr "<b>Progreso</b>"
+
+#: src/main/resources/ui/import-list.ui:183
+#: src/main/resources/ui/import-sequence.ui:191
+#: src/main/resources/ui/network-options.ui:141
+#: src/main/resources/ui/settings.ui:212
+msgid "<b>Proxy Settings</b>"
+msgstr "<b>Configuración del proxy</b>"
+
+#: src/main/resources/ui/settings.ui:382
+msgid "<b>Scheduling</b>"
+msgstr "<b>Programación</b>"
+
+#: src/main/resources/ui/main-window.ui:92
+msgid "<b>Status</b>"
+msgstr "<b>Estado</b>"
+
+#: src/main/resources/ui/import-list.ui:199
+#: src/main/resources/ui/import-sequence.ui:207
+#: src/main/resources/ui/network-options.ui:166
+#: src/main/resources/ui/settings.ui:228
+msgid "<b>Tor Settings</b>"
+msgstr "<b>Configuración de Tor</b>"
+
+#: src/main/resources/ui/settings.ui:176
+msgid "<b>Transfer Defaults</b>"
+msgstr "<b>Valores predeterminados de transferencia</b>"
+
+#: src/main/resources/ui/import-list.ui:149
+#: src/main/resources/ui/network-options.ui:83
+msgid "<b>Transfer Settings</b>"
+msgstr "<b>Configuración de transferencia</b>"
+
+#: src/main/resources/ui/main-window.ui:365
+msgid "<b>Transfer</b>"
+msgstr "<b>Transferencia</b>"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1549
+msgid "<b>Update this website mirror?</b>"
+msgstr "<b>¿Actualizar esta copia del sitio web?</b>"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:83
+msgid "A file already exists at the destination."
+msgstr "Ya existe un archivo en el destino."
+
+#: src/main/resources/ui/about.ui:10
+msgid ""
+"A full featured native download manager for Linux, based on aria2, yt-dlp "
+"and httrack."
+msgstr "Un gestor de descargas nativo y completo para Linux, basado en aria2, yt-dlp y httrack."
+
+#: src/main/resources/ui/new-media.ui:110
+msgid ""
+"A selected Netscape-format cookie file overrides the browser source for this "
+"download."
+msgstr "Un archivo de cookies seleccionado en formato Netscape tiene prioridad sobre el navegador para esta descarga."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1686
+msgid "About"
+msgstr "Acerca de"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:344
+msgid "Accepted"
+msgstr "Aceptado"
+
+#: src/main/resources/ui/main-window.ui:453
+msgid "Action"
+msgstr "Acción"
+
+#: src/main/resources/ui/action-output.ui:6
+msgid "Action Output"
+msgstr "Salida de la acción"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:17
+#, java-printf-format
+msgid "Action Output — %s"
+msgstr "Salida de la acción — %s"
+
+#: src/main/resources/ui/main-window.ui:462
+msgid "Actions"
+msgstr "Acciones"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Active"
+msgstr "Activo"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:136
+msgctxt "mirror-state"
+msgid "Active"
+msgstr "Activo"
+
+#: src/main/resources/ui/settings.ui:388
+msgid "Active download hours (days × hours):"
+msgstr "Horas de descarga activas (días × horas):"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:66
+msgid "Active transfer time"
+msgstr "Tiempo de transferencia activa"
+
+#: src/main/resources/ui/settings.ui:395
+msgid "Active — downloads allowed"
+msgstr "Activo — descargas permitidas"
+
+#: src/main/resources/ui/sources.ui:17
+msgid "Add"
+msgstr "Añadir"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:74
+msgid "Add detected clipboard URLs without opening a confirmation dialog."
+msgstr "Añadir las URL detectadas en el portapapeles sin abrir un diálogo de confirmación."
+
+#: src/main/resources/ui/main-window.ui:310
+msgid "Added on:"
+msgstr "Añadido el:"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:323
+msgid "Adding URL sequence to queue…"
+msgstr "Añadiendo secuencia de URL a la cola…"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:574
+msgid "Adding download to queue…"
+msgstr "Añadiendo descarga a la cola…"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:375
+msgid "Adding media download to queue…"
+msgstr "Añadiendo descarga multimedia a la cola…"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:352
+msgid "Adding torrents to queue…"
+msgstr "Añadiendo torrents a la cola…"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:175
+msgid "Adding website scrape to queue…"
+msgstr "Añadiendo captura del sitio web a la cola…"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:123
+msgid "Additional HTTP headers for this website mirror"
+msgstr "Cabeceras HTTP adicionales para esta copia del sitio web"
+
+#: src/main/resources/ui/new-website.ui:69
+msgid "Additional HTTP headers:"
+msgstr "Cabeceras HTTP adicionales:"
+
+#: src/main/resources/ui/main-window.ui:486
+msgid "Address"
+msgstr "Dirección"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1097
+#: src/main/resources/ui/settings.ui:479
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:82
+msgid ""
+"After creating a download from a selected descriptor, move the "
+"original .torrent, .metalink, or .meta4 file to the Linux/XDG Trash."
+msgstr "Tras crear una descarga a partir de un descriptor seleccionado, mover el archivo .torrent, .metalink o .meta4 original a la papelera de Linux/XDG."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:70
+msgid ""
+"After creating the download, move the original watched descriptor to the "
+"Linux/XDG Trash."
+msgstr "Tras crear la descarga, mover el descriptor original detectado en la carpeta vigilada a la papelera de Linux/XDG."
+
+#: src/main/java/org/odm/gtk4/CompletionActionPresentation.java:100
+#, java-printf-format
+msgid "After-completion actions partially succeeded (%d/%d)"
+msgstr "Las acciones al finalizar tuvieron éxito parcial (%d/%d)"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPresentation.java:96
+#, java-printf-format
+msgid "After-completion actions running (%d/%d finished)"
+msgstr "Acciones al finalizar en ejecución (%d/%d terminadas)"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:343
+msgid "All"
+msgstr "Todos"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "All Status"
+msgstr "Todos los estados"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPresentation.java:102
+#, java-printf-format
+msgid "All after-completion actions failed (%d/%d)"
+msgstr "Todas las acciones al finalizar fallaron (%d/%d)"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPresentation.java:98
+#, java-printf-format
+msgid "All after-completion actions succeeded (%d/%d)"
+msgstr "Todas las acciones al finalizar tuvieron éxito (%d/%d)"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "All categories"
+msgstr "Todas las categorías"
+
+#: src/main/resources/ui/new-media.ui:80
+msgid "All items, 1:10, or 1,3,8"
+msgstr "Todos los elementos, 1:10 o 1,3,8"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:176
+msgid ""
+"Allow ODM's yt-dlp commands to load system and user yt-dlp configuration "
+"files, including options that disable certificate verification. Disabled "
+"keeps ODM settings authoritative."
+msgstr "Permitir que los comandos yt-dlp de ODM carguen la configuración de yt-dlp del sistema y del usuario, incluidas las opciones que desactivan la verificación de certificados. Si se desactiva, prevalece la configuración de ODM."
+
+#: src/main/resources/ui/new-website.ui:67
+msgid "Allow ZIP, RAR, TAR, and GZ files in this website mirror."
+msgstr "Permitir archivos ZIP, RAR, TAR y GZ en esta copia del sitio web."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:158
+msgid ""
+"Allow an aria2 daemon started by ODM to load the user's normal aria2 "
+"configuration file. Disabled keeps ODM settings authoritative."
+msgstr "Permitir que el servicio aria2 iniciado por ODM cargue la configuración habitual de aria2 del usuario. Si se desactiva, prevalece la configuración de ODM."
+
+#: src/main/resources/ui/settings.ui:433
+msgid "Allowed range: 1 to 10,000 URLs per import."
+msgstr "Rango permitido: de 1 a 10 000 URL por importación."
+
+#: src/main/resources/ui/settings.ui:435
+msgid "Allowed range: 1 to 64 MiB. Sources are parsed in memory."
+msgstr "Rango permitido: de 1 a 64 MiB. Las fuentes se analizan en memoria."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:68
+msgid "Also watch subfolders inside the monitored folder."
+msgstr "Vigilar también las subcarpetas de la carpeta vigilada."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1639
+msgid "Always"
+msgstr "Siempre"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:11
+msgid "An unexpected error occurred. See the application log for details."
+msgstr "Se produjo un error inesperado. Consulte el registro de la aplicación para más detalles."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1631
+msgid "Antivirus Scan"
+msgstr "Análisis antivirus"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:515
+#, java-printf-format
+msgid "Antivirus scan completed for %s"
+msgstr "Análisis antivirus de %s completado"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:415
+msgid "Antivirus scan timeout in seconds, zero for no timeout"
+msgstr "Tiempo límite del análisis antivirus en segundos; cero para no limitarlo"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:443
+msgid "Antivirus scanner used by completion actions"
+msgstr "Antivirus utilizado por las acciones al finalizar"
+
+#: src/main/resources/ui/settings.ui:471
+msgid "Antivirus timeout (seconds):"
+msgstr "Tiempo límite del antivirus (segundos):"
+
+#: src/main/resources/ui/settings.ui:466
+msgid "Antivirus type:"
+msgstr "Tipo de antivirus:"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:463
+msgid "Application menu"
+msgstr "Menú de la aplicación"
+
+#: src/main/resources/ui/settings.ui:432
+msgid ""
+"Applies to URL lists, generated sequences, and links extracted from HTML."
+msgstr "Se aplica a listas de URL, secuencias generadas y enlaces extraídos de HTML."
+
+#: src/main/resources/ui/settings.ui:146
+msgid "Applies to downloads detected by clipboard and folder monitoring"
+msgstr "Se aplica a las descargas detectadas al vigilar el portapapeles y las carpetas"
+
+#: src/main/resources/ui/settings.ui:434
+msgid "Applies to local URL lists and local or remote HTML sources."
+msgstr "Se aplica a listas de URL locales y fuentes HTML locales o remotas."
+
+#: src/main/resources/ui/property.ui:55
+msgid "Apply"
+msgstr "Aplicar"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:206
+msgid ""
+"Apply the weekly grid globally: inactive hours pause active downloads and "
+"prevent queued downloads from starting."
+msgstr "Aplicar la cuadrícula semanal globalmente: las horas inactivas pausan las descargas activas e impiden iniciar las descargas en cola."
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:102
+msgid "Applying settings…"
+msgstr "Aplicando configuración…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:154
+msgid ""
+"Ask aria2 to verify available checksums before accepting downloaded data."
+msgstr "Pedir a aria2 que verifique las sumas de comprobación disponibles antes de aceptar los datos descargados."
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "Audio"
+msgstr "Audio"
+
+#: src/main/resources/ui/new-media.ui:69
+msgid "Audio only"
+msgstr "Solo audio"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+msgid "Audios"
+msgstr "Audios"
+
+#: src/main/java/org/odm/gtk4/ImportEngine.java:9
+msgid "Auto"
+msgstr "Automático"
+
+#: src/main/resources/ui/import-list.ui:78
+msgid ""
+"Auto selects an engine for each URL. Choose an engine to use it for all "
+"marked URLs."
+msgstr "Automático elige un motor para cada URL. Elija un motor para usarlo con todas las URL marcadas."
+
+#: src/main/resources/ui/import-sequence.ui:102
+msgid ""
+"Auto selects an engine for each URL. Choose an engine to use it for the "
+"entire sequence."
+msgstr "Automático elige un motor para cada URL. Elija un motor para usarlo en toda la secuencia."
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:174
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:498
+msgid "Automatic (fetch info to choose a format)"
+msgstr "Automático (obtener información para elegir un formato)"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:887
+msgid "Automatic (first available)"
+msgstr "Automático (primero disponible)"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:888
+msgid "Automatic (no scanner available)"
+msgstr "Automático (ningún antivirus disponible)"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:346
+msgid "Automatic (yt-dlp default)"
+msgstr "Automático (predeterminado de yt-dlp)"
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:11
+msgid "Automatic / best compatible"
+msgstr "Automático / mejor compatible"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:66
+msgid ""
+"Automatically create downloads from supported descriptor files placed in the "
+"monitored folder."
+msgstr "Crear descargas automáticamente a partir de archivos descriptores compatibles colocados en la carpeta vigilada."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:367
+#: src/main/resources/ui/settings.ui:409
+msgid "Automatically remove old download records"
+msgstr "Eliminar automáticamente registros antiguos de descargas"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:80
+msgid ""
+"Automatically start downloads admitted by clipboard and folder monitoring; "
+"user-triggered dialogs and imports are unaffected."
+msgstr "Iniciar automáticamente las descargas aceptadas mediante la vigilancia del portapapeles y las carpetas; no afecta a los diálogos ni a las importaciones iniciadas por el usuario."
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:64
+#, java-printf-format
+msgid "Average: %s"
+msgstr "Promedio: %s"
+
+#: src/main/resources/ui/main-window.ui:421
+msgid "Average: —"
+msgstr "Promedio: —"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1619
+msgid "Batch Process"
+msgstr "Proceso por lotes"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:411
+msgid "BitTorrent encryption policy"
+msgstr "Política de cifrado de BitTorrent"
+
+#: src/main/resources/ui/settings.ui:285
+msgid "BitTorrent encryption:"
+msgstr "Cifrado de BitTorrent:"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "Books"
+msgstr "Libros"
+
+#: src/main/resources/ui/new-website.ui:56
+msgid "Boundary for this mirror. Nearby assets may come from other hosts."
+msgstr "Límite de esta copia. Los recursos asociados pueden proceder de otros servidores."
+
+#: src/main/resources/ui/settings.ui:260 src/main/resources/ui/settings.ui:317
+#: src/main/resources/ui/settings.ui:346 src/main/resources/ui/settings.ui:440
+#: src/main/resources/ui/settings.ui:442 src/main/resources/ui/settings.ui:460
+#: src/main/resources/ui/settings.ui:462
+msgid "Browse"
+msgstr "Examinar"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:168
+msgid "Browser cookie file"
+msgstr "Archivo de cookies del navegador"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:163
+msgid "Browser cookie source"
+msgstr "Origen de cookies del navegador"
+
+#: src/main/resources/ui/new-media.ui:106
+msgid "Browser profile:"
+msgstr "Perfil del navegador:"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1640
+msgid "Business Hours"
+msgstr "Horario laboral"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:619
+#: src/main/java/org/odm/gtk4/MainWindow.java:1109
+#: src/main/java/org/odm/gtk4/MainWindow.java:1556
+#: src/main/resources/ui/completion-command.ui:33
+#: src/main/resources/ui/import-list.ui:243
+#: src/main/resources/ui/import-remote.ui:39
+#: src/main/resources/ui/import-sequence.ui:251
+#: src/main/resources/ui/new-download.ui:304
+#: src/main/resources/ui/new-media.ui:149
+#: src/main/resources/ui/new-website.ui:108
+#: src/main/resources/ui/property.ui:54
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Canceled"
+msgstr "Cancelado"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:605
+#, java-printf-format
+msgid "Cannot add download: %s"
+msgstr "No se puede añadir la descarga: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:823
+msgid "Cannot open an invalid or unsupported download link."
+msgstr "No se puede abrir un enlace de descarga no válido o no compatible."
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:404
+#, java-printf-format
+msgid "Cannot start: %s"
+msgstr "No se puede iniciar: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1323
+msgid "Change Destination…"
+msgstr "Cambiar destino…"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:37
+msgid "Character"
+msgstr "Carácter"
+
+#: src/main/resources/ui/settings.ui:292
+msgid "Check file integrity"
+msgstr "Comprobar integridad del archivo"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:350
+msgid "Check torrents and select at least one file."
+msgstr "Marque torrents y seleccione al menos un archivo."
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:288
+#: src/main/resources/ui/search-torrents.ui:85
+msgid "Check torrents in Search to see their files."
+msgstr "Marque torrents en la búsqueda para ver sus archivos."
+
+#: src/main/resources/ui/new-download.ui:115
+msgid "Checksum:"
+msgstr "Suma de comprobación:"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:223
+msgid "Choking"
+msgstr "Bloqueando"
+
+#: src/main/resources/ui/new-media.ui:62
+msgid ""
+"Choose an output compatibility policy. Profiles prefer or remux containers "
+"without transcoding."
+msgstr "Elija una política de compatibilidad de salida. Los perfiles priorizan o cambian contenedores sin recodificar."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:184
+msgid "Choose the HTTrack executable used by ODM after it restarts."
+msgstr "Elija el ejecutable de HTTrack que ODM usará después de reiniciarse."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:244
+msgid "Choose the Subliminal executable used by completion actions."
+msgstr "Elija el ejecutable de Subliminal utilizado por las acciones al finalizar."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:232
+msgid "Choose the Tor executable managed by ODM after it restarts."
+msgstr "Elija el ejecutable de Tor que ODM gestionará después de reiniciarse."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:122
+msgid ""
+"Choose the aria2c executable used when ODM next starts its aria2 daemon."
+msgstr "Elija el ejecutable de aria2c que ODM usará la próxima vez que inicie su servicio aria2."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:240
+msgid ""
+"Choose the curl executable used by fallback downloads after ODM restarts."
+msgstr "Elija el ejecutable de curl para las descargas alternativas tras reiniciar ODM."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:228
+msgid "Choose the proxychains executable used by ODM after it restarts."
+msgstr "Elija el ejecutable de proxychains que ODM usará después de reiniciarse."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:166
+msgid "Choose the yt-dlp executable used by ODM."
+msgstr "Elija el ejecutable de yt-dlp que usará ODM."
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:124
+msgid "Choose torrent or Metalink descriptor"
+msgstr "Elegir descriptor torrent o Metalink"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:132
+msgid ""
+"Choose whether completed torrents stop immediately, at a ratio, after a "
+"time, when either limit is reached, or never."
+msgstr "Elija si los torrents completados se detienen inmediatamente, al alcanzar una proporción, tras un tiempo, al alcanzar cualquiera de los límites o nunca."
+
+#: src/main/resources/ui/new-website.ui:80
+msgid "Clear"
+msgstr "Limpiar"
+
+#: src/main/resources/ui/main-window.ui:320
+msgid "Click to view the full error details"
+msgstr "Pulse para ver todos los detalles del error"
+
+#: src/main/java/org/odm/gtk4/TrayMenu.java:34
+msgid "Clipboard"
+msgstr "Portapapeles"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1626
+msgid "Clipboard Monitoring"
+msgstr "Vigilar portapapeles"
+
+#: src/main/resources/ui/action-output.ui:50
+#: src/main/resources/ui/search-torrents.ui:130
+msgid "Close"
+msgstr "Cerrar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1662
+msgid "Columns"
+msgstr "Columnas"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:150
+msgid ""
+"Comma-, space-, or line-separated tracker announce URLs added to BitTorrent "
+"downloads."
+msgstr "URL de anuncio de trackers, separadas por comas, espacios o saltos de línea, que se añaden a las descargas BitTorrent."
+
+#: src/main/resources/ui/new-media.ui:116
+msgid ""
+"Comma-separated SponsorBlock categories. Prefix a category with '-' to "
+"exclude it."
+msgstr "Categorías de SponsorBlock separadas por comas. Anteponiendo «-» se excluye una categoría."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:246
+msgid ""
+"Comma-separated language codes, for example en,fr. Used by Subliminal and as "
+"the default for yt-dlp subtitle downloads. Leave empty for English."
+msgstr "Códigos de idioma separados por comas, por ejemplo en,fr. Se usan en Subliminal y como valor predeterminado para los subtítulos de yt-dlp. Vacío indica inglés."
+
+#: src/main/resources/ui/completion-command.ui:18
+msgid ""
+"Command to run on completion. Variables: {file_path} {filename} {dir} {url} "
+"{id} {gid}"
+msgstr "Comando que ejecutar al finalizar. Variables: {file_path} {filename} {dir} {url} {id} {gid}"
+
+#: src/main/resources/ui/main-window.ui:235
+msgid "Complete"
+msgstr "Completo"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:163
+msgid "Complete the selected proxy address"
+msgstr "Complete la dirección del proxy seleccionado"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+msgid "Completed"
+msgstr "Completado"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:381
+msgid "Completed record retention in days, zero to never remove by age"
+msgstr "Retención de registros completados en días; cero para no eliminarlos por antigüedad"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1636
+msgid "Completion Actions"
+msgstr "Acciones al finalizar"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:17
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:28
+msgid "Completion action"
+msgstr "Acción al finalizar"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:139
+msgid "Configured"
+msgstr "Configurado"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:256
+msgid "Configuring…"
+msgstr "Configurando…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:613
+msgid "Confirm Exit"
+msgstr "Confirmar salida"
+
+#: src/main/resources/ui/settings.ui:357
+msgid "Connections per second:"
+msgstr "Conexiones por segundo:"
+
+#: src/main/resources/ui/main-window.ui:393
+msgid "Connections:"
+msgstr "Conexiones:"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "Console"
+msgstr "Consola"
+
+#: src/main/resources/ui/new-media.ui:61
+msgid "Container:"
+msgstr "Contenedor:"
+
+#: src/main/resources/ui/settings.ui:291
+msgid "Continue partial downloads"
+msgstr "Continuar descargas parciales"
+
+#: src/main/resources/ui/import-list.ui:171
+#: src/main/resources/ui/import-sequence.ui:179
+#: src/main/resources/ui/network-options.ui:122
+#: src/main/resources/ui/settings.ui:198
+msgid "Cookie:"
+msgstr "Cookie:"
+
+#: src/main/resources/ui/new-media.ui:109
+msgid "Cookies file:"
+msgstr "Archivo de cookies:"
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:56
+#, java-printf-format
+msgid "Copy Link"
+msgid_plural "Copy Links"
+msgstr[0] "Copiar enlace"
+msgstr[1] "Copiar enlaces"
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:55
+#, java-printf-format
+msgid "Copy Magnet URI"
+msgid_plural "Copy Magnet URIs"
+msgstr[0] "Copiar URI magnet"
+msgstr[1] "Copiar URI magnet"
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:54
+#, java-printf-format
+msgid "Copy URL"
+msgid_plural "Copy URLs"
+msgstr[0] "Copiar URL"
+msgstr[1] "Copiar URL"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:266
+msgid "Core initialization interrupted"
+msgstr "Inicialización del núcleo interrumpida"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:834
+#: src/main/java/org/odm/gtk4/MainWindow.java:849
+#, java-printf-format
+msgid "Could not add download: %s"
+msgstr "No se pudo añadir la descarga: %s"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:395
+#, java-printf-format
+msgid "Could not add to queue: %s. Press Download to retry."
+msgstr "No se pudo añadir a la cola: %s. Pulse Descargar para reintentar."
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:192
+#, java-printf-format
+msgid "Could not add to queue: %s. Press Start Scrape to retry."
+msgstr "No se pudo añadir a la cola: %s. Pulse Iniciar captura para reintentar."
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:593
+#, java-printf-format
+msgid "Could not add to queue: %s. Press Start to retry."
+msgstr "No se pudo añadir a la cola: %s. Pulse Iniciar para reintentar."
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:592
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:394
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:191
+#, java-printf-format
+msgid ""
+"Could not add to queue: %s. This download remains in Downloads; manage it "
+"there."
+msgstr "No se pudo añadir a la cola: %s. Esta descarga permanece en Descargas; gestiónela allí."
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:114
+#, java-printf-format
+msgid "Could not apply settings: %s. Previous values were restored."
+msgstr "No se pudo aplicar la configuración: %s. Se restauraron los valores anteriores."
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:76
+msgid "Could not connect to the server. Check your network and proxy settings."
+msgstr "No se pudo conectar al servidor. Revise la configuración de red y del proxy."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1125
+#, java-printf-format
+msgid "Could not delete all selected download files: %s"
+msgstr "No se pudieron eliminar todos los archivos de las descargas seleccionadas: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:948
+#, java-printf-format
+msgid "Could not delete all selected downloads: %s"
+msgstr "No se pudieron eliminar todas las descargas seleccionadas: %s"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:80
+msgid "Could not establish a secure connection. Check your network settings."
+msgstr "No se pudo establecer una conexión segura. Revise la configuración de red."
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:301
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:324
+#, java-printf-format
+msgid "Could not fetch info: %s"
+msgstr "No se pudo obtener la información: %s"
+
+#: src/main/java/org/odm/gtk4/HtmlImportExport.java:314
+msgid "Could not fetch the remote HTML source"
+msgstr "No se pudo obtener la fuente HTML remota"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:269
+msgid "Could not import URL list"
+msgstr "No se pudo importar la lista de URL"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:332
+#, java-printf-format
+msgid "Could not import this URL sequence: %s"
+msgstr "No se pudo importar esta secuencia de URL: %s"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:440
+#, java-printf-format
+msgid "Could not import this list: %s"
+msgstr "No se pudo importar esta lista: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2219
+#, java-printf-format
+msgid "Could not import this remote HTML page: %s"
+msgstr "No se pudo importar esta página HTML remota: %s"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:432
+#, java-printf-format
+msgid ""
+"Could not load file metadata: %s. Starting the download will include all "
+"files."
+msgstr "No se pudieron cargar los metadatos: %s. Al iniciar la descarga se incluirán todos los archivos."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1389
+#, java-printf-format
+msgid "Could not move download: %s"
+msgstr "No se pudo mover la descarga: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1593
+#, java-printf-format
+msgid "Could not open %s"
+msgstr "No se pudo abrir %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2022
+#: src/main/java/org/odm/gtk4/MainWindow.java:2059
+msgid "Could not open containing folder"
+msgstr "No se pudo abrir la carpeta contenedora"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2025
+#: src/main/java/org/odm/gtk4/MainWindow.java:2056
+msgid "Could not open downloaded file"
+msgstr "No se pudo abrir el archivo descargado"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2035
+msgid "Could not open save folder"
+msgstr "No se pudo abrir la carpeta de destino"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:921
+#, java-printf-format
+msgid "Could not pause all selected downloads: %s"
+msgstr "No se pudieron pausar todas las descargas seleccionadas: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1762
+#, java-printf-format
+msgid "Could not pause downloads: %s"
+msgstr "No se pudieron pausar las descargas: %s"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:389
+#, java-printf-format
+msgid "Could not queue torrents. %s"
+msgstr "No se pudieron añadir los torrents a la cola. %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2151
+#, java-printf-format
+msgid "Could not read links from this HTML file: %s"
+msgstr "No se pudieron leer los enlaces de este archivo HTML: %s"
+
+#: src/main/java/org/odm/gtk4/HtmlImportExport.java:264
+msgid "Could not read the selected HTML file"
+msgstr "No se pudo leer el archivo HTML seleccionado"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1763
+#, java-printf-format
+msgid "Could not resume downloads: %s"
+msgstr "No se pudieron reanudar las descargas: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2106
+msgid "Could not reveal downloaded file"
+msgstr "No se pudo mostrar el archivo descargado en el gestor de archivos"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1512
+#, java-printf-format
+msgid "Could not run all subtitle downloads: %s"
+msgstr "No se pudieron ejecutar todas las descargas de subtítulos: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:952
+#, java-printf-format
+msgid "Could not start all selected downloads: %s"
+msgstr "No se pudieron iniciar todas las descargas seleccionadas: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2302
+msgid "Could not start download scheduler"
+msgstr "No se pudo iniciar el programador de descargas"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:939
+#, java-printf-format
+msgid "Could not start or resume all selected downloads: %s"
+msgstr "No se pudieron iniciar o reanudar todas las descargas seleccionadas: %s"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:188
+msgid "Could not update mirrors"
+msgstr "No se pudieron actualizar las copias de sitios web"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1576
+#, java-printf-format
+msgid "Could not update website mirror: %s"
+msgstr "No se pudo actualizar la copia del sitio web: %s"
+
+#: src/main/resources/ui/import-sequence.ui:87
+msgid "Count:"
+msgstr "Cantidad:"
+
+#: src/main/resources/ui/new-website.ui:55
+msgid "Crawl scope:"
+msgstr "Ámbito de rastreo:"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:144
+#, java-printf-format
+msgid "Current URL: %s"
+msgstr "URL actual: %s"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:831
+#, java-printf-format
+msgid "Current: %s"
+msgstr "Actual: %s"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:413
+msgid "Custom antivirus command including file placeholder"
+msgstr "Comando antivirus personalizado con marcador de archivo"
+
+#: src/main/resources/ui/settings.ui:469
+msgid "Custom antivirus command:"
+msgstr "Comando antivirus personalizado:"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:892
+msgid "Custom command"
+msgstr "Comando personalizado"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1984
+#: src/main/resources/ui/completion-command.ui:6
+msgid "Custom completion command"
+msgstr "Comando personalizado al finalizar"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:32
+msgid "Custom external depth"
+msgstr "Profundidad externa personalizada"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:250
+msgid ""
+"Custom file scanner command; include {file} as an argument. Quotes group "
+"arguments. Exit 0 means the command completed; inspect its output for the "
+"verdict."
+msgstr "Comando personalizado de análisis; incluya {file} como argumento. Las comillas agrupan argumentos. El código de salida 0 indica que el comando terminó; consulte su salida para ver el resultado."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1635
+msgid "Custom…"
+msgstr "Personalizado…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2954
+#, java-printf-format
+msgid "DHT: %d seed"
+msgid_plural "DHT: %d seeds"
+msgstr[0] "DHT: %d semilla"
+msgstr[1] "DHT: %d semillas"
+
+#: src/main/resources/ui/main-window.ui:584
+msgid "DHT: —"
+msgstr "DHT: —"
+
+#: src/main/resources/ui/settings.ui:122
+msgid "Default download directory:"
+msgstr "Directorio predeterminado de descargas:"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:453
+msgid "Default download folder"
+msgstr "Carpeta predeterminada de descargas"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:94
+msgid "Default download speed limit for supporting engines; 0 means unlimited."
+msgstr "Límite predeterminado de velocidad de descarga para motores compatibles; 0 significa sin límite."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:88
+msgid ""
+"Default maximum connections for new downloads, capped to each engine's "
+"supported limit: aria2 16, HTTrack 8; yt-dlp fragments can exceed 16."
+msgstr "Máximo predeterminado de conexiones para nuevas descargas, limitado por cada motor: aria2 16, HTTrack 8; los fragmentos de yt-dlp pueden superar 16."
+
+#: src/main/resources/ui/new-media.ui:107
+msgid "Default profile (optional)"
+msgstr "Perfil predeterminado (opcional)"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:96
+msgid ""
+"Default upload speed limit for supporting bidirectional engines; 0 means "
+"unlimited."
+msgstr "Límite predeterminado de velocidad de subida para motores bidireccionales compatibles; 0 significa sin límite."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:429
+msgid "Delay between HTTrack files in seconds"
+msgstr "Espera entre archivos de HTTrack en segundos"
+
+#: src/main/resources/ui/settings.ui:359
+msgid "Delay between files (seconds):"
+msgstr "Espera entre archivos (segundos):"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1337
+#: src/main/java/org/odm/gtk4/MainWindow.java:1676
+#: src/main/resources/ui/main-window.ui:177
+msgid "Delete"
+msgstr "Eliminar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1111
+msgid "Delete Files"
+msgstr "Eliminar archivos"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:202
+msgid ""
+"Delete the existing output file or folder before starting a new download. "
+"Existing downloads keep the engine's resume policy."
+msgstr "Eliminar el archivo o la carpeta de destino existente antes de iniciar una nueva descarga. Las descargas existentes mantienen la política de reanudación del motor."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1338
+#: src/main/java/org/odm/gtk4/MainWindow.java:1677
+msgid "Delete with Files"
+msgstr "Eliminar con archivos"
+
+#: src/main/resources/ui/new-website.ui:52
+msgid "Depth:"
+msgstr "Profundidad:"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:50
+msgid "Desktop"
+msgstr "Escritorio"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1630
+msgid "Desktop notification"
+msgstr "Notificación de escritorio"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1367
+msgid "Destination cannot be changed for this download"
+msgstr "No se puede cambiar el destino de esta descarga"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:48
+#, java-printf-format
+msgid "Detailed output for %s"
+msgstr "Salida detallada de %s"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:72
+msgid "Detect supported download URLs copied by other applications."
+msgstr "Detectar URL de descarga compatibles copiadas por otras aplicaciones."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:440
+msgid "Detecting installed scanners…"
+msgstr "Detectando antivirus instalados…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:49
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:52
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: src/main/resources/ui/settings.ui:409
+msgid ""
+"Disabled by default. Cleanup removes records from ODM history only and never "
+"deletes downloaded files."
+msgstr "Desactivado de forma predeterminada. La limpieza solo elimina registros del historial de ODM, nunca los archivos descargados."
+
+#: src/main/resources/ui/new-website.ui:80
+msgid "Do not use a cookie file for this mirror."
+msgstr "No usar un archivo de cookies para esta copia."
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:54
+msgid "Documents"
+msgstr "Documentos"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1685
+msgid "Donation"
+msgstr "Donaciones"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+msgid "Down Speed"
+msgstr "Velocidad de descarga"
+
+#: src/main/resources/ui/main-window.ui:251
+#: src/main/resources/ui/main-window.ui:488
+msgid "Down speed"
+msgstr "Velocidad de descarga"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:424
+#: src/main/resources/ui/new-media.ui:150
+#: src/main/resources/ui/search-torrents.ui:131
+msgid "Download"
+msgstr "Descargar"
+
+#: src/main/resources/ui/new-download.ui:144
+msgctxt "tab-title"
+msgid "Download"
+msgstr "Descarga"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:424
+#, java-printf-format
+msgid "Download (%d)"
+msgstr "Descargar (%d)"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:23
+msgid "Download Error"
+msgstr "Error de descarga"
+
+#: src/main/resources/ui/property.ui:6
+msgid "Download Properties"
+msgstr "Propiedades de la descarga"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1325
+#: src/main/java/org/odm/gtk4/MainWindow.java:1632
+#: src/main/java/org/odm/gtk4/MainWindow.java:1669
+msgid "Download Subtitles"
+msgstr "Descargar subtítulos"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:123
+msgid "Download URL"
+msgstr "URL de descarga"
+
+#: src/main/java/org/odm/gtk4/DownloadSubmission.java:154
+#, java-printf-format
+msgid "Download added. Could not move the original descriptor to Trash: %s"
+msgstr "Descarga añadida. No se pudo mover el descriptor original a la papelera: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:458
+msgid "Download category filters"
+msgstr "Filtros de categorías de descargas"
+
+#: src/main/java/org/odm/gtk4/DesktopNotifications.java:36
+msgid "Download completed"
+msgstr "Descarga completada"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:125
+msgid "Download destination folder"
+msgstr "Carpeta de destino de descargas"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:23
+msgid "Download error details"
+msgstr "Detalles del error de descarga"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:530
+msgid "Download handlers did not initialize within 60s"
+msgstr "Los controladores de descarga no se inicializaron en 60 segundos"
+
+#: src/main/resources/ui/new-media.ui:70
+msgid "Download playlist"
+msgstr "Descargar lista de reproducción"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:66
+#: src/main/resources/ui/main-window.ui:434
+msgid "Download progress"
+msgstr "Progreso de descarga"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:74
+#, java-printf-format
+msgid ""
+"Download progress: %s. %s. Average speed: %s. Solid line: download speed. "
+"Dashed line: average speed."
+msgstr "Progreso de descarga: %s. %s. Velocidad media: %s. Línea continua: velocidad de descarga. Línea discontinua: velocidad media."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:457
+msgid "Download status filters"
+msgstr "Filtros de estado de descargas"
+
+#: src/main/resources/ui/main-window.ui:391
+msgid "Downloaded:"
+msgstr "Descargado:"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1507
+#, java-printf-format
+msgid "Downloading subtitles for %d download…"
+msgid_plural "Downloading subtitles for %d downloads…"
+msgstr[0] "Descargando subtítulos para %d descarga…"
+msgstr[1] "Descargando subtítulos para %d descargas…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1506
+#, java-printf-format
+msgid "Downloading subtitles for “%s”…"
+msgstr "Descargando subtítulos de «%s»…"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:62
+#: src/main/java/org/odm/gtk4/MainWindow.java:459
+#: src/main/resources/ui/main-window.ui:473
+msgid "Downloads"
+msgstr "Descargas"
+
+#: src/main/resources/ui/new-media.ui:92
+msgid "Duration"
+msgstr "Duración"
+
+#: src/main/resources/ui/main-window.ui:389
+msgid "ETA:"
+msgstr "Tiempo restante:"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+#: src/main/resources/ui/main-window.ui:249
+msgid "Elapsed"
+msgstr "Transcurrido"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:172
+msgid ""
+"Embed available title, artist, chapter, and other metadata in the media file."
+msgstr "Incrustar el título, artista, capítulos y otros metadatos disponibles en el archivo multimedia."
+
+#: src/main/resources/ui/settings.ui:320
+msgid "Embed metadata"
+msgstr "Incrustar metadatos"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:170
+msgid ""
+"Embed the media thumbnail as cover art when the selected output supports it. "
+"This may require FFmpeg."
+msgstr "Incrustar la miniatura como portada si el formato de salida lo admite. Puede requerir FFmpeg."
+
+#: src/main/resources/ui/settings.ui:319
+msgid "Embed thumbnail"
+msgstr "Incrustar miniatura"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:375
+msgid "Enable Tor circuit monitor"
+msgstr "Activar monitor del circuito Tor"
+
+#: src/main/resources/ui/import-list.ui:203
+#: src/main/resources/ui/import-sequence.ui:211
+#: src/main/resources/ui/network-options.ui:178
+#: src/main/resources/ui/settings.ui:232
+msgid "Enable Tor:"
+msgstr "Activar Tor:"
+
+#: src/main/resources/ui/settings.ui:148
+msgid "Enable auto save"
+msgstr "Activar guardado automático"
+
+#: src/main/resources/ui/settings.ui:142
+msgid "Enable clipboard monitoring"
+msgstr "Activar vigilancia del portapapeles"
+
+#: src/main/resources/ui/settings.ui:139
+msgid "Enable folder monitoring"
+msgstr "Activar vigilancia de carpetas"
+
+#: src/main/resources/ui/settings.ui:387
+msgid "Enable scheduling"
+msgstr "Activar programación"
+
+#: src/main/resources/ui/settings.ui:144
+msgid "Enable system tray icon"
+msgstr "Activar icono en la bandeja del sistema"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1647
+msgid "Enable/Disable Tor"
+msgstr "Activar/desactivar Tor"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:52
+msgid "Enabled"
+msgstr "Activado"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#: src/main/resources/ui/main-window.ui:255
+msgid "End date"
+msgstr "Fecha de finalización"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:52
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:55
+msgid "Engine default"
+msgstr "Predeterminado del motor"
+
+#: src/main/resources/ui/settings.ui:278
+msgid "Engine default (6881-6999)"
+msgstr "Predeterminado del motor (6881-6999)"
+
+#: src/main/resources/ui/import-list.ui:70
+#: src/main/resources/ui/import-sequence.ui:99
+#: src/main/resources/ui/main-window.ui:378
+msgid "Engine:"
+msgstr "Motor:"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:154
+msgid "Enter a URL"
+msgstr "Introduzca una URL"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:661
+msgid "Enter a URL or choose a torrent/metalink file."
+msgstr "Introduzca una URL o elija un archivo torrent/metalink."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1493
+msgid "Enter a command for the Custom antivirus scanner"
+msgstr "Introduzca un comando para el antivirus personalizado"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:184
+msgid "Enter a search term."
+msgstr "Introduzca un término de búsqueda."
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:236
+#: src/main/resources/ui/new-download.ui:162
+msgid "Enter a torrent, magnet, or Metalink source to inspect its files."
+msgstr "Introduzca una fuente torrent, magnet o Metalink para examinar sus archivos."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2199
+msgid "Enter a valid HTTP(S) page URL"
+msgstr "Introduzca una URL de página HTTP(S) válida"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:274
+msgid "Enter a valid download URL or magnet link."
+msgstr "Introduzca una URL de descarga o un enlace magnet válido."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2175
+#, java-printf-format
+msgid ""
+"Enter an HTTP(S) page. Up to %d links are imported from a page up to %d MiB; "
+"relative links use the page's final address after redirects."
+msgstr "Introduzca una página HTTP(S). Se importan hasta %d enlaces de una página de hasta %d MiB; los enlaces relativos usan la dirección final tras las redirecciones."
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:438
+msgid "Enter at least one subtitle language"
+msgstr "Introduzca al menos un idioma de subtítulos"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1483
+msgid "Enter subtitle language codes separated by commas (for example, en,fr)."
+msgstr "Introduzca códigos de idioma de subtítulos separados por comas (por ejemplo, en,fr)."
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:23
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Error"
+msgstr "Error"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:383
+msgid "Error record retention in days, zero to never remove by age"
+msgstr "Retención de registros con errores en días; cero para no eliminarlos por antigüedad"
+
+#: src/main/resources/ui/main-window.ui:314
+msgid "Error:"
+msgstr "Error:"
+
+#: src/main/resources/ui/new-website.ui:64
+msgid "Exclude URL patterns:"
+msgstr "Excluir patrones de URL:"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:119
+msgid "Excluded website URL patterns"
+msgstr "Patrones de URL de sitios web excluidos"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:620
+#: src/main/java/org/odm/gtk4/MainWindow.java:1621
+#: src/main/java/org/odm/gtk4/TrayMenu.java:38
+msgid "Exit"
+msgstr "Salir"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:129
+msgid "Expected SFTP host key digest"
+msgstr "Huella esperada de la clave del servidor SFTP"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:131
+msgid ""
+"Expected server public-key digest: sha-1=<40 hex digits> or md5=<32 hex "
+"digits>. Leaving it blank disables aria2 host-key verification."
+msgstr "Huella esperada de la clave pública del servidor: sha-1=<40 dígitos hexadecimales> o md5=<32 dígitos hexadecimales>. Si se deja vacío, se desactiva la verificación de claves de servidor de aria2."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1618
+msgid "Export Download List"
+msgstr "Exportar lista de descargas"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2243
+msgid "Export download list"
+msgstr "Exportar lista de descargas"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2259
+msgid "Exported download list"
+msgstr "Lista de descargas exportada"
+
+#: src/main/resources/ui/import-list.ui:103
+msgid "Extension"
+msgstr "Extensión"
+
+#: src/main/resources/ui/new-website.ui:58
+msgid "External depth:"
+msgstr "Profundidad externa:"
+
+#: src/main/resources/ui/new-website.ui:59
+msgid "External link levels followed when Custom external depth is selected."
+msgstr "Niveles de enlaces externos que se siguen al seleccionar profundidad externa personalizada."
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:117
+msgid "External website crawl depth"
+msgstr "Profundidad de rastreo de sitios externos"
+
+#: src/main/resources/ui/settings.ui:289
+msgid "Extra trackers:"
+msgstr "Trackers adicionales:"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:345
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:286
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:294
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:340
+msgid "Failed"
+msgstr "Fallido"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:327
+#, java-printf-format
+msgid "Failed (%s)"
+msgstr "Fallido (%s)"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1576
+msgid "Failed to save settings — check configuration permissions"
+msgstr "No se pudo guardar la configuración — revise los permisos"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:156
+#, java-printf-format
+msgid "Failed: %s"
+msgstr "Fallido: %s"
+
+#: src/main/resources/ui/new-media.ui:51
+msgid "Fetch info"
+msgstr "Obtener información"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:306
+msgid "Fetching media info…"
+msgstr "Obteniendo información multimedia…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2209
+msgid "Fetching page and importing links…"
+msgstr "Obteniendo página e importando enlaces…"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:52
+msgid "File System"
+msgstr "Sistema de archivos"
+
+#: src/main/resources/ui/settings.ui:265
+msgid "File allocation:"
+msgstr "Reserva de espacio:"
+
+#: src/main/resources/ui/sources.ui:7
+msgid "File whose mirrors are shown below"
+msgstr "Archivo cuyos servidores alternativos se muestran abajo"
+
+#: src/main/resources/ui/new-download.ui:62
+msgid "File:"
+msgstr "Archivo:"
+
+#: src/main/resources/ui/new-download.ui:192
+#: src/main/resources/ui/search-torrents.ui:94
+msgid "Filename"
+msgstr "Nombre de archivo"
+
+#: src/main/resources/ui/new-download.ui:102
+msgid "Filename:"
+msgstr "Nombre de archivo:"
+
+#: src/main/resources/ui/main-window.ui:512
+#: src/main/resources/ui/new-download.ui:231
+#: src/main/resources/ui/search-torrents.ui:116
+msgid "Files"
+msgstr "Archivos"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:137
+msgid "Files grouped by checked torrent"
+msgstr "Archivos agrupados por torrent marcado"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:127
+msgid "Files in the torrent or Metalink"
+msgstr "Archivos del torrent o Metalink"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:282
+msgid "Files unavailable"
+msgstr "Archivos no disponibles"
+
+#: src/main/resources/ui/import-list.ui:62
+msgid "Filter by extension:"
+msgstr "Filtrar por extensión:"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+#: src/main/resources/ui/main-window.ui:457
+msgid "Finished"
+msgstr "Finalizado"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:60
+msgid ""
+"Folder used for new downloads unless another destination is chosen in a "
+"download dialog."
+msgstr "Carpeta para nuevas descargas, salvo que se elija otro destino en el diálogo de descarga."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:64
+msgid ""
+"Folder watched for new .torrent, .metalink, and .meta4 descriptor files when "
+"folder monitoring is enabled."
+msgstr "Carpeta vigilada en busca de nuevos archivos .torrent, .metalink y .meta4 cuando se activa la vigilancia de carpetas."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1673
+msgid "Force Download"
+msgstr "Forzar descarga"
+
+#: src/main/resources/ui/new-media.ui:58
+msgid "Format:"
+msgstr "Formato:"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:336
+msgid "Formats fetched"
+msgstr "Formatos obtenidos"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Fri"
+msgstr "Vie"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1073
+#: src/main/resources/ui/main-window.ui:446
+#: src/main/resources/ui/settings.ui:157
+msgid "General"
+msgstr "General"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:388
+msgid "Global proxy host"
+msgstr "Servidor del proxy global"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:391
+msgid "Global proxy password"
+msgstr "Contraseña del proxy global"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:389
+msgid "Global proxy port"
+msgstr "Puerto del proxy global"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:106
+msgid ""
+"Global proxy protocol used by new downloads; select None to disable the "
+"global proxy."
+msgstr "Protocolo del proxy global para nuevas descargas; seleccione Ninguno para desactivar el proxy global."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:390
+msgid "Global proxy username"
+msgstr "Usuario del proxy global"
+
+#: src/main/java/org/odm/gtk4/HtmlImportExport.java:258
+#, java-printf-format
+msgid "HTML source exceeds the %d MiB import limit"
+msgstr "La fuente HTML supera el límite de importación de %d MiB"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:100
+msgid ""
+"HTTP Cookie header sent by new downloads when supported; leave empty to omit "
+"it."
+msgstr "Cabecera HTTP Cookie enviada por las nuevas descargas si se admite; déjela vacía para omitirla."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:98
+msgid ""
+"HTTP Referer header sent by new downloads when supported; leave empty to use "
+"the engine default."
+msgstr "Cabecera HTTP Referer enviada por las nuevas descargas si se admite; vacía usa el valor predeterminado del motor."
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:124
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:123
+msgid "HTTP cookie header"
+msgstr "Cabecera HTTP Cookie"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:122
+msgid "HTTP referer"
+msgstr "Referer HTTP"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:123
+msgid "HTTP referrer"
+msgstr "Referer HTTP"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:125
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:124
+msgid "HTTP user agent"
+msgstr "Agente de usuario HTTP"
+
+#: src/main/java/org/odm/gtk4/ImportEngine.java:10
+msgid "HTTP/Torrent"
+msgstr "HTTP/Torrent"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1593
+msgid "HTTrack log"
+msgstr "Registro de HTTrack"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1551
+msgid ""
+"HTTrack will revisit the remote site using the existing mirror cache. "
+"Keeping old files is safer and recommended."
+msgstr "HTTrack volverá a visitar el sitio remoto usando la caché existente. Conservar los archivos antiguos es más seguro y se recomienda."
+
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:278
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:488
+msgid "High"
+msgstr "Alta"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:371
+msgid "History cleanup interval in hours"
+msgstr "Intervalo de limpieza del historial en horas"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:46
+msgid "Home"
+msgstr "Carpeta personal"
+
+#: src/main/resources/ui/settings.ui:294
+msgid "Honor external aria2 configuration"
+msgstr "Usar configuración externa de aria2"
+
+#: src/main/resources/ui/settings.ui:322
+msgid "Honor external yt-dlp configuration"
+msgstr "Usar configuración externa de yt-dlp"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:108
+msgid "Host name or IP address of the global proxy server."
+msgstr "Nombre de host o dirección IP del servidor proxy global."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:126
+msgid ""
+"How aria2 reserves disk space before downloading: none, prealloc, or Linux "
+"falloc."
+msgstr "Cómo reserva aria2 el espacio en disco antes de descargar: none, prealloc o falloc de Linux."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:212
+msgid "How often ODM evaluates the enabled history cleanup rules."
+msgstr "Frecuencia con la que ODM evalúa las reglas activadas de limpieza del historial."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:148
+msgid ""
+"How often ODM reapplies the extra tracker list to active torrents; 0 "
+"disables periodic refresh."
+msgstr "Frecuencia con la que ODM reaplica la lista de trackers adicionales a los torrents activos; 0 desactiva la actualización periódica."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:403
+msgid "IPv6 DHT policy"
+msgstr "Política DHT IPv6"
+
+#: src/main/resources/ui/settings.ui:279
+msgid "IPv6 DHT:"
+msgstr "DHT IPv6:"
+
+#: src/main/resources/ui/import-list.ui:130
+msgid "Import"
+msgstr "Importar"
+
+#: src/main/resources/ui/import-remote.ui:40
+msgid "Import Links"
+msgstr "Importar enlaces"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:235
+msgid "Import Links from HTML"
+msgstr "Importar enlaces de HTML"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1617
+#: src/main/resources/ui/import-remote.ui:6
+msgid "Import Links from Remote"
+msgstr "Importar enlaces remotos"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1614
+#: src/main/resources/ui/import-sequence.ui:50
+msgid "Import URL Sequence"
+msgstr "Importar secuencia de URL"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:112
+msgid "Import destination folder"
+msgstr "Carpeta de destino de la importación"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:108
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:108
+msgid "Import download engine"
+msgstr "Motor de descarga para importar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1616
+msgid "Import from HTML File"
+msgstr "Importar desde archivo HTML"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1615
+#: src/main/resources/ui/import-list.ui:35
+msgid "Import from Text File"
+msgstr "Importar desde archivo de texto"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:107
+msgid "Imported URL extension filter"
+msgstr "Filtro de extensión de las URL importadas"
+
+#: src/main/resources/ui/settings.ui:394
+msgid "Inactive — downloads paused"
+msgstr "Inactivo — descargas pausadas"
+
+#: src/main/resources/ui/new-website.ui:61
+msgid "Include URL patterns:"
+msgstr "Incluir patrones de URL:"
+
+#: src/main/resources/ui/new-website.ui:67
+msgid "Include archive files"
+msgstr "Incluir archivos comprimidos"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:121
+msgid "Include archive files in this website mirror"
+msgstr "Incluir archivos comprimidos en esta copia del sitio web"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:32
+msgid "Include nearby external assets"
+msgstr "Incluir recursos externos asociados"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:118
+msgid "Included website URL patterns"
+msgstr "Patrones de URL de sitios web incluidos"
+
+#: src/main/resources/ui/search-torrents.ui:73
+msgid "Indexer"
+msgstr "Indexador"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1657
+msgid "Info Panel"
+msgstr "Panel de información"
+
+#: src/main/resources/ui/main-window.ui:312
+msgid "Info hash:"
+msgstr "Hash de información:"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:252
+msgid "Initializing download engines…"
+msgstr "Inicializando motores de descarga…"
+
+#: src/main/resources/ui/jackett-settings.ui:13
+msgid "Install / Update"
+msgstr "Instalar / Actualizar"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:87
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:155
+msgid "Installing Jackett…"
+msgstr "Instalando Jackett…"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:328
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:346
+msgid "Interrupted"
+msgstr "Interrumpido"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:201
+#, java-printf-format
+msgid "Invalid request: %s"
+msgstr "Solicitud no válida: %s"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:147
+msgid "Jackett is not installed"
+msgstr "Jackett no está instalado"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:146
+msgid ""
+"Keep aria2's native encryption policy, require an obfuscated handshake, or "
+"require ARC4 payload encryption."
+msgstr "Mantener la política de cifrado nativa de aria2, exigir un saludo ofuscado o exigir cifrado ARC4 de los datos."
+
+#: src/main/resources/ui/settings.ui:408
+msgid "Keep completed and canceled records after restart"
+msgstr "Conservar registros completados y cancelados tras reiniciar"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:204
+msgid ""
+"Keep existing files and give colliding downloads names such as name_1, "
+"name_2, and so on. Takes precedence over Override output path."
+msgstr "Conservar los archivos existentes y renombrar las descargas con nombres repetidos como nombre_1, nombre_2, etc. Tiene prioridad sobre Sobrescribir ruta de salida."
+
+#: src/main/java/org/odm/gtk4/PathChooserButton.java:265
+#, java-printf-format
+msgid "Last used: %s"
+msgstr "Último uso: %s"
+
+#: src/main/resources/ui/new-media.ui:80
+msgid ""
+"Leave blank for all items, enter comma-separated item numbers, or use "
+"START:END:STEP ranges."
+msgstr "Déjelo vacío para todos los elementos, introduzca números separados por comas o use rangos START:END:STEP (inicio:fin:paso)."
+
+#: src/main/resources/ui/main-window.ui:472
+#: src/main/resources/ui/search-torrents.ui:65
+msgid "Leechers"
+msgstr "Pares incompletos"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+#: src/main/resources/ui/main-window.ui:250
+msgid "Left"
+msgstr "Restante"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1656
+msgid "Left Panel"
+msgstr "Panel izquierdo"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:174
+msgid ""
+"Let yt-dlp use aria2 for supported media fragments and direct media URLs."
+msgstr "Permitir que yt-dlp use aria2 para fragmentos multimedia compatibles y URL multimedia directas."
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:64
+#, java-printf-format
+msgid "Link copied"
+msgid_plural "%d Links copied"
+msgstr[0] "Enlace copiado"
+msgstr[1] "%d enlaces copiados"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:107
+msgid ""
+"Live mirrors are available for HTTP, FTP, SFTP and Metalink downloads using "
+"aria2."
+msgstr "Los servidores alternativos en tiempo real están disponibles para descargas HTTP, FTP, SFTP y Metalink con aria2."
+
+#: src/main/resources/ui/new-media.ui:104
+msgid ""
+"Load cookies directly from a local browser for previewing and downloading "
+"this media."
+msgstr "Cargar cookies directamente de un navegador local para previsualizar y descargar este contenido."
+
+#: src/main/resources/ui/new-media.ui:103
+msgid "Load cookies from:"
+msgstr "Cargar cookies de:"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:262
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:378
+msgid "Loading file metadata…"
+msgstr "Cargando metadatos de archivos…"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:289
+#, java-printf-format
+msgid "Loading files… %d torrent remaining."
+msgid_plural "Loading files… %d torrents remaining."
+msgstr[0] "Cargando archivos… queda %d torrent."
+msgstr[1] "Cargando archivos… quedan %d torrents."
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:197
+msgid "Loading indexers…"
+msgstr "Cargando indexadores…"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:212
+msgid "Loading settings and discovering tools…"
+msgstr "Cargando configuración y detectando herramientas…"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:281
+msgid "Loading…"
+msgstr "Cargando…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:156
+msgid ""
+"Local RPC port used by ODM's aria2 daemon. The default 6801 avoids aria2's "
+"conventional port 6800; changes apply after restarting ODM."
+msgstr "Puerto RPC local del servicio aria2 de ODM. El predeterminado 6801 evita el puerto habitual 6800 de aria2; los cambios se aplican tras reiniciar ODM."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:408
+msgid "Local peer discovery policy"
+msgstr "Política de descubrimiento de pares locales"
+
+#: src/main/resources/ui/settings.ui:283
+msgid "Local peer discovery:"
+msgstr "Descubrimiento de pares locales:"
+
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:277
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:487
+msgid "Low"
+msgstr "Baja"
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:12
+msgid "MP4 (prefer H.264/AAC)"
+msgstr "MP4 (preferir H.264/AAC)"
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:63
+#, java-printf-format
+msgid "Magnet URI copied"
+msgid_plural "%d Magnet URIs copied"
+msgstr[0] "URI magnet copiada"
+msgstr[1] "%d URI magnet copiadas"
+
+#: src/main/resources/ui/new-media.ui:113
+msgid ""
+"Mark matching segments as chapters, or explicitly remove them from the "
+"output file."
+msgstr "Marcar los segmentos coincidentes como capítulos o eliminarlos explícitamente del archivo de salida."
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:25
+msgid "Mark segments as chapters"
+msgstr "Marcar segmentos como capítulos"
+
+#: src/main/resources/ui/import-list.ui:153
+#: src/main/resources/ui/import-sequence.ui:161
+#: src/main/resources/ui/settings.ui:180
+msgid "Max Connections:"
+msgstr "Conexiones máx.:"
+
+#: src/main/resources/ui/import-list.ui:159
+#: src/main/resources/ui/import-sequence.ui:167
+#: src/main/resources/ui/settings.ui:186
+msgid "Max Download Speed (KB/s):"
+msgstr "Velocidad máx. de descarga (KB/s):"
+
+#: src/main/resources/ui/import-list.ui:161
+#: src/main/resources/ui/import-sequence.ui:169
+#: src/main/resources/ui/settings.ui:188
+msgid "Max Upload Speed (KB/s):"
+msgstr "Velocidad máx. de subida (KB/s):"
+
+#: src/main/resources/ui/settings.ui:131
+msgid "Max concurrent downloads:"
+msgstr "Descargas simultáneas máx.:"
+
+#: src/main/resources/ui/network-options.ui:94
+msgid "Max connections:"
+msgstr "Conexiones máx.:"
+
+#: src/main/resources/ui/network-options.ui:100
+msgid "Max download speed (KiB/s):"
+msgstr "Velocidad máx. de descarga (KiB/s):"
+
+#: src/main/resources/ui/settings.ui:267
+msgid "Max peers:"
+msgstr "Pares máx.:"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:63
+#, java-printf-format
+msgid "Max speed: %s"
+msgstr "Velocidad máx.: %s"
+
+#: src/main/resources/ui/network-options.ui:102
+msgid "Max upload speed (KiB/s):"
+msgstr "Velocidad máx. de subida (KiB/s):"
+
+#: src/main/resources/ui/settings.ui:351
+msgid "Maximum HTML file (MiB):"
+msgstr "Archivo HTML máximo (MiB):"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:421
+msgid "Maximum HTML file size in MiB, zero for unlimited"
+msgstr "Tamaño máximo de archivo HTML en MiB; cero para no limitar"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:427
+msgid "Maximum HTTrack connections per second"
+msgstr "Máximo de conexiones de HTTrack por segundo"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:222
+msgid ""
+"Maximum URLs accepted by one URL-list, generated-sequence, or HTML import."
+msgstr "Máximo de URL aceptadas por importación de una lista, secuencia generada o fuente HTML."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:385
+msgid "Maximum URLs accepted by one import"
+msgstr "Máximo de URL aceptadas por importación"
+
+#: src/main/resources/ui/settings.ui:432
+msgid "Maximum URLs per import:"
+msgstr "Máximo de URL por importación:"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:252
+msgid "Maximum antivirus scan duration in seconds; 0 waits without a timeout."
+msgstr "Duración máxima del análisis antivirus en segundos; 0 espera sin límite."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:90
+msgid ""
+"Maximum attempts for new downloads when supported; 0 uses the selected "
+"engine's default."
+msgstr "Máximo de intentos para nuevas descargas, si se admite; 0 usa el valor predeterminado del motor seleccionado."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:379
+msgid "Maximum completed history records, zero for unlimited"
+msgstr "Máximo de registros completados del historial; cero para no limitar"
+
+#: src/main/resources/ui/settings.ui:417
+msgid "Maximum completed records (0 = unlimited):"
+msgstr "Máximo de registros completados (0 = sin límite):"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:216
+msgid ""
+"Maximum completed records kept when automatic cleanup runs; 0 means "
+"unlimited."
+msgstr "Máximo de registros completados conservados al ejecutar la limpieza automática; 0 significa sin límite."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:365
+msgid "Maximum concurrent downloads"
+msgstr "Máximo de descargas simultáneas"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:114
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:115
+msgid "Maximum connections"
+msgstr "Máximo de conexiones"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:377
+msgid "Maximum download history records, zero for unlimited"
+msgstr "Máximo de registros del historial de descargas; cero para no limitar"
+
+#: src/main/resources/ui/settings.ui:415
+msgid "Maximum download records (0 = unlimited):"
+msgstr "Máximo de registros de descargas (0 = sin límite):"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:118
+msgid "Maximum download speed in KB per second"
+msgstr "Velocidad máxima de descarga en KB por segundo"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:119
+msgid "Maximum download speed in KiB per second"
+msgstr "Velocidad máxima de descarga en KiB por segundo"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:62
+msgid ""
+"Maximum downloads ODM may run at once; additional downloads remain queued."
+msgstr "Máximo de descargas simultáneas en ODM; las demás permanecen en cola."
+
+#: src/main/resources/ui/settings.ui:353
+msgid "Maximum duration (minutes):"
+msgstr "Duración máxima (minutos):"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:105
+msgid "Maximum generated URLs"
+msgstr "Máximo de URL generadas"
+
+#: src/main/resources/ui/settings.ui:434
+msgid "Maximum import source size (MiB):"
+msgstr "Tamaño máximo de la fuente de importación (MiB):"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:387
+msgid "Maximum import source size in MiB"
+msgstr "Tamaño máximo de la fuente de importación en MiB"
+
+#: src/main/resources/ui/settings.ui:355
+msgid "Maximum links:"
+msgstr "Máximo de enlaces:"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:423
+msgid "Maximum mirror duration in minutes, zero for unlimited"
+msgstr "Duración máxima de la copia en minutos; cero para no limitar"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:425
+msgid "Maximum mirror link count, zero for unlimited"
+msgstr "Número máximo de enlaces de la copia; cero para no limitar"
+
+#: src/main/resources/ui/settings.ui:347
+msgid "Maximum mirror size (MiB):"
+msgstr "Tamaño máximo de la copia (MiB):"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:417
+msgid "Maximum mirror size in MiB, zero for unlimited"
+msgstr "Tamaño máximo de la copia en MiB; cero para no limitar"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:196
+msgid ""
+"Maximum new connections HTTrack opens per second. Lower values are gentler "
+"on remote servers; 0 disables this throttle."
+msgstr "Máximo de conexiones nuevas que HTTrack abre por segundo. Los valores bajos reducen la carga en los servidores remotos; 0 desactiva este límite."
+
+#: src/main/resources/ui/settings.ui:349
+msgid "Maximum non-HTML file (MiB):"
+msgstr "Archivo no HTML máximo (MiB):"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:419
+msgid "Maximum non-HTML file size in MiB, zero for unlimited"
+msgstr "Tamaño máximo de archivo no HTML en MiB; cero para no limitar"
+
+#: src/main/resources/ui/new-website.ui:53
+msgid "Maximum number of link levels to crawl for this website."
+msgstr "Número máximo de niveles de enlaces que rastrear en este sitio web."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:128
+msgid "Maximum peers per BitTorrent download; 0 means unlimited."
+msgstr "Máximo de pares por descarga BitTorrent; 0 significa sin límite."
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:116
+#, java-printf-format
+msgid "Maximum simultaneous connections supported by this engine: %d."
+msgstr "Máximo de conexiones simultáneas admitidas por este motor: %d."
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:115
+msgid "Maximum simultaneous media fragments (1–64)."
+msgstr "Máximo de fragmentos multimedia simultáneos (1–64)."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:224
+msgid ""
+"Maximum size of a local URL list or local/remote HTML source parsed in "
+"memory."
+msgstr "Tamaño máximo de una lista de URL local o una fuente HTML local/remota analizada en memoria."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:214
+msgid ""
+"Maximum total history records kept when automatic cleanup runs; 0 means "
+"unlimited. Active downloads are never removed."
+msgstr "Máximo total de registros conservados al ejecutar la limpieza automática; 0 significa sin límite. Nunca se eliminan las descargas activas."
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:120
+msgid "Maximum upload speed in KB per second"
+msgstr "Velocidad máxima de subida en KB por segundo"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:121
+msgid "Maximum upload speed in KiB per second"
+msgstr "Velocidad máxima de subida en KiB por segundo"
+
+#: src/main/java/org/odm/gtk4/ImportEngine.java:11
+#: src/main/resources/ui/new-media.ui:131
+msgid "Media"
+msgstr "Multimedia"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:156
+msgid "Media URL"
+msgstr "URL multimedia"
+
+#: src/main/resources/ui/new-media.ui:45
+msgid "Media URL:"
+msgstr "URL multimedia:"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:158
+msgid "Media container profile"
+msgstr "Perfil de contenedor multimedia"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:169
+msgid "Media destination folder"
+msgstr "Carpeta de destino multimedia"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:157
+msgid "Media format"
+msgstr "Formato multimedia"
+
+#: src/main/resources/ui/settings.ui:263
+msgid "Min split size (MB):"
+msgstr "Tamaño mínimo de segmento (MB):"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:198
+msgid "Minimum pause in seconds between file requests; 0 adds no ODM delay."
+msgstr "Pausa mínima en segundos entre solicitudes de archivos; 0 no añade espera de ODM."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:234
+msgid ""
+"Minutes between automatic checks while Tor and the circuit monitor are "
+"running."
+msgstr "Minutos entre comprobaciones automáticas mientras Tor y el monitor del circuito estén en ejecución."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:136
+msgid "Minutes to seed after completion; used by time-based policies."
+msgstr "Minutos de siembra tras finalizar; se usa en políticas basadas en tiempo."
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:63
+#: src/main/resources/ui/sources.ui:10
+msgid "Mirror URL"
+msgstr "URL del servidor alternativo"
+
+#: src/main/resources/ui/sources.ui:16
+msgid "Mirror URL for the selected file"
+msgstr "URL del servidor alternativo del archivo seleccionado"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:110
+msgid ""
+"Mirrors must provide the same file. Hover over a source to see its current "
+"URL."
+msgstr "Los servidores alternativos deben ofrecer el mismo archivo. Pase el puntero por una fuente para ver su URL actual."
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:174
+msgid "Mirrors updated."
+msgstr "Copias actualizadas."
+
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:480
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:484
+msgid "Mixed"
+msgstr "Mixto"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:64
+msgid "Mixed values are preserved unless you change their control."
+msgstr "Los valores diferentes se conservan salvo que cambie su control."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Mon"
+msgstr "Lun"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:236
+msgid ""
+"Monitor the Tor circuit while Tor is running. A failed automatic check "
+"enables Offline Mode and sends a desktop notification."
+msgstr "Supervisar el circuito Tor mientras Tor está en ejecución. Si falla una comprobación automática, se activa el modo sin conexión y se envía una notificación de escritorio."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:454
+msgid "Monitored folder"
+msgstr "Carpeta vigilada"
+
+#: src/main/resources/ui/settings.ui:133
+msgid "Monitored folder:"
+msgstr "Carpeta vigilada:"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:112
+msgid "Mounted Volume"
+msgstr "Volumen montado"
+
+#: src/main/resources/ui/main-window.ui:181
+msgid "Move down"
+msgstr "Bajar"
+
+#: src/main/resources/ui/settings.ui:141
+msgid "Move processed watched descriptors to Trash"
+msgstr "Mover a la papelera los descriptores vigilados ya procesados"
+
+#: src/main/resources/ui/settings.ui:147
+msgid "Move selected .torrent/.metalink/.meta4 descriptors to Trash"
+msgstr "Mover a la papelera los descriptores .torrent/.metalink/.meta4 seleccionados"
+
+#: src/main/resources/ui/sources.ui:19
+msgid "Move this mirror to the front of the waiting sources"
+msgstr "Mover este servidor alternativo al principio de las fuentes en espera"
+
+#: src/main/resources/ui/main-window.ui:182
+msgid "Move to bottom"
+msgstr "Mover al final"
+
+#: src/main/resources/ui/main-window.ui:180
+msgid "Move to top"
+msgstr "Mover al principio"
+
+#: src/main/resources/ui/main-window.ui:179
+msgid "Move up"
+msgstr "Subir"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1386
+#, java-printf-format
+msgid "Moved “%s”"
+msgstr "«%s» movido"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "Movies"
+msgstr "Películas"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1381
+#, java-printf-format
+msgid "Moving “%s”…"
+msgstr "Moviendo «%s»…"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:56
+msgid "Music"
+msgstr "Música"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+#: src/main/resources/ui/main-window.ui:225
+#: src/main/resources/ui/main-window.ui:504
+#: src/main/resources/ui/search-torrents.ui:53
+msgid "Name"
+msgstr "Nombre"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:125
+msgid "Netscape cookie file for this website mirror"
+msgstr "Archivo de cookies Netscape para esta copia del sitio web"
+
+#: src/main/resources/ui/new-website.ui:72
+msgid "Netscape cookie file:"
+msgstr "Archivo de cookies Netscape:"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1077
+#: src/main/resources/ui/settings.ui:244
+msgid "Network"
+msgstr "Red"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1644
+msgid "Never (paused)"
+msgstr "Nunca (pausado)"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1609
+#: src/main/java/org/odm/gtk4/TrayMenu.java:29
+#: src/main/resources/ui/new-download.ui:19
+msgid "New Download"
+msgstr "Nueva descarga"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1610
+#: src/main/resources/ui/new-media.ui:15
+msgid "New Media Download"
+msgstr "Nueva descarga multimedia"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1648
+msgid "New Tor Identity"
+msgstr "Nueva identidad Tor"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2577
+#, java-printf-format
+msgid "New Tor identity failed: %s"
+msgstr "Error al crear una nueva identidad Tor: %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2579
+msgid "New Tor identity requested; new connections use clean circuits"
+msgstr "Nueva identidad Tor solicitada; las nuevas conexiones usan circuitos nuevos"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2581
+msgid "New Tor identity unavailable (Tor control request failed)"
+msgstr "Nueva identidad Tor no disponible (falló la solicitud de control de Tor)"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2557
+msgid "New Tor identity unavailable (invalid control configuration)"
+msgstr "Nueva identidad Tor no disponible (configuración de control no válida)"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1611
+#: src/main/resources/ui/new-website.ui:19
+msgid "New Website Scrape"
+msgstr "Nueva captura de sitio web"
+
+#: src/main/resources/ui/main-window.ui:174
+msgid "New download"
+msgstr "Nueva descarga"
+
+#: src/main/resources/ui/main-window.ui:474
+msgid "Next update"
+msgstr "Próxima actualización"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1641
+msgid "Night Hours"
+msgstr "Horario nocturno"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:380
+msgid "No extension"
+msgstr "Sin extensión"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:471
+msgid "No selectable files were found in this source."
+msgstr "No se encontraron archivos seleccionables en esta fuente."
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:85
+msgid "No settings changed"
+msgstr "No se cambió la configuración"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:72
+msgid "No speed history available"
+msgstr "No hay historial de velocidad disponible"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:946
+msgid "No supported antivirus scanner was found and validated."
+msgstr "No se encontró ni validó ningún antivirus compatible."
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:203
+msgid "No torrents found."
+msgstr "No se encontraron torrents."
+
+#: src/main/java/org/odm/gtk4/DialogOptions.java:23
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:19
+#: src/main/resources/ui/network-options.ui:44
+#: src/main/resources/ui/network-options.ui:51
+msgid "None"
+msgstr "Ninguno"
+
+#: src/main/resources/ui/new-media.ui:110
+msgid "None (browser source applies)"
+msgstr "Ninguno (se usa el navegador)"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1638
+msgid "None (custom grid)"
+msgstr "Ninguno (cuadrícula personalizada)"
+
+#: src/main/resources/ui/new-website.ui:79
+msgid "None selected"
+msgstr "Ninguno seleccionado"
+
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:489
+msgid "Normal"
+msgstr "Normal"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:282
+msgid "Not loaded"
+msgstr "No cargado"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:39
+msgid "Not supported by the selected download engine or protocol."
+msgstr "No compatible con el motor de descarga o protocolo seleccionado."
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:246
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:272
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:278
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:303
+msgid "Not tested"
+msgstr "Sin probar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1629
+msgid "Notify (sound)"
+msgstr "Notificar (sonido)"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:37
+msgid "Number"
+msgstr "Número"
+
+#: src/main/resources/ui/property.ui:56
+msgid "OK"
+msgstr "Aceptar"
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:24
+msgid "Off"
+msgstr "Desactivado"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1620
+#: src/main/java/org/odm/gtk4/TrayMenu.java:36
+msgid "Offline Mode"
+msgstr "Modo sin conexión"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1315
+#: src/main/java/org/odm/gtk4/MainWindow.java:1667
+#: src/main/java/org/odm/gtk4/TrayMenu.java:28
+msgid "Open"
+msgstr "Abrir"
+
+#: src/main/resources/ui/settings.ui:95
+msgid "Open Download Manager - Settings"
+msgstr "Open Download Manager - Configuración"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1316
+#: src/main/java/org/odm/gtk4/MainWindow.java:1668
+msgid "Open Folder"
+msgstr "Abrir carpeta"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1332
+#: src/main/java/org/odm/gtk4/MainWindow.java:1672
+msgid "Open HTTrack Error Log"
+msgstr "Abrir registro de errores de HTTrack"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1329
+#: src/main/java/org/odm/gtk4/MainWindow.java:1671
+msgid "Open HTTrack Log"
+msgstr "Abrir registro de HTTrack"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:464
+msgid "Open displayed save folder"
+msgstr "Abrir la carpeta de destino mostrada"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:263
+msgid "Open the Files tab to load selectable file metadata."
+msgstr "Abra la pestaña Archivos para cargar los metadatos de archivos seleccionables."
+
+#: src/main/resources/ui/main-window.ui:344
+msgid "Open the download folder"
+msgstr "Abrir la carpeta de descargas"
+
+#: src/main/resources/ui/new-website.ui:70
+msgid ""
+"Optional Name: value headers separated with |. They apply only to this "
+"mirror; avoid storing credentials unless required."
+msgstr "Cabeceras opcionales Nombre: valor separadas por |. Solo se aplican a esta copia; evite guardar credenciales salvo que sea necesario."
+
+#: src/main/resources/ui/new-website.ui:79
+msgid "Optional Netscape-format cookie file used only by this mirror."
+msgstr "Archivo opcional de cookies en formato Netscape usado solo por esta copia."
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:164
+msgid "Optional browser profile"
+msgstr "Perfil opcional del navegador"
+
+#: src/main/resources/ui/new-media.ui:107
+msgid ""
+"Optional browser profile name or path. Leave blank to use the browser's "
+"default profile."
+msgstr "Nombre o ruta opcional del perfil del navegador. Vacío usa el perfil predeterminado del navegador."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:114
+msgid "Optional password used to authenticate with the global proxy."
+msgstr "Contraseña opcional para autenticarse en el proxy global."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:112
+msgid "Optional username used to authenticate with the global proxy."
+msgstr "Usuario opcional para autenticarse en el proxy global."
+
+#: src/main/resources/ui/import-list.ui:215
+#: src/main/resources/ui/import-sequence.ui:223
+#: src/main/resources/ui/new-download.ui:276
+#: src/main/resources/ui/new-media.ui:139
+#: src/main/resources/ui/new-website.ui:96 src/main/resources/ui/property.ui:30
+#: src/main/resources/ui/search-torrents.ui:121
+msgid "Options"
+msgstr "Opciones"
+
+#: src/main/resources/ui/new-media.ui:64
+msgid "Options:"
+msgstr "Opciones:"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "Other"
+msgstr "Otro"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+msgid "Others"
+msgstr "Otros"
+
+#: src/main/java/org/odm/gtk4/PathChooserButton.java:191
+msgid "Other…"
+msgstr "Otro…"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:126
+msgid "Output filename"
+msgstr "Nombre del archivo de salida"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:142
+msgid ""
+"Override BitTorrent Peer Exchange for new downloads. Private torrents still "
+"disable peer exchange."
+msgstr "Cambiar el intercambio de pares BitTorrent para nuevas descargas. Los torrents privados siguen desactivándolo."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:140
+msgid ""
+"Override aria2's IPv6 DHT discovery policy. Engine default emits no ODM "
+"option; changes require restarting ODM."
+msgstr "Cambiar la política de descubrimiento DHT IPv6 de aria2. Predeterminado del motor no envía opciones de ODM; los cambios requieren reiniciar ODM."
+
+#: src/main/resources/ui/settings.ui:401
+msgid "Override file path"
+msgstr "Sobrescribir ruta del archivo"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:144
+msgid ""
+"Override local-network peer discovery for new torrents. aria2's native "
+"default is disabled."
+msgstr "Cambiar el descubrimiento de pares en la red local para nuevos torrents. El valor nativo de aria2 es desactivado."
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:281
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:338
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:339
+msgid "Passed"
+msgstr "Superado"
+
+#: src/main/resources/ui/import-list.ui:195
+#: src/main/resources/ui/import-sequence.ui:203
+#: src/main/resources/ui/network-options.ui:160
+#: src/main/resources/ui/settings.ui:224
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: src/main/resources/ui/new-media.ui:55
+msgid "Paste a media URL, then Fetch info to list formats."
+msgstr "Pegue una URL multimedia y pulse Obtener información para listar los formatos."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:182
+msgid ""
+"Path to the HTTrack executable; leave empty to discover it automatically. "
+"Changes take effect after restarting ODM."
+msgstr "Ruta del ejecutable HTTrack; vacía se detecta automáticamente. Los cambios se aplican tras reiniciar ODM."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:242
+msgid ""
+"Path to the Subliminal executable used by the Download Subtitles completion "
+"action; leave empty to discover it automatically."
+msgstr "Ruta del ejecutable Subliminal usado por la acción Descargar subtítulos; vacía se detecta automáticamente."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:230
+msgid ""
+"Path to the Tor executable managed by ODM; changes take effect after "
+"restarting ODM."
+msgstr "Ruta del ejecutable Tor gestionado por ODM; los cambios se aplican tras reiniciar ODM."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:120
+msgid ""
+"Path to the aria2c executable; leave empty to discover it automatically. A "
+"running ODM aria2 daemon changes on restart."
+msgstr "Ruta del ejecutable aria2c; vacía se detecta automáticamente. El servicio aria2 de ODM en ejecución cambia al reiniciar."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:238
+msgid ""
+"Path to the curl executable used by fallback downloads; changes take effect "
+"after restarting ODM."
+msgstr "Ruta del ejecutable curl para descargas alternativas; los cambios se aplican tras reiniciar ODM."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:226
+msgid ""
+"Path to the proxychains executable used for SOCKS and Tor-routed downloads; "
+"changes take effect after restarting ODM."
+msgstr "Ruta del ejecutable proxychains para descargas mediante SOCKS y Tor; los cambios se aplican tras reiniciar ODM."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:164
+msgid ""
+"Path to the yt-dlp executable; leave empty to discover it automatically."
+msgstr "Ruta del ejecutable yt-dlp; vacía se detecta automáticamente."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1318
+#: src/main/resources/ui/main-window.ui:175
+msgid "Pause"
+msgstr "Pausar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1674
+#: src/main/java/org/odm/gtk4/TrayMenu.java:31
+msgid "Pause All"
+msgstr "Pausar todo"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Paused"
+msgstr "Pausado"
+
+#: src/main/resources/ui/main-window.ui:487
+msgid "Peer ID"
+msgstr "ID del par"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:405
+msgid "Peer exchange policy"
+msgstr "Política de intercambio de pares"
+
+#: src/main/resources/ui/settings.ui:281
+msgid "Peer exchange:"
+msgstr "Intercambio de pares:"
+
+#: src/main/resources/ui/settings.ui:269
+msgid "Peer speed limit (KB/s):"
+msgstr "Límite de velocidad de pares (KB/s):"
+
+#: src/main/resources/ui/main-window.ui:495
+msgid "Peers"
+msgstr "Pares"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:210
+msgid ""
+"Periodically remove old records from ODM history according to the limits "
+"below. Downloaded files are never removed."
+msgstr "Eliminar periódicamente registros antiguos del historial de ODM según los límites siguientes. Nunca se eliminan los archivos descargados."
+
+#: src/main/resources/ui/settings.ui:148
+msgid "Periodically save ODM download and session state"
+msgstr "Guardar periódicamente el estado de descargas y de la sesión de ODM"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:84
+msgid ""
+"Periodically save ODM download and session state so it can be recovered "
+"after a crash."
+msgstr "Guardar periódicamente el estado de descargas y de la sesión de ODM para recuperarlo tras un fallo."
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:81
+msgid "Permission denied. Check access to the selected file or folder."
+msgstr "Permiso denegado. Revise el acceso al archivo o carpeta seleccionados."
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+msgid "Photos"
+msgstr "Fotos"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:58
+msgid "Pictures"
+msgstr "Imágenes"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:160
+msgid "Playlist item numbers or ranges"
+msgstr "Números o rangos de elementos de la lista"
+
+#: src/main/resources/ui/new-media.ui:75
+msgid "Playlist items:"
+msgstr "Elementos de la lista:"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:335
+#, java-printf-format
+msgid "Playlist preview fetched — %d item"
+msgid_plural "Playlist preview fetched — %d items"
+msgstr[0] "Vista previa obtenida — %d elemento"
+msgstr[1] "Vista previa obtenida — %d elementos"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:161
+msgid "Playlist preview items"
+msgstr "Elementos de vista previa de la lista"
+
+#: src/main/resources/ui/sources.ui:19
+msgid "Prefer"
+msgstr "Priorizar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1651
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:130
+msgid ""
+"Preferred BitTorrent speed threshold. When every torrent is slower, aria2 "
+"may temporarily request more peers; 0 disables the threshold."
+msgstr "Umbral de velocidad preferido de BitTorrent. Si todos los torrents son más lentos, aria2 puede solicitar temporalmente más pares; 0 desactiva el umbral."
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:14
+msgid "Preserve native formats"
+msgstr "Conservar formatos originales"
+
+#: src/main/resources/ui/settings.ui:293
+msgid "Preserve remote modification time"
+msgstr "Conservar fecha de modificación remota"
+
+#: src/main/resources/ui/import-sequence.ui:115
+msgid "Preview"
+msgstr "Vista previa"
+
+#: src/main/resources/ui/main-window.ui:507
+#: src/main/resources/ui/new-download.ui:211
+#: src/main/resources/ui/search-torrents.ui:103
+msgid "Priority"
+msgstr "Prioridad"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+msgid "Programs"
+msgstr "Programas"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+#: src/main/resources/ui/main-window.ui:239
+#: src/main/resources/ui/main-window.ui:506
+msgid "Progress"
+msgstr "Progreso"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1335
+#: src/main/java/org/odm/gtk4/MainWindow.java:1679
+msgid "Properties"
+msgstr "Propiedades"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:61
+#, java-printf-format
+msgid "Properties — %d download"
+msgid_plural "Properties — %d downloads"
+msgstr[0] "Propiedades — %d descarga"
+msgstr[1] "Propiedades — %d descargas"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:60
+#, java-printf-format
+msgid "Properties — %s"
+msgstr "Propiedades — %s"
+
+#: src/main/resources/ui/import-list.ui:189
+#: src/main/resources/ui/import-sequence.ui:197
+#: src/main/resources/ui/settings.ui:218
+msgid "Proxy Host:"
+msgstr "Servidor proxy:"
+
+#: src/main/resources/ui/import-list.ui:191
+#: src/main/resources/ui/import-sequence.ui:199
+#: src/main/resources/ui/settings.ui:220
+msgid "Proxy Port:"
+msgstr "Puerto del proxy:"
+
+#: src/main/resources/ui/import-list.ui:187
+#: src/main/resources/ui/import-sequence.ui:195
+#: src/main/resources/ui/settings.ui:216
+msgid "Proxy Type:"
+msgstr "Tipo de proxy:"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:127
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:126
+msgid "Proxy host"
+msgstr "Servidor proxy"
+
+#: src/main/resources/ui/network-options.ui:154
+msgid "Proxy host:"
+msgstr "Servidor proxy:"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:132
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:129
+msgid "Proxy password"
+msgstr "Contraseña del proxy"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:128
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:127
+msgid "Proxy port"
+msgstr "Puerto del proxy"
+
+#: src/main/resources/ui/network-options.ui:156
+msgid "Proxy port:"
+msgstr "Puerto del proxy:"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:126
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:125
+msgid "Proxy type"
+msgstr "Tipo de proxy"
+
+#: src/main/resources/ui/network-options.ui:152
+msgid "Proxy type:"
+msgstr "Tipo de proxy:"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:130
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:128
+msgid "Proxy username"
+msgstr "Usuario del proxy"
+
+#: src/main/resources/ui/settings.ui:439
+msgid "Proxychains:"
+msgstr "Proxychains:"
+
+#: src/main/resources/ui/jackett-settings.ui:24
+msgid "Public indexer"
+msgstr "Indexador público"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:85
+msgid "Public torrent indexers"
+msgstr "Indexadores públicos de torrents"
+
+#: src/main/resources/ui/search-torrents.ui:69
+msgid "Published"
+msgstr "Publicado"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Queued"
+msgstr "En cola"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:399
+#, java-printf-format
+msgid "Queued %d torrent."
+msgid_plural "Queued %d torrents."
+msgstr[0] "%d torrent añadido a la cola."
+msgstr[1] "%d torrents añadidos a la cola."
+
+#: src/main/resources/ui/settings.ui:261
+msgid "RPC port:"
+msgstr "Puerto RPC:"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+#: src/main/resources/ui/main-window.ui:254
+msgid "Ratio"
+msgstr "Proporción"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:49
+msgid "Ratio limit"
+msgstr "Límite de proporción"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:49
+msgid "Ratio or time"
+msgstr "Proporción o tiempo"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:418
+msgid "Reading descriptor files…"
+msgstr "Leyendo archivos descriptores…"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:277
+#: src/main/resources/ui/main-window.ui:544
+msgid "Ready"
+msgstr "Listo"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1324
+msgid "Recheck Data"
+msgstr "Volver a comprobar datos"
+
+#: src/main/resources/ui/settings.ui:140
+msgid "Recursive"
+msgstr "Recursivo"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:318
+msgid "Referer values"
+msgstr "Valores de Referer"
+
+#: src/main/resources/ui/import-list.ui:169
+#: src/main/resources/ui/import-sequence.ui:177
+#: src/main/resources/ui/network-options.ui:120
+#: src/main/resources/ui/settings.ui:196
+msgid "Referer:"
+msgstr "Referer:"
+
+#: src/main/resources/ui/jackett-settings.ui:29
+msgid "Refresh indexers"
+msgstr "Actualizar indexadores"
+
+#: src/main/resources/ui/settings.ui:323
+msgid ""
+"Remember successful media IDs across playlists and restarts, even after "
+"removing records from the download list. Disable this preference to download "
+"a video again."
+msgstr "Recordar los ID multimedia descargados entre listas y reinicios, incluso tras eliminarlos de la lista de descargas. Desactive esta opción para descargar un vídeo de nuevo."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:178
+msgid ""
+"Remember successfully downloaded videos across playlists and restarts, even "
+"after removing records. Applies when a media download starts or resumes; "
+"disable this preference to download a video again."
+msgstr "Recordar los vídeos descargados entre listas y reinicios, incluso tras eliminar los registros. Se aplica al iniciar o reanudar una descarga multimedia; desactive esta opción para descargar un vídeo de nuevo."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2179
+msgid "Remote HTML page URL"
+msgstr "URL de la página HTML remota"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2190
+msgid "Remote import is unavailable while Offline Mode is enabled"
+msgstr "La importación remota no está disponible en modo sin conexión"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:285
+msgid "Removal failed"
+msgstr "Error al eliminar"
+
+#: src/main/resources/ui/sources.ui:18
+msgid "Remove"
+msgstr "Quitar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1678
+msgid "Remove All Finished"
+msgstr "Quitar todas las finalizadas"
+
+#: src/main/resources/ui/settings.ui:419
+msgid "Remove completed records after (days, 0 = never):"
+msgstr "Eliminar registros completados tras (días, 0 = nunca):"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:218
+msgid ""
+"Remove completed records older than this many days when automatic cleanup "
+"runs; 0 disables age-based removal."
+msgstr "Eliminar durante la limpieza automática los registros completados con más de estos días; 0 desactiva la eliminación por antigüedad."
+
+#: src/main/resources/ui/settings.ui:421
+msgid "Remove error records after (days, 0 = never):"
+msgstr "Eliminar registros con errores tras (días, 0 = nunca):"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:220
+msgid ""
+"Remove error records older than this many days when automatic cleanup runs; "
+"0 disables age-based removal."
+msgstr "Eliminar durante la limpieza automática los registros con errores con más de estos días; 0 desactiva la eliminación por antigüedad."
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:26
+msgid "Remove segments"
+msgstr "Eliminar segmentos"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:257
+msgid "Removing…"
+msgstr "Eliminando…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2565
+msgid "Requesting new Tor identity…"
+msgstr "Solicitando nueva identidad Tor…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:55
+msgid "Require encrypted payload"
+msgstr "Exigir cifrado de los datos"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:55
+msgid "Require obfuscated handshake"
+msgstr "Exigir saludo ofuscado"
+
+#: src/main/resources/ui/main-window.ui:256
+msgid "Res."
+msgstr "Resol."
+
+#: src/main/resources/ui/settings.ui:203
+msgid ""
+"Restart ODM to apply changes to normal downloads. Web Scrap does not support "
+"certificate verification."
+msgstr "Reinicie ODM para aplicar los cambios a las descargas normales. La captura de sitios web no admite verificación de certificados."
+
+#: src/main/resources/ui/settings.ui:490
+msgid "Restore defaults for the currently selected tab only"
+msgstr "Restaurar solo los valores predeterminados de la pestaña actual"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+#: src/main/resources/ui/main-window.ui:455
+msgid "Result"
+msgstr "Resultado"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1319
+msgid "Resume"
+msgstr "Reanudar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1675
+#: src/main/java/org/odm/gtk4/TrayMenu.java:32
+msgid "Resume All"
+msgstr "Reanudar todo"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:152
+msgid ""
+"Resume partial files instead of restarting them when a download is retried "
+"or resumed."
+msgstr "Reanudar archivos parciales en lugar de reiniciarlos al reintentar o reanudar una descarga."
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:417
+msgid "Retrieving magnet metadata from peers…"
+msgstr "Obteniendo metadatos magnet de los pares…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+#: src/main/resources/ui/main-window.ui:253
+msgid "Retry"
+msgstr "Reintentar"
+
+#: src/main/resources/ui/import-list.ui:157
+#: src/main/resources/ui/import-sequence.ui:165
+#: src/main/resources/ui/settings.ui:184
+msgid "Retry After (s):"
+msgstr "Reintentar tras (s):"
+
+#: src/main/resources/ui/import-list.ui:155
+#: src/main/resources/ui/import-sequence.ui:163
+#: src/main/resources/ui/settings.ui:182
+msgid "Retry Limit:"
+msgstr "Límite de reintentos:"
+
+#: src/main/resources/ui/network-options.ui:98
+msgid "Retry after (s):"
+msgstr "Reintentar tras (s):"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:116
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:116
+msgid "Retry limit"
+msgstr "Límite de reintentos"
+
+#: src/main/resources/ui/network-options.ui:96
+msgid "Retry limit:"
+msgstr "Límite de reintentos:"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:134
+msgid "Route imported downloads through Tor"
+msgstr "Dirigir las descargas importadas a través de Tor"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:116
+msgid "Route new downloads through the Tor service managed by ODM."
+msgstr "Dirigir las nuevas descargas a través del servicio Tor gestionado por ODM."
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:130
+msgid "Route this download through Tor"
+msgstr "Dirigir esta descarga a través de Tor"
+
+#: src/main/resources/ui/settings.ui:413
+msgid "Run cleanup every (hours):"
+msgstr "Limpiar cada (horas):"
+
+#: src/main/resources/ui/settings.ui:452
+msgid "Run every"
+msgstr "Ejecutar cada"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:43
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:325
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:343
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:153
+msgid "Running"
+msgstr "En ejecución"
+
+#: src/main/resources/ui/new-download.ui:258
+msgid "SFTP host key digest:"
+msgstr "Huella de la clave del servidor SFTP:"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:31
+msgid "Same directory"
+msgstr "Mismo directorio"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:31
+msgid "Same domain"
+msgstr "Mismo dominio"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:31
+msgid "Same host"
+msgstr "Mismo servidor"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Sat"
+msgstr "Sáb"
+
+#: src/main/resources/ui/completion-command.ui:34
+msgid "Save"
+msgstr "Guardar"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:369
+msgid "Save download history"
+msgstr "Guardar historial de descargas"
+
+#: src/main/resources/ui/main-window.ui:337
+msgid "Save folder:"
+msgstr "Carpeta de destino:"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:168
+msgid "Save the media thumbnail as a separate image file next to the download."
+msgstr "Guardar la miniatura como archivo de imagen independiente junto a la descarga."
+
+#: src/main/resources/ui/settings.ui:318
+msgid "Save thumbnail file"
+msgstr "Guardar archivo de miniatura"
+
+#: src/main/resources/ui/import-list.ui:116
+#: src/main/resources/ui/import-sequence.ui:126
+#: src/main/resources/ui/new-download.ui:76
+#: src/main/resources/ui/new-media.ui:118
+#: src/main/resources/ui/search-torrents.ui:124
+msgid "Save to:"
+msgstr "Guardar en:"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1294
+msgid "Saving settings…"
+msgstr "Guardando configuración…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:944
+msgid "Scanner discovery failed; custom command remains available."
+msgstr "No se pudieron detectar antivirus; el comando personalizado sigue disponible."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:248
+msgid ""
+"Scanner used by Antivirus Scan completion actions; Automatic chooses the "
+"first validated installed scanner."
+msgstr "Antivirus usado por las acciones al finalizar; Automático elige el primer antivirus instalado validado."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1645
+msgid "Schedule"
+msgstr "Programación"
+
+#: src/main/resources/ui/search-torrents.ui:42
+#: src/main/resources/ui/search-torrents.ui:79
+msgid "Search"
+msgstr "Buscar"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:356
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1093
+msgid "Search Engine"
+msgstr "Motor de búsqueda"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1612
+#: src/main/resources/ui/search-torrents.ui:26
+msgid "Search Torrents"
+msgstr "Buscar torrents"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:461
+msgid "Search downloads"
+msgstr "Buscar descargas"
+
+#: src/main/resources/ui/main-window.ui:189
+msgid "Search downloads…"
+msgstr "Buscar descargas…"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:143
+msgid "Search engine unavailable"
+msgstr "Motor de búsqueda no disponible"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:182
+msgid "Search engine unavailable."
+msgstr "Motor de búsqueda no disponible."
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:199
+#, java-printf-format
+msgid "Search failed. %s"
+msgstr "Error en la búsqueda. %s"
+
+#: src/main/resources/ui/search-torrents.ui:40
+msgid "Search torrents…"
+msgstr "Buscar torrents…"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:187
+msgid "Searching…"
+msgstr "Buscando…"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:122
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:117
+msgid "Seconds before retry"
+msgstr "Segundos antes de reintentar"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:92
+msgid ""
+"Seconds between retry attempts when supported; 0 uses the selected engine's "
+"default."
+msgstr "Segundos entre reintentos, si se admite; 0 usa el valor predeterminado del motor seleccionado."
+
+#: src/main/resources/ui/settings.ui:273
+msgid "Seed ratio:"
+msgstr "Proporción de siembra:"
+
+#: src/main/resources/ui/settings.ui:275
+msgid "Seed time (min):"
+msgstr "Tiempo de siembra (min):"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:222
+msgid "Seeder"
+msgstr "Semilla"
+
+#: src/main/resources/ui/main-window.ui:471
+#: src/main/resources/ui/search-torrents.ui:61
+msgid "Seeders"
+msgstr "Semillas"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Seeding"
+msgstr "Sembrando"
+
+#: src/main/resources/ui/settings.ui:271
+msgid "Seeding policy:"
+msgstr "Política de siembra:"
+
+#: src/main/resources/ui/main-window.ui:395
+msgid "Seeds/peers:"
+msgstr "Semillas/pares:"
+
+#: src/main/resources/ui/new-media.ui:115
+msgid "Segment categories:"
+msgstr "Categorías de segmentos:"
+
+#: src/main/resources/ui/main-window.ui:503
+msgid "Sel."
+msgstr "Sel."
+
+#: src/main/resources/ui/search-torrents.ui:49
+msgid "Select"
+msgstr "Seleccionar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1650
+msgid "Select All"
+msgstr "Seleccionar todo"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2133
+msgid "Select HTML file"
+msgstr "Seleccionar archivo HTML"
+
+#: src/main/resources/ui/jackett-settings.ui:20
+msgid "Select Indexers"
+msgstr "Seleccionar indexadores"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:101
+msgid "Select Netscape cookie file"
+msgstr "Seleccionar archivo de cookies Netscape"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:467
+msgid "Select Subliminal binary"
+msgstr "Seleccionar ejecutable de Subliminal"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:209
+msgid "Select URL list file"
+msgstr "Seleccionar archivo de lista de URL"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1337
+msgid "Select a default download folder"
+msgstr "Seleccionar carpeta predeterminada de descargas"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:26
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:71
+msgid "Select a download"
+msgstr "Seleccionar una descarga"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:73
+msgid "Select a download to view its speed history"
+msgstr "Seleccione una descarga para ver su historial de velocidad"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:226
+msgid "Select a supported proxy type to edit this field."
+msgstr "Seleccione un tipo de proxy compatible para editar este campo."
+
+#: src/main/resources/ui/new-download.ui:170
+#: src/main/resources/ui/search-torrents.ui:86
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: src/main/resources/ui/new-media.ui:81
+msgid "Select all previewed items"
+msgstr "Seleccionar todos los elementos de la vista previa"
+
+#: src/main/resources/ui/settings.ui:390
+msgid "Select an hour to inspect its state"
+msgstr "Seleccione una hora para ver su estado"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:461
+msgid "Select aria2c binary"
+msgstr "Seleccionar ejecutable de aria2c"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:701
+msgid "Select at least one file to download."
+msgstr "Seleccione al menos un archivo para descargar."
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:506
+msgid "Select at least one file to start the download."
+msgstr "Seleccione al menos un archivo para iniciar la descarga."
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:621
+msgid "Select at least one playlist item"
+msgstr "Seleccione al menos un elemento de la lista"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:193
+msgid "Select cookies file"
+msgstr "Seleccionar archivo de cookies"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:466
+msgid "Select curl binary"
+msgstr "Seleccionar ejecutable de curl"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:165
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:148
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:172
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:195
+msgid "Select destination folder"
+msgstr "Seleccionar carpeta de destino"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:172
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:456
+msgid "Select download folder"
+msgstr "Seleccionar carpeta de descargas"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:128
+msgid "Select every descriptor file"
+msgstr "Seleccionar todos los archivos descriptores"
+
+#: src/main/java/org/odm/gtk4/PathChooserButton.java:45
+msgid "Select file…"
+msgstr "Seleccionar archivo…"
+
+#: src/main/java/org/odm/gtk4/PathChooserButton.java:46
+#: src/main/resources/ui/settings.ui:127
+msgid "Select folder…"
+msgstr "Seleccionar carpeta…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:463
+msgid "Select httrack binary"
+msgstr "Seleccionar ejecutable de httrack"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:459
+msgid "Select monitored folder"
+msgstr "Seleccionar carpeta vigilada"
+
+#: src/main/resources/ui/settings.ui:134
+msgid "Select monitored folder…"
+msgstr "Seleccionar carpeta vigilada…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1372
+msgid "Select new destination"
+msgstr "Seleccionar nuevo destino"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:464
+msgid "Select proxychains binary"
+msgstr "Seleccionar ejecutable de proxychains"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:465
+msgid "Select tor binary"
+msgstr "Seleccionar ejecutable de tor"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:162
+msgid "Select torrent or metalink file"
+msgstr "Seleccionar archivo torrent o metalink"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:462
+msgid "Select yt-dlp binary"
+msgstr "Seleccionar ejecutable de yt-dlp"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:335
+#, java-printf-format
+msgid ""
+"Selected downloads have different %s; leave this unchanged to preserve each "
+"value."
+msgstr "Las descargas seleccionadas tienen diferentes valores de %s; no lo cambie para conservar cada valor."
+
+#: src/main/resources/ui/import-sequence.ui:138
+msgid "Sequence"
+msgstr "Secuencia"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:144
+msgid "Sequence destination folder"
+msgstr "Carpeta de destino de la secuencia"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:107
+msgid "Sequence end character"
+msgstr "Carácter final de la secuencia"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:104
+msgid "Sequence end number"
+msgstr "Número final de la secuencia"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:106
+msgid "Sequence start character"
+msgstr "Carácter inicial de la secuencia"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:103
+msgid "Sequence start number"
+msgstr "Número inicial de la secuencia"
+
+#: src/main/resources/ui/main-window.ui:184
+msgid "Settings"
+msgstr "Configuración"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:123
+msgid "Settings applied"
+msgstr "Configuración aplicada"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1572
+msgid "Settings saved."
+msgstr "Configuración guardada."
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:286
+msgid "Setup failed"
+msgstr "Error de configuración"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:76
+msgid "Show the ODM status icon in the desktop system tray when supported."
+msgstr "Mostrar el icono de estado de ODM en la bandeja del sistema si está disponible."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1634
+msgid "Shutdown"
+msgstr "Apagar"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:492
+msgid "Shutting down Open Download Manager…"
+msgstr "Cerrando Open Download Manager…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1627
+#: src/main/java/org/odm/gtk4/TrayMenu.java:35
+msgid "Silent Mode"
+msgstr "Modo silencioso"
+
+#: src/main/resources/ui/settings.ui:143
+msgid "Silent mode"
+msgstr "Modo silencioso"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:482
+msgid "Single-file download"
+msgstr "Descarga de un solo archivo"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+#: src/main/resources/ui/main-window.ui:236
+#: src/main/resources/ui/main-window.ui:505
+#: src/main/resources/ui/new-download.ui:204
+#: src/main/resources/ui/search-torrents.ui:57
+#: src/main/resources/ui/search-torrents.ui:99
+msgid "Size"
+msgstr "Tamaño"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:54
+msgid "Size unknown"
+msgstr "Tamaño desconocido"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:190
+msgid ""
+"Skip individual HTML files larger than this many MiB; 0 means unlimited."
+msgstr "Omitir archivos HTML individuales mayores que este valor en MiB; 0 significa sin límite."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:188
+msgid ""
+"Skip individual non-HTML files larger than this many MiB; 0 means unlimited."
+msgstr "Omitir archivos individuales no HTML mayores que este valor en MiB; 0 significa sin límite."
+
+#: src/main/resources/ui/settings.ui:323
+msgid "Skip previously downloaded videos"
+msgstr "Omitir vídeos ya descargados"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:124
+msgid ""
+"Smallest file segment aria2 creates when splitting a download across "
+"connections."
+msgstr "Segmento mínimo de archivo que aria2 crea al dividir una descarga entre conexiones."
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:62
+msgid "Source file"
+msgstr "Archivo de origen"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:295
+msgid "Sources"
+msgstr "Fuentes"
+
+#: src/main/resources/ui/sources.ui:12
+msgid "Speed"
+msgstr "Velocidad"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:63
+#, java-printf-format
+msgid "Speed: %s"
+msgstr "Velocidad: %s"
+
+#: src/main/resources/ui/main-window.ui:420
+msgid "Speed: —"
+msgstr "Velocidad: —"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:165
+msgid "SponsorBlock action"
+msgstr "Acción de SponsorBlock"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:167
+msgid "SponsorBlock segment categories"
+msgstr "Categorías de segmentos de SponsorBlock"
+
+#: src/main/resources/ui/new-media.ui:112
+msgid "SponsorBlock:"
+msgstr "SponsorBlock:"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1320
+#: src/main/resources/ui/jackett-settings.ui:14
+msgid "Start"
+msgstr "Iniciar"
+
+#: src/main/resources/ui/main-window.ui:176
+msgid "Start / Resume"
+msgstr "Iniciar / Reanudar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#: src/main/resources/ui/import-list.ui:244
+#: src/main/resources/ui/import-sequence.ui:252
+#: src/main/resources/ui/new-download.ui:309
+msgid "Start Download"
+msgstr "Iniciar descarga"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:78
+msgid "Start ODM automatically when the desktop session begins."
+msgstr "Iniciar ODM automáticamente al comenzar la sesión de escritorio."
+
+#: src/main/resources/ui/new-website.ui:109
+msgid "Start Scrape"
+msgstr "Iniciar captura"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:165
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:480
+msgid "Start Tor from Edit → Tor to change this option."
+msgstr "Inicie Tor desde Editar → Tor para cambiar esta opción."
+
+#: src/main/resources/ui/settings.ui:145
+msgid "Start at login"
+msgstr "Iniciar al acceder a la sesión"
+
+#: src/main/resources/ui/main-window.ui:254
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: src/main/resources/ui/settings.ui:146
+msgid "Start downloads automatically"
+msgstr "Iniciar descargas automáticamente"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:109
+msgid "Start or resume the download to edit its mirrors."
+msgstr "Inicie o reanude la descarga para editar sus servidores alternativos."
+
+#: src/main/resources/ui/jackett-settings.ui:18
+msgid "Start with ODM"
+msgstr "Iniciar con ODM"
+
+#: src/main/resources/ui/main-window.ui:456
+msgid "Started"
+msgstr "Iniciado"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:88
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:149
+#: src/main/java/org/odm/gtk4/OdmApplication.java:273
+msgid "Starting Jackett…"
+msgstr "Iniciando Jackett…"
+
+#: src/main/java/org/odm/gtk4/StartupGate.java:188
+msgid "Starting Open Download Manager…"
+msgstr "Iniciando Open Download Manager…"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:269
+msgid "Starting privacy and scheduling services…"
+msgstr "Iniciando servicios de privacidad y programación…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1570
+#, java-printf-format
+msgid "Starting update for “%s”…"
+msgstr "Iniciando actualización de «%s»…"
+
+#: src/main/resources/ui/start-shutdown.ui:24
+msgid "Starting..."
+msgstr "Iniciando..."
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:107
+#, java-printf-format
+msgid "Startup failed: %s"
+msgstr "Error al iniciar: %s"
+
+#: src/main/resources/ui/main-window.ui:490 src/main/resources/ui/sources.ui:11
+msgid "State"
+msgstr "Estado"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1684
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+#: src/main/resources/ui/main-window.ui:454
+#: src/main/resources/ui/main-window.ui:470
+#: src/main/resources/ui/search-torrents.ui:110
+msgid "Status"
+msgstr "Estado"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:18
+#, java-printf-format
+msgid ""
+"Status: %s\n"
+"Result: %s"
+msgstr "Estado: %s\nResultado: %s"
+
+#: src/main/resources/ui/jackett-settings.ui:15
+msgid "Stop"
+msgstr "Detener"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:194
+msgid ""
+"Stop after discovering this many links; 0 disables HTTrack's link-count "
+"limit."
+msgstr "Detenerse tras descubrir este número de enlaces; 0 desactiva el límite de enlaces de HTTrack."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:186
+msgid ""
+"Stop after this many MiB have been mirrored; 0 means unlimited. The first-"
+"run default is 1024 MiB."
+msgstr "Detenerse tras copiar esta cantidad de MiB; 0 significa sin límite. El valor inicial es 1024 MiB."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:192
+msgid "Stop the crawl after this many minutes; 0 means unlimited."
+msgstr "Detener el rastreo tras estos minutos; 0 significa sin límite."
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:148
+msgid "Stopped"
+msgstr "Detenido"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:92
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:154
+msgid "Stopping Jackett…"
+msgstr "Deteniendo Jackett…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2337
+msgid "Stopping Tor service…"
+msgstr "Deteniendo el servicio Tor…"
+
+#: src/main/resources/ui/settings.ui:461
+msgid "Subliminal:"
+msgstr "Subliminal:"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1530
+#, java-printf-format
+msgid "Subtitle action completed for %d download"
+msgid_plural "Subtitle actions completed for %d downloads"
+msgstr[0] "Acción de subtítulos completada para %d descarga"
+msgstr[1] "Acciones de subtítulos completadas para %d descargas"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1529
+#, java-printf-format
+msgid "Subtitle action completed for “%s”"
+msgstr "Acción de subtítulos completada para «%s»"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1523
+#, java-printf-format
+msgid "Subtitle download failed for %2$d of %1$d download — see Actions output"
+msgid_plural ""
+"Subtitle download failed for %2$d of %1$d downloads — see Actions output"
+msgstr[0] "Error al descargar subtítulos para %2$d de %1$d descarga — consulte la salida de acciones"
+msgstr[1] "Error al descargar subtítulos para %2$d de %1$d descargas — consulte la salida de acciones"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1522
+#, java-printf-format
+msgid "Subtitle download failed for “%s” — see Actions output"
+msgstr "Error al descargar subtítulos de «%s» — consulte la salida de acciones"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:162
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:362
+msgid "Subtitle languages"
+msgstr "Idiomas de subtítulos"
+
+#: src/main/resources/ui/new-media.ui:100 src/main/resources/ui/settings.ui:463
+msgid "Subtitle languages:"
+msgstr "Idiomas de subtítulos:"
+
+#: src/main/resources/ui/new-media.ui:71
+msgid "Subtitles"
+msgstr "Subtítulos"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:326
+msgid "Succeeded"
+msgstr "Correcto"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Sun"
+msgstr "Dom"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1633
+msgid "Suspend"
+msgstr "Suspender"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPolicy.java:187
+msgid "Suspend the computer when the download completes"
+msgstr "Suspender el equipo cuando finalice la descarga"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:138
+msgid ""
+"TCP peer and UDP DHT listen port or range, such as 6881-6999. Blank keeps "
+"aria2's native setting; changes require restarting ODM."
+msgstr "Puerto o rango de escucha de pares TCP y DHT UDP, como 6881-6999. Vacío conserva el valor nativo de aria2; los cambios requieren reiniciar ODM."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:110
+msgid "TCP port of the global proxy server."
+msgstr "Puerto TCP del servidor proxy global."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:509
+#, java-printf-format
+msgid "THREAT DETECTED in %s — scan result: %s"
+msgstr "AMENAZA DETECTADA en %s — resultado del análisis: %s"
+
+#: src/main/resources/ui/jackett-settings.ui:30
+msgid "Test"
+msgstr "Probar"
+
+#: src/main/resources/ui/jackett-settings.ui:30
+msgid "Test all listed indexers"
+msgstr "Probar todos los indexadores listados"
+
+#: src/main/resources/ui/jackett-settings.ui:25
+msgid "Test status"
+msgstr "Estado de la prueba"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:342
+#, java-printf-format
+msgid "Testing indexers… %d/%d"
+msgstr "Probando indexadores… %d/%d"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:255
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:341
+msgid "Testing…"
+msgstr "Probando…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1497
+msgid "The Custom antivirus command must include {file}"
+msgstr "El comando antivirus personalizado debe incluir {file}"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:616
+msgid "The application will stop its download services and close."
+msgstr "La aplicación detendrá sus servicios de descarga y se cerrará."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:949
+msgid "The configured scanner is unavailable."
+msgstr "El antivirus configurado no está disponible."
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:82
+msgid "The file or folder could not be found."
+msgstr "No se encontró el archivo o la carpeta."
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:84
+msgid "The operation was canceled."
+msgstr "La operación se canceló."
+
+#: src/main/java/org/odm/gtk4/HtmlImportExport.java:305
+msgid "The remote source is not HTML"
+msgstr "La fuente remota no es HTML"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:78
+msgid "The request timed out. Please try again."
+msgstr "La solicitud agotó el tiempo de espera. Inténtelo de nuevo."
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:74
+msgid ""
+"The server address could not be found. Check the address and network "
+"settings."
+msgstr "No se encontró la dirección del servidor. Revise la dirección y la configuración de red."
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:122
+msgid ""
+"These options apply to torrent transfers. The search engine uses its own "
+"connection settings."
+msgstr "Estas opciones se aplican a las transferencias torrent. El motor de búsqueda usa su propia configuración de conexión."
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:45
+msgid "This action did not produce detailed output."
+msgstr "Esta acción no produjo una salida detallada."
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:44
+msgid ""
+"This action is still running. Detailed output will be available when it "
+"finishes."
+msgstr "Esta acción sigue en ejecución. La salida detallada estará disponible cuando termine."
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:194
+msgid "This engine supports HTTP/HTTPS proxies; SOCKS and Tor are unavailable."
+msgstr "Este motor admite proxies HTTP/HTTPS; SOCKS y Tor no están disponibles."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1105
+#, java-printf-format
+msgid "This permanently removes files for \"%s\"."
+msgstr "Esto elimina permanentemente los archivos de «%s»."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1103
+#, java-printf-format
+msgid "This permanently removes files for %d selected downloads."
+msgstr "Esto elimina permanentemente los archivos de %d descargas seleccionadas."
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:197
+msgid ""
+"This protocol supports SOCKS proxies; HTTP/HTTPS proxying is unavailable."
+msgstr "Este protocolo admite proxies SOCKS; los proxies HTTP/HTTPS no están disponibles."
+
+#: src/main/java/org/odm/gtk4/DialogOptions.java:243
+msgid "This proxy type is not supported for this download"
+msgstr "Este tipo de proxy no es compatible con esta descarga"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Thu"
+msgstr "Jue"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:49
+msgid "Time limit"
+msgstr "Límite de tiempo"
+
+#: src/main/resources/ui/main-window.ui:421
+msgid ""
+"Time-weighted average of recorded download speeds, excluding paused time. "
+"Shown by the dashed line."
+msgstr "Promedio de las velocidades de descarga registradas ponderado por tiempo, excluyendo las pausas. Se muestra con la línea discontinua."
+
+#: src/main/resources/ui/new-media.ui:91
+msgid "Title"
+msgstr "Título"
+
+#: src/main/resources/ui/import-sequence.ui:85
+#: src/main/resources/ui/import-sequence.ui:91
+msgid "To:"
+msgstr "Hasta:"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1649
+msgid "Tor"
+msgstr "Tor"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2454
+#, java-printf-format
+msgid "Tor bootstrap: %d%%"
+msgstr "Inicialización de Tor: %d%%"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2509
+#, java-printf-format
+msgid "Tor check failed — %s"
+msgstr "Falló la comprobación de Tor — %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2508
+#, java-printf-format
+msgid "Tor check failed — Offline Mode enabled. %s"
+msgstr "Falló la comprobación de Tor — modo sin conexión activado. %s"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:373
+msgid "Tor check interval in minutes"
+msgstr "Intervalo de comprobación de Tor en minutos"
+
+#: src/main/resources/ui/settings.ui:443
+msgid "Tor check:"
+msgstr "Comprobación de Tor:"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2544
+msgid "Tor is not running"
+msgstr "Tor no está en ejecución"
+
+#: src/main/java/org/odm/gtk4/DialogOptions.java:259
+msgid "Tor is selected. Start the Tor service from Edit → Tor first."
+msgstr "Tor está seleccionado. Inicie primero el servicio Tor desde Editar → Tor."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2367
+#: src/main/java/org/odm/gtk4/TorServiceController.java:46
+msgid "Tor service could not be stopped"
+msgstr "No se pudo detener el servicio Tor"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2358
+msgid "Tor service failed to start"
+msgstr "No se pudo iniciar el servicio Tor"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2399
+msgid "Tor service reported an error"
+msgstr "El servicio Tor notificó un error"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2348
+#: src/main/java/org/odm/gtk4/MainWindow.java:2397
+msgid "Tor service started"
+msgstr "Servicio Tor iniciado"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2375
+#: src/main/java/org/odm/gtk4/MainWindow.java:2398
+msgid "Tor service stopped"
+msgstr "Servicio Tor detenido"
+
+#: src/main/java/org/odm/gtk4/TorFailureNotification.java:13
+msgid "Tor verification failed"
+msgstr "Error al verificar Tor"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2511
+#, java-printf-format
+msgid "Tor verified — %s"
+msgstr "Tor verificado — %s"
+
+#: src/main/java/org/odm/gtk4/DialogOptions.java:242
+msgid "Tor/SOCKS proxying is not supported for this download"
+msgstr "Los proxies Tor/SOCKS no son compatibles con esta descarga"
+
+#: src/main/resources/ui/settings.ui:441
+msgid "Tor:"
+msgstr "Tor:"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:135
+msgid "Torrent category"
+msgstr "Categoría de torrents"
+
+#: src/main/resources/ui/settings.ui:277
+msgid "Torrent listen ports:"
+msgstr "Puertos de escucha de torrents:"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:401
+msgid "Torrent peer and DHT listen ports"
+msgstr "Puertos de escucha de pares torrent y DHT"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:136
+msgid "Torrent search results; check torrents to download"
+msgstr "Resultados de búsqueda; marque los torrents que descargar"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:134
+msgid "Torrent search terms"
+msgstr "Términos de búsqueda de torrents"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:397
+msgid "Torrent seed ratio limit"
+msgstr "Límite de proporción de siembra"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:399
+msgid "Torrent seed time limit in minutes"
+msgstr "Límite de tiempo de siembra en minutos"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:395
+msgid "Torrent seeding policy"
+msgstr "Política de siembra de torrents"
+
+#: src/main/resources/ui/new-download.ui:69
+msgid "Torrent/Metalink file…"
+msgstr "Archivo Torrent/Metalink…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2276
+#, java-printf-format
+msgid ""
+"Total: %d\n"
+"Active: %d\n"
+"Queued/paused: %d\n"
+"Finished: %d\n"
+"Errors: %d\n"
+"\n"
+"Downloaded: %s / %s"
+msgstr "Total: %d\nActivas: %d\nEn cola/pausadas: %d\nFinalizadas: %d\nErrores: %d\n\nDescargado: %s / %s"
+
+#: src/main/resources/ui/settings.ui:287
+msgid "Tracker refresh (min, 0 = off):"
+msgstr "Actualización de trackers (min, 0 = desactivada):"
+
+#: src/main/resources/ui/main-window.ui:479
+msgid "Trackers"
+msgstr "Trackers"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:223
+msgid "Transferring"
+msgstr "Transfiriendo"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Tue"
+msgstr "Mar"
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:62
+#, java-printf-format
+msgid "URL copied"
+msgid_plural "%d URLs copied"
+msgstr[0] "URL copiada"
+msgstr[1] "%d URL copiadas"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:295
+#, java-printf-format
+msgid "URL list exceeds the configured %d MiB limit"
+msgstr "La lista de URL supera el límite configurado de %d MiB"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:305
+#, java-printf-format
+msgid "URL list exceeds the configured %d URL limit"
+msgstr "La lista de URL supera el límite configurado de %d URL"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:102
+msgid "URL sequence pattern"
+msgstr "Patrón de secuencia de URL"
+
+#: src/main/resources/ui/new-download.ui:56
+msgid "URL/Magnet link"
+msgstr "URL/enlace magnet"
+
+#: src/main/resources/ui/import-sequence.ui:76
+#: src/main/resources/ui/new-download.ui:48
+msgid "URL:"
+msgstr "URL:"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:110
+msgid "URLs to import"
+msgstr "URL que importar"
+
+#: src/main/resources/ui/settings.ui:402
+msgid "Uniquify output name"
+msgstr "Generar nombre de salida único"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:49
+msgid "Unlimited"
+msgstr "Sin límite"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPolicy.java:90
+#, java-printf-format
+msgid "Unsupported file scanner: %s. Select ClamAV or a custom file scanner."
+msgstr "Antivirus de archivos no compatible: %s. Seleccione ClamAV o un antivirus personalizado."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+msgid "Up Speed"
+msgstr "Velocidad de subida"
+
+#: src/main/resources/ui/main-window.ui:252
+#: src/main/resources/ui/main-window.ui:489
+msgid "Up speed"
+msgstr "Velocidad de subida"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1327
+#: src/main/java/org/odm/gtk4/MainWindow.java:1670
+msgid "Update Website Mirror…"
+msgstr "Actualizar copia del sitio web…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1558
+msgid "Update and Keep Old Files"
+msgstr "Actualizar y conservar archivos antiguos"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1561
+msgid "Update and Remove Missing Files"
+msgstr "Actualizar y eliminar archivos ausentes"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:343
+msgid "Updating indexers…"
+msgstr "Actualizando indexadores…"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:167
+msgid "Updating mirrors…"
+msgstr "Actualizando copias…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:134
+msgid ""
+"Upload-to-download share ratio at which aria2 stops seeding; used by ratio-"
+"based policies."
+msgstr "Proporción entre subida y descarga con la que aria2 deja de sembrar; se usa en políticas basadas en proporción."
+
+#: src/main/resources/ui/jackett-settings.ui:23
+msgid "Use"
+msgstr "Usar"
+
+#: src/main/resources/ui/settings.ui:321
+msgid "Use aria2 as external downloader"
+msgstr "Usar aria2 como descargador externo"
+
+#: src/main/resources/ui/settings.ui:293
+msgid ""
+"Use the server's last-modified time for HTTP, FTP and SFTP files when "
+"available."
+msgstr "Usar la fecha de última modificación del servidor para archivos HTTP, FTP y SFTP cuando esté disponible."
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:160
+msgid ""
+"Use the server's last-modified time for supported file downloads. Applies "
+"when a download starts or resumes."
+msgstr "Usar la fecha de última modificación del servidor en las descargas compatibles. Se aplica al iniciar o reanudar una descarga."
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:137
+msgid "Used"
+msgstr "Usado"
+
+#: src/main/resources/ui/import-list.ui:173
+#: src/main/resources/ui/import-sequence.ui:181
+#: src/main/resources/ui/network-options.ui:124
+#: src/main/resources/ui/settings.ui:200
+msgid "User Agent:"
+msgstr "Agente de usuario:"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:102
+msgid ""
+"User-Agent used by new downloads when supported; leave empty for the engine "
+"default."
+msgstr "Agente de usuario de las nuevas descargas, si se admite; vacío usa el valor predeterminado del motor."
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:320
+msgid "User-Agent values"
+msgstr "Valores de User-Agent"
+
+#: src/main/resources/ui/import-list.ui:193
+#: src/main/resources/ui/import-sequence.ui:201
+#: src/main/resources/ui/network-options.ui:158
+#: src/main/resources/ui/settings.ui:222
+msgid "Username:"
+msgstr "Usuario:"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:947
+#, java-printf-format
+msgid "Validated %d installed antivirus scanner."
+msgid_plural "Validated %d installed antivirus scanners."
+msgstr[0] "%d antivirus instalado validado."
+msgstr[1] "%d antivirus instalados validados."
+
+#: src/main/resources/ui/settings.ui:202
+msgid "Verify HTTPS certificates"
+msgstr "Verificar certificados HTTPS"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:462
+#: src/main/java/org/odm/gtk4/MainWindow.java:2502
+#: src/main/resources/ui/main-window.ui:563
+msgid "Verify Tor connection"
+msgstr "Verificar conexión Tor"
+
+#: src/main/resources/ui/new-download.ui:135
+msgid "Verify at completion"
+msgstr "Verificar al finalizar"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:133
+msgid "Verify checksum at completion"
+msgstr "Verificar suma de comprobación al finalizar"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:104
+msgid ""
+"Verify the identity of HTTPS servers for downloads, media requests and "
+"remote HTML imports. Turning this off accepts invalid certificates but keeps "
+"encryption. Normal aria2 downloads require restarting ODM; HTTrack does not "
+"verify certificates. An explicitly honored external yt-dlp configuration can "
+"disable verification."
+msgstr "Verificar la identidad de los servidores HTTPS en descargas, solicitudes multimedia e importaciones HTML remotas. Desactivarlo acepta certificados no válidos pero mantiene el cifrado. Las descargas normales de aria2 requieren reiniciar ODM; HTTrack no verifica certificados. Una configuración externa de yt-dlp respetada explícitamente puede desactivar la verificación."
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2468
+#: src/main/java/org/odm/gtk4/MainWindow.java:2708
+msgid "Verifying Tor connection…"
+msgstr "Verificando conexión Tor…"
+
+#: src/main/resources/ui/new-media.ui:50
+msgid "Video page, playlist, manifest, or direct media URL"
+msgstr "Página de vídeo, lista de reproducción, manifiesto o URL multimedia directa"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:60
+msgid "Videos"
+msgstr "Vídeos"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:138
+msgid "Waiting"
+msgstr "Esperando"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:72
+msgid "Waiting for speed data"
+msgstr "Esperando datos de velocidad"
+
+#: src/main/java/org/odm/gtk4/ImportEngine.java:12
+msgid "Web Scrap"
+msgstr "Captura web"
+
+#: src/main/resources/ui/new-website.ui:87
+msgid "Website"
+msgstr "Sitio web"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:114
+msgid "Website URL to mirror"
+msgstr "URL del sitio web que copiar"
+
+#: src/main/resources/ui/new-website.ui:49
+msgid "Website URL:"
+msgstr "URL del sitio web:"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:115
+msgid "Website crawl depth"
+msgstr "Profundidad de rastreo del sitio web"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:116
+msgid "Website crawl scope"
+msgstr "Ámbito de rastreo del sitio web"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:163
+msgid "Website download does not have HTTrack settings"
+msgstr "La descarga del sitio web no tiene configuración de HTTrack"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Wed"
+msgstr "Mié"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1643
+msgid "Weekdays"
+msgstr "Días laborables"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1642
+msgid "Weekends"
+msgstr "Fines de semana"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:208
+#: src/main/resources/ui/settings.ui:408
+msgid ""
+"When enabled, keep completed and canceled records across restarts. When "
+"disabled, omit only those records from persisted history. Downloaded files "
+"are never deleted; automatic cleanup is controlled separately."
+msgstr "Si se activa, los registros completados y cancelados se conservan tras reiniciar. Si se desactiva, solo esos registros se omiten del historial guardado. Nunca se borran los archivos descargados; la limpieza automática se controla por separado."
+
+#: src/main/resources/ui/new-website.ui:65
+msgid ""
+"Whitespace-separated HTTrack wildcard patterns excluded from this mirror."
+msgstr "Patrones comodín de HTTrack separados por espacios que se excluyen de esta copia."
+
+#: src/main/resources/ui/new-website.ui:62
+msgid "Whitespace-separated HTTrack wildcard patterns included in this mirror."
+msgstr "Patrones comodín de HTTrack separados por espacios que se incluyen en esta copia."
+
+#: src/main/java/org/odm/gtk4/DesktopNotifications.java:34
+msgid "Your download has completed."
+msgstr "Su descarga ha finalizado."
+
+#: src/main/resources/ui/settings.ui:491
+msgid "_Apply"
+msgstr "_Aplicar"
+
+#: src/main/resources/ui/settings.ui:489
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1680
+msgid "_Download"
+msgstr "_Descargar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1652
+msgid "_Edit"
+msgstr "_Editar"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1622
+msgid "_File"
+msgstr "_Archivo"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1687
+msgid "_Help"
+msgstr "A_yuda"
+
+#: src/main/resources/ui/settings.ui:492
+msgid "_OK"
+msgstr "_Aceptar"
+
+#: src/main/resources/ui/settings.ui:490
+msgid "_Reset"
+msgstr "_Restablecer"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1663
+msgid "_View"
+msgstr "_Ver"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:393
+msgid "aria2 RPC port"
+msgstr "Puerto RPC de aria2"
+
+#: src/main/resources/ui/settings.ui:259
+msgid "aria2 path:"
+msgstr "Ruta de aria2:"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:308
+msgid "connection counts"
+msgstr "números de conexiones"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:322
+msgid "cookie values"
+msgstr "valores de cookies"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:337
+msgid "critical"
+msgstr "crítica"
+
+#: src/main/resources/ui/settings.ui:459
+msgid "curl:"
+msgstr "curl:"
+
+#: src/main/resources/ui/new-media.ui:116
+msgid "default or sponsor,intro,outro"
+msgstr "default o sponsor,intro,outro"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:310
+msgid "download limits"
+msgstr "límites de descarga"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:577
+msgid "downloads allowed"
+msgstr "descargas permitidas"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:577
+msgid "downloads paused"
+msgstr "descargas pausadas"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:336
+msgid "high"
+msgstr "alta"
+
+#: src/main/resources/ui/settings.ui:345
+msgid "httrack path:"
+msgstr "Ruta de httrack:"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:334
+msgid "low"
+msgstr "baja"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:335
+msgid "medium"
+msgstr "media"
+
+#: src/main/resources/ui/settings.ui:454
+msgid "min"
+msgstr "min"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:324
+msgid "proxy routes"
+msgstr "rutas de proxy"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:316
+msgid "retry delays"
+msgstr "intervalos de reintento"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:314
+msgid "retry limits"
+msgstr "límites de reintentos"
+
+#: src/main/resources/ui/new-download.ui:266
+msgid "sha-1=<40 hex digits>"
+msgstr "sha-1=<40 dígitos hexadecimales>"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:203
+#, java-printf-format
+msgid "tier %d"
+msgstr "nivel %d"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:723
+msgid "unknown length"
+msgstr "duración desconocida"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:341
+msgid "unknown uploader"
+msgstr "autor desconocido"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:312
+msgid "upload limits"
+msgstr "límites de subida"
+
+#: src/main/resources/ui/settings.ui:316
+msgid "yt-dlp path:"
+msgstr "Ruta de yt-dlp:"

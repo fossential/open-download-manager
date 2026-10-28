@@ -1,0 +1,4429 @@
+# Japanese translations for Open Download Manager.
+# Copyright (C) 2026 Open Download Manager contributors
+# This file is distributed under the same license as the ODM package.
+msgid ""
+msgstr ""
+"Project-Id-Version: odm 0.3.1\n"
+"Report-Msgid-Bugs-To: https://github.com/albilu/open-download-manager/issues\n"
+"POT-Creation-Date: 2026-09-19 20:02+0200\n"
+"PO-Revision-Date: 2026-10-28 12:00+0100\n"
+"Last-Translator: Open Download Manager contributors\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2717
+#, java-printf-format
+msgid "%2$d of %1$d download loaded"
+msgid_plural "%2$d of %1$d downloads loaded"
+msgstr[0] "%1$d 件中 %2$d 件のダウンロードを読み込みました"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:507
+#, java-printf-format
+msgid "%2$d of %1$d file selected"
+msgid_plural "%2$d of %1$d files selected"
+msgstr[0] "%1$d 個中 %2$d 個のファイルを選択"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:344
+#, java-printf-format
+msgid "%2$d of %1$d indexer passed."
+msgid_plural "%2$d of %1$d indexers passed."
+msgstr[0] "%1$d 個中 %2$d 個のインデクサーがテストに合格しました。"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:471
+#, java-printf-format
+msgid "%2$d of %1$d item selected"
+msgid_plural "%2$d of %1$d items selected"
+msgstr[0] "%1$d 項目中 %2$d 項目を選択"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2718
+#, java-printf-format
+msgid "%d download"
+msgid_plural "%d downloads"
+msgstr[0] "%d 件のダウンロード"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2714
+#, java-printf-format
+msgid "%d download selected"
+msgid_plural "%d downloads selected"
+msgstr[0] "%d 件のダウンロードを選択"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:400
+#, java-printf-format
+msgid "%d failed; retry checked items."
+msgid_plural "%d failed; retry checked items."
+msgstr[0] "%d 件失敗しました。チェックした項目を再試行してください。"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:290
+#, java-printf-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d 個のファイル"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:469
+#, java-printf-format
+msgid "%d file, %s — uncheck files you do not want."
+msgid_plural "%d files, %s — uncheck files you do not want."
+msgstr[0] "%d 個のファイル、%s — 不要なファイルのチェックを外してください。"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:205
+#, java-printf-format
+msgid "%d indexer failed."
+msgid_plural "%d indexers failed."
+msgstr[0] "%d 個のインデクサーで失敗しました。"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:269
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:285
+#, java-printf-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d 項目"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:401
+#, java-printf-format
+msgid "%d needs attention in Downloads."
+msgid_plural "%d need attention in Downloads."
+msgstr[0] "「ダウンロード」で %d 件の確認が必要です。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:3093
+#, java-printf-format
+msgid "%d seed"
+msgid_plural "%d seeds"
+msgstr[0] "%d シード"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:291
+#, java-printf-format
+msgid "%d torrent"
+msgid_plural "%d torrents"
+msgstr[0] "%d 件のトレント"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:204
+#, java-printf-format
+msgid "%d torrent found."
+msgid_plural "%d torrents found."
+msgstr[0] "%d 件のトレントが見つかりました。"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:292
+#, java-printf-format
+msgid "%d torrent unavailable; Download includes all files."
+msgid_plural "%d torrents unavailable; Download includes all files."
+msgstr[0] "%d 件のトレントを取得できません。ダウンロードにはすべてのファイルが含まれます。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1102
+#, java-printf-format
+msgid "%s defaults loaded. Press Apply or OK to save them."
+msgstr "%s の既定値を読み込みました。「適用」または「OK」で保存してください。"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:549
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:421
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:557
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:741
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1036
+#, java-printf-format
+msgid "%s free"
+msgstr "空き %s"
+
+#: src/main/java/org/odm/gtk4/DesktopNotifications.java:34
+#, java-printf-format
+msgid "%s has completed."
+msgstr "%s が完了しました。"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:290
+#, java-printf-format
+msgid "%s in %s."
+msgstr "%s（%s）。"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:151
+#, java-printf-format
+msgid "%s — Running"
+msgstr "%s — 実行中"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:94
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:401
+msgid "(all)"
+msgstr "（すべて）"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:401
+msgid "(none)"
+msgstr "（なし）"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:474
+msgid "(unavailable item)"
+msgstr "（利用できない項目）"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:340
+msgid "(untitled)"
+msgstr "（無題）"
+
+#: src/main/resources/ui/import-sequence.ui:240
+msgid "0 items"
+msgstr "0 項目"
+
+#: src/main/resources/ui/import-list.ui:232
+msgid "0 of 0 items selected"
+msgstr "0 項目中 0 項目を選択"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:285
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:621
+msgid "100% · Finalizing…"
+msgstr "100% · 最終処理中…"
+
+#: src/main/resources/ui/settings.ui:438
+msgid "<b>Advanced Tools</b>"
+msgstr "<b>高度なツール</b>"
+
+#: src/main/resources/ui/main-window.ui:127
+msgid "<b>Categories</b>"
+msgstr "<b>カテゴリー</b>"
+
+#: src/main/resources/ui/settings.ui:465
+msgid "<b>Completion Actions</b>"
+msgstr "<b>完了後の操作</b>"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1100
+msgid "<b>Delete these downloads and their files?</b>"
+msgstr "<b>これらのダウンロードとファイルを削除しますか？</b>"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1101
+msgid "<b>Delete this download and its files?</b>"
+msgstr "<b>このダウンロードとファイルを削除しますか？</b>"
+
+#: src/main/resources/ui/settings.ui:403
+msgid "<b>Download History</b>"
+msgstr "<b>ダウンロード履歴</b>"
+
+#: src/main/resources/ui/import-sequence.ui:157
+msgid "<b>Download Settings</b>"
+msgstr "<b>ダウンロード設定</b>"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2275
+msgid "<b>Download Statistics</b>"
+msgstr "<b>ダウンロード統計</b>"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:614
+msgid "<b>Exit Open Download Manager?</b>"
+msgstr "<b>Open Download Manager を終了しますか？</b>"
+
+#: src/main/resources/ui/settings.ui:400
+msgid "<b>File Control</b>"
+msgstr "<b>ファイル制御</b>"
+
+#: src/main/resources/ui/import-sequence.ui:173
+msgid "<b>HTTP Connection</b>"
+msgstr "<b>HTTP 接続</b>"
+
+#: src/main/resources/ui/settings.ui:192
+msgid "<b>HTTP Defaults</b>"
+msgstr "<b>HTTP の既定値</b>"
+
+#: src/main/resources/ui/import-list.ui:165
+#: src/main/resources/ui/network-options.ui:108
+msgid "<b>HTTP Settings</b>"
+msgstr "<b>HTTP 設定</b>"
+
+#: src/main/resources/ui/settings.ui:427
+msgid "<b>Import Limits</b>"
+msgstr "<b>インポートの上限</b>"
+
+#: src/main/resources/ui/main-window.ui:297
+msgid "<b>Information</b>"
+msgstr "<b>情報</b>"
+
+#: src/main/resources/ui/main-window.ui:407
+msgid "<b>Progress</b>"
+msgstr "<b>進捗</b>"
+
+#: src/main/resources/ui/import-list.ui:183
+#: src/main/resources/ui/import-sequence.ui:191
+#: src/main/resources/ui/network-options.ui:141
+#: src/main/resources/ui/settings.ui:212
+msgid "<b>Proxy Settings</b>"
+msgstr "<b>プロキシ設定</b>"
+
+#: src/main/resources/ui/settings.ui:382
+msgid "<b>Scheduling</b>"
+msgstr "<b>スケジュール</b>"
+
+#: src/main/resources/ui/main-window.ui:92
+msgid "<b>Status</b>"
+msgstr "<b>状態</b>"
+
+#: src/main/resources/ui/import-list.ui:199
+#: src/main/resources/ui/import-sequence.ui:207
+#: src/main/resources/ui/network-options.ui:166
+#: src/main/resources/ui/settings.ui:228
+msgid "<b>Tor Settings</b>"
+msgstr "<b>Tor 設定</b>"
+
+#: src/main/resources/ui/settings.ui:176
+msgid "<b>Transfer Defaults</b>"
+msgstr "<b>転送の既定値</b>"
+
+#: src/main/resources/ui/import-list.ui:149
+#: src/main/resources/ui/network-options.ui:83
+msgid "<b>Transfer Settings</b>"
+msgstr "<b>転送設定</b>"
+
+#: src/main/resources/ui/main-window.ui:365
+msgid "<b>Transfer</b>"
+msgstr "<b>転送</b>"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1549
+msgid "<b>Update this website mirror?</b>"
+msgstr "<b>このウェブサイトのミラーを更新しますか？</b>"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:83
+msgid "A file already exists at the destination."
+msgstr "保存先にファイルが既に存在します。"
+
+#: src/main/resources/ui/about.ui:10
+msgid ""
+"A full featured native download manager for Linux, based on aria2, yt-dlp "
+"and httrack."
+msgstr "aria2、yt-dlp、httrack を使用した、Linux 向けの多機能なネイティブダウンロードマネージャー。"
+
+#: src/main/resources/ui/new-media.ui:110
+msgid ""
+"A selected Netscape-format cookie file overrides the browser source for this "
+"download."
+msgstr "Netscape 形式の Cookie ファイルを選択すると、このダウンロードではブラウザーの Cookie より優先されます。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1686
+msgid "About"
+msgstr "このアプリについて"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:344
+msgid "Accepted"
+msgstr "受け付け済み"
+
+#: src/main/resources/ui/main-window.ui:453
+msgid "Action"
+msgstr "操作"
+
+#: src/main/resources/ui/action-output.ui:6
+msgid "Action Output"
+msgstr "操作の出力"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:17
+#, java-printf-format
+msgid "Action Output — %s"
+msgstr "操作の出力 — %s"
+
+#: src/main/resources/ui/main-window.ui:462
+msgid "Actions"
+msgstr "操作"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Active"
+msgstr "アクティブ"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:136
+msgctxt "mirror-state"
+msgid "Active"
+msgstr "稼働中"
+
+#: src/main/resources/ui/settings.ui:388
+msgid "Active download hours (days × hours):"
+msgstr "ダウンロードを許可する時間帯（日 × 時間）："
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:66
+msgid "Active transfer time"
+msgstr "実転送時間"
+
+#: src/main/resources/ui/settings.ui:395
+msgid "Active — downloads allowed"
+msgstr "有効 — ダウンロード可能"
+
+#: src/main/resources/ui/sources.ui:17
+msgid "Add"
+msgstr "追加"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:74
+msgid "Add detected clipboard URLs without opening a confirmation dialog."
+msgstr "クリップボードで検出した URL を確認ダイアログなしで追加します。"
+
+#: src/main/resources/ui/main-window.ui:310
+msgid "Added on:"
+msgstr "追加日時："
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:323
+msgid "Adding URL sequence to queue…"
+msgstr "URL の連番をキューに追加中…"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:574
+msgid "Adding download to queue…"
+msgstr "ダウンロードをキューに追加中…"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:375
+msgid "Adding media download to queue…"
+msgstr "メディアのダウンロードをキューに追加中…"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:352
+msgid "Adding torrents to queue…"
+msgstr "トレントをキューに追加中…"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:175
+msgid "Adding website scrape to queue…"
+msgstr "ウェブサイトの取得をキューに追加中…"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:123
+msgid "Additional HTTP headers for this website mirror"
+msgstr "このウェブサイトのミラー用の追加 HTTP ヘッダー"
+
+#: src/main/resources/ui/new-website.ui:69
+msgid "Additional HTTP headers:"
+msgstr "追加 HTTP ヘッダー："
+
+#: src/main/resources/ui/main-window.ui:486
+msgid "Address"
+msgstr "アドレス"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1097
+#: src/main/resources/ui/settings.ui:479
+msgid "Advanced"
+msgstr "詳細"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:82
+msgid ""
+"After creating a download from a selected descriptor, move the "
+"original .torrent, .metalink, or .meta4 file to the Linux/XDG Trash."
+msgstr "選択した記述ファイルからダウンロードを作成後、元の .torrent、.metalink、.meta4 ファイルを Linux/XDG のゴミ箱に移動します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:70
+msgid ""
+"After creating the download, move the original watched descriptor to the "
+"Linux/XDG Trash."
+msgstr "ダウンロードを作成後、監視で検出した元の記述ファイルを Linux/XDG のゴミ箱に移動します。"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPresentation.java:100
+#, java-printf-format
+msgid "After-completion actions partially succeeded (%d/%d)"
+msgstr "完了後の操作が一部成功しました（%d/%d）"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPresentation.java:96
+#, java-printf-format
+msgid "After-completion actions running (%d/%d finished)"
+msgstr "完了後の操作を実行中（%d/%d 完了）"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:343
+msgid "All"
+msgstr "すべて"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "All Status"
+msgstr "すべての状態"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPresentation.java:102
+#, java-printf-format
+msgid "All after-completion actions failed (%d/%d)"
+msgstr "完了後の操作がすべて失敗しました（%d/%d）"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPresentation.java:98
+#, java-printf-format
+msgid "All after-completion actions succeeded (%d/%d)"
+msgstr "完了後の操作がすべて成功しました（%d/%d）"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "All categories"
+msgstr "すべてのカテゴリー"
+
+#: src/main/resources/ui/new-media.ui:80
+msgid "All items, 1:10, or 1,3,8"
+msgstr "すべての項目、1:10、または 1,3,8"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:176
+msgid ""
+"Allow ODM's yt-dlp commands to load system and user yt-dlp configuration "
+"files, including options that disable certificate verification. Disabled "
+"keeps ODM settings authoritative."
+msgstr "ODM の yt-dlp コマンドによるシステムおよびユーザーの yt-dlp 設定の読み込みを許可します。証明書検証を無効にする設定も含まれます。無効にすると ODM の設定が優先されます。"
+
+#: src/main/resources/ui/new-website.ui:67
+msgid "Allow ZIP, RAR, TAR, and GZ files in this website mirror."
+msgstr "このウェブサイトのミラーに ZIP、RAR、TAR、GZ ファイルを含めます。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:158
+msgid ""
+"Allow an aria2 daemon started by ODM to load the user's normal aria2 "
+"configuration file. Disabled keeps ODM settings authoritative."
+msgstr "ODM が起動した aria2 デーモンによるユーザーの通常の aria2 設定ファイルの読み込みを許可します。無効にすると ODM の設定が優先されます。"
+
+#: src/main/resources/ui/settings.ui:433
+msgid "Allowed range: 1 to 10,000 URLs per import."
+msgstr "許容範囲：1 回のインポートにつき 1 ～ 10,000 URL。"
+
+#: src/main/resources/ui/settings.ui:435
+msgid "Allowed range: 1 to 64 MiB. Sources are parsed in memory."
+msgstr "許容範囲：1 ～ 64 MiB。ソースはメモリー内で解析されます。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:68
+msgid "Also watch subfolders inside the monitored folder."
+msgstr "監視対象フォルダー内のサブフォルダーも監視します。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1639
+msgid "Always"
+msgstr "常に"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:11
+msgid "An unexpected error occurred. See the application log for details."
+msgstr "予期しないエラーが発生しました。詳細はアプリケーションのログを確認してください。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1631
+msgid "Antivirus Scan"
+msgstr "ウイルススキャン"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:515
+#, java-printf-format
+msgid "Antivirus scan completed for %s"
+msgstr "%s のウイルススキャンが完了しました"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:415
+msgid "Antivirus scan timeout in seconds, zero for no timeout"
+msgstr "ウイルススキャンのタイムアウト（秒）。0 で無制限"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:443
+msgid "Antivirus scanner used by completion actions"
+msgstr "完了後の操作に使用するウイルススキャナー"
+
+#: src/main/resources/ui/settings.ui:471
+msgid "Antivirus timeout (seconds):"
+msgstr "ウイルススキャンのタイムアウト（秒）："
+
+#: src/main/resources/ui/settings.ui:466
+msgid "Antivirus type:"
+msgstr "ウイルススキャナーの種類："
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:463
+msgid "Application menu"
+msgstr "アプリケーションメニュー"
+
+#: src/main/resources/ui/settings.ui:432
+msgid ""
+"Applies to URL lists, generated sequences, and links extracted from HTML."
+msgstr "URL リスト、生成した連番、HTML から抽出したリンクに適用されます。"
+
+#: src/main/resources/ui/settings.ui:146
+msgid "Applies to downloads detected by clipboard and folder monitoring"
+msgstr "クリップボードとフォルダーの監視で検出したダウンロードに適用"
+
+#: src/main/resources/ui/settings.ui:434
+msgid "Applies to local URL lists and local or remote HTML sources."
+msgstr "ローカルの URL リストと、ローカルまたはリモートの HTML ソースに適用されます。"
+
+#: src/main/resources/ui/property.ui:55
+msgid "Apply"
+msgstr "適用"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:206
+msgid ""
+"Apply the weekly grid globally: inactive hours pause active downloads and "
+"prevent queued downloads from starting."
+msgstr "週間スケジュールを全体に適用します。無効な時間帯は実行中のダウンロードを一時停止し、キューのダウンロードの開始を防ぎます。"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:102
+msgid "Applying settings…"
+msgstr "設定を適用中…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:154
+msgid ""
+"Ask aria2 to verify available checksums before accepting downloaded data."
+msgstr "ダウンロードしたデータを受け入れる前に、利用可能なチェックサムを aria2 で検証します。"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "Audio"
+msgstr "音声"
+
+#: src/main/resources/ui/new-media.ui:69
+msgid "Audio only"
+msgstr "音声のみ"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+msgid "Audios"
+msgstr "音声ファイル"
+
+#: src/main/java/org/odm/gtk4/ImportEngine.java:9
+msgid "Auto"
+msgstr "自動"
+
+#: src/main/resources/ui/import-list.ui:78
+msgid ""
+"Auto selects an engine for each URL. Choose an engine to use it for all "
+"marked URLs."
+msgstr "「自動」は URL ごとにエンジンを選びます。エンジンを指定すると、チェックしたすべての URL に使用されます。"
+
+#: src/main/resources/ui/import-sequence.ui:102
+msgid ""
+"Auto selects an engine for each URL. Choose an engine to use it for the "
+"entire sequence."
+msgstr "「自動」は URL ごとにエンジンを選びます。エンジンを指定すると、連番全体に使用されます。"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:174
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:498
+msgid "Automatic (fetch info to choose a format)"
+msgstr "自動（情報を取得して形式を選択）"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:887
+msgid "Automatic (first available)"
+msgstr "自動（最初に利用可能なもの）"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:888
+msgid "Automatic (no scanner available)"
+msgstr "自動（スキャナーなし）"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:346
+msgid "Automatic (yt-dlp default)"
+msgstr "自動（yt-dlp の既定値）"
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:11
+msgid "Automatic / best compatible"
+msgstr "自動 / 最良の互換形式"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:66
+msgid ""
+"Automatically create downloads from supported descriptor files placed in the "
+"monitored folder."
+msgstr "監視フォルダーに置かれた対応する記述ファイルから、自動的にダウンロードを作成します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:367
+#: src/main/resources/ui/settings.ui:409
+msgid "Automatically remove old download records"
+msgstr "古いダウンロード履歴を自動削除"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:80
+msgid ""
+"Automatically start downloads admitted by clipboard and folder monitoring; "
+"user-triggered dialogs and imports are unaffected."
+msgstr "クリップボードやフォルダーの監視で追加したダウンロードを自動開始します。ユーザーが開いたダイアログや実行したインポートには影響しません。"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:64
+#, java-printf-format
+msgid "Average: %s"
+msgstr "平均：%s"
+
+#: src/main/resources/ui/main-window.ui:421
+msgid "Average: —"
+msgstr "平均：—"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1619
+msgid "Batch Process"
+msgstr "一括処理"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:411
+msgid "BitTorrent encryption policy"
+msgstr "BitTorrent の暗号化ポリシー"
+
+#: src/main/resources/ui/settings.ui:285
+msgid "BitTorrent encryption:"
+msgstr "BitTorrent の暗号化："
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "Books"
+msgstr "書籍"
+
+#: src/main/resources/ui/new-website.ui:56
+msgid "Boundary for this mirror. Nearby assets may come from other hosts."
+msgstr "このミラーの取得範囲です。関連リソースは他のホストから取得される場合があります。"
+
+#: src/main/resources/ui/settings.ui:260 src/main/resources/ui/settings.ui:317
+#: src/main/resources/ui/settings.ui:346 src/main/resources/ui/settings.ui:440
+#: src/main/resources/ui/settings.ui:442 src/main/resources/ui/settings.ui:460
+#: src/main/resources/ui/settings.ui:462
+msgid "Browse"
+msgstr "参照"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:168
+msgid "Browser cookie file"
+msgstr "ブラウザーの Cookie ファイル"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:163
+msgid "Browser cookie source"
+msgstr "Cookie の取得元ブラウザー"
+
+#: src/main/resources/ui/new-media.ui:106
+msgid "Browser profile:"
+msgstr "ブラウザーのプロファイル："
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1640
+msgid "Business Hours"
+msgstr "営業時間"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:619
+#: src/main/java/org/odm/gtk4/MainWindow.java:1109
+#: src/main/java/org/odm/gtk4/MainWindow.java:1556
+#: src/main/resources/ui/completion-command.ui:33
+#: src/main/resources/ui/import-list.ui:243
+#: src/main/resources/ui/import-remote.ui:39
+#: src/main/resources/ui/import-sequence.ui:251
+#: src/main/resources/ui/new-download.ui:304
+#: src/main/resources/ui/new-media.ui:149
+#: src/main/resources/ui/new-website.ui:108
+#: src/main/resources/ui/property.ui:54
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Canceled"
+msgstr "キャンセル済み"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:605
+#, java-printf-format
+msgid "Cannot add download: %s"
+msgstr "ダウンロードを追加できません：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:823
+msgid "Cannot open an invalid or unsupported download link."
+msgstr "無効または未対応のダウンロードリンクは開けません。"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:404
+#, java-printf-format
+msgid "Cannot start: %s"
+msgstr "開始できません：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1323
+msgid "Change Destination…"
+msgstr "保存先を変更…"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:37
+msgid "Character"
+msgstr "文字"
+
+#: src/main/resources/ui/settings.ui:292
+msgid "Check file integrity"
+msgstr "ファイルの整合性を確認"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:350
+msgid "Check torrents and select at least one file."
+msgstr "トレントにチェックを入れ、ファイルを 1 つ以上選択してください。"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:288
+#: src/main/resources/ui/search-torrents.ui:85
+msgid "Check torrents in Search to see their files."
+msgstr "検索結果でトレントにチェックを入れると、ファイルが表示されます。"
+
+#: src/main/resources/ui/new-download.ui:115
+msgid "Checksum:"
+msgstr "チェックサム："
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:223
+msgid "Choking"
+msgstr "送信抑制中"
+
+#: src/main/resources/ui/new-media.ui:62
+msgid ""
+"Choose an output compatibility policy. Profiles prefer or remux containers "
+"without transcoding."
+msgstr "出力の互換性ポリシーを選択します。プロファイルは再エンコードせずにコンテナーを優先選択または再多重化します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:184
+msgid "Choose the HTTrack executable used by ODM after it restarts."
+msgstr "ODM の再起動後に使用する HTTrack の実行ファイルを選択します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:244
+msgid "Choose the Subliminal executable used by completion actions."
+msgstr "完了後の操作に使用する Subliminal の実行ファイルを選択します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:232
+msgid "Choose the Tor executable managed by ODM after it restarts."
+msgstr "ODM の再起動後に管理する Tor の実行ファイルを選択します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:122
+msgid ""
+"Choose the aria2c executable used when ODM next starts its aria2 daemon."
+msgstr "ODM が次に aria2 デーモンを起動する際に使用する aria2c の実行ファイルを選択します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:240
+msgid ""
+"Choose the curl executable used by fallback downloads after ODM restarts."
+msgstr "ODM の再起動後にフォールバックのダウンロードに使用する curl の実行ファイルを選択します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:228
+msgid "Choose the proxychains executable used by ODM after it restarts."
+msgstr "ODM の再起動後に使用する proxychains の実行ファイルを選択します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:166
+msgid "Choose the yt-dlp executable used by ODM."
+msgstr "ODM で使用する yt-dlp の実行ファイルを選択します。"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:124
+msgid "Choose torrent or Metalink descriptor"
+msgstr "トレントまたは Metalink の記述ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:132
+msgid ""
+"Choose whether completed torrents stop immediately, at a ratio, after a "
+"time, when either limit is reached, or never."
+msgstr "完了したトレントを停止する条件を選択します。即時、共有比率、経過時間、いずれかの上限、または無制限から選べます。"
+
+#: src/main/resources/ui/new-website.ui:80
+msgid "Clear"
+msgstr "クリア"
+
+#: src/main/resources/ui/main-window.ui:320
+msgid "Click to view the full error details"
+msgstr "クリックしてエラーの詳細を表示"
+
+#: src/main/java/org/odm/gtk4/TrayMenu.java:34
+msgid "Clipboard"
+msgstr "クリップボード"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1626
+msgid "Clipboard Monitoring"
+msgstr "クリップボードの監視"
+
+#: src/main/resources/ui/action-output.ui:50
+#: src/main/resources/ui/search-torrents.ui:130
+msgid "Close"
+msgstr "閉じる"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1662
+msgid "Columns"
+msgstr "列"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:150
+msgid ""
+"Comma-, space-, or line-separated tracker announce URLs added to BitTorrent "
+"downloads."
+msgstr "BitTorrent ダウンロードに追加するトラッカーのアナウンス URL。コンマ、空白、または改行で区切ります。"
+
+#: src/main/resources/ui/new-media.ui:116
+msgid ""
+"Comma-separated SponsorBlock categories. Prefix a category with '-' to "
+"exclude it."
+msgstr "SponsorBlock のカテゴリーをコンマで区切って指定します。カテゴリーの前に「-」を付けると除外します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:246
+msgid ""
+"Comma-separated language codes, for example en,fr. Used by Subliminal and as "
+"the default for yt-dlp subtitle downloads. Leave empty for English."
+msgstr "言語コードをコンマで区切って指定します（例：en,fr）。Subliminal と yt-dlp の字幕ダウンロードの既定値に使用します。空欄の場合は英語です。"
+
+#: src/main/resources/ui/completion-command.ui:18
+msgid ""
+"Command to run on completion. Variables: {file_path} {filename} {dir} {url} "
+"{id} {gid}"
+msgstr "完了時に実行するコマンド。変数：{file_path} {filename} {dir} {url} {id} {gid}"
+
+#: src/main/resources/ui/main-window.ui:235
+msgid "Complete"
+msgstr "完了"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:163
+msgid "Complete the selected proxy address"
+msgstr "選択したプロキシのアドレスを入力してください"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+msgid "Completed"
+msgstr "完了済み"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:381
+msgid "Completed record retention in days, zero to never remove by age"
+msgstr "完了した履歴の保存日数。0 で日数による削除を無効化"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1636
+msgid "Completion Actions"
+msgstr "完了後の操作"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:17
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:28
+msgid "Completion action"
+msgstr "完了後の操作"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:139
+msgid "Configured"
+msgstr "設定済み"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:256
+msgid "Configuring…"
+msgstr "設定中…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:613
+msgid "Confirm Exit"
+msgstr "終了の確認"
+
+#: src/main/resources/ui/settings.ui:357
+msgid "Connections per second:"
+msgstr "1 秒あたりの接続数："
+
+#: src/main/resources/ui/main-window.ui:393
+msgid "Connections:"
+msgstr "接続数："
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "Console"
+msgstr "コンソール"
+
+#: src/main/resources/ui/new-media.ui:61
+msgid "Container:"
+msgstr "コンテナー："
+
+#: src/main/resources/ui/settings.ui:291
+msgid "Continue partial downloads"
+msgstr "部分的なダウンロードを再開"
+
+#: src/main/resources/ui/import-list.ui:171
+#: src/main/resources/ui/import-sequence.ui:179
+#: src/main/resources/ui/network-options.ui:122
+#: src/main/resources/ui/settings.ui:198
+msgid "Cookie:"
+msgstr "Cookie："
+
+#: src/main/resources/ui/new-media.ui:109
+msgid "Cookies file:"
+msgstr "Cookie ファイル："
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:56
+#, java-printf-format
+msgid "Copy Link"
+msgid_plural "Copy Links"
+msgstr[0] "リンクをコピー"
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:55
+#, java-printf-format
+msgid "Copy Magnet URI"
+msgid_plural "Copy Magnet URIs"
+msgstr[0] "マグネット URI をコピー"
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:54
+#, java-printf-format
+msgid "Copy URL"
+msgid_plural "Copy URLs"
+msgstr[0] "URL をコピー"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:266
+msgid "Core initialization interrupted"
+msgstr "コアの初期化が中断されました"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:834
+#: src/main/java/org/odm/gtk4/MainWindow.java:849
+#, java-printf-format
+msgid "Could not add download: %s"
+msgstr "ダウンロードを追加できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:395
+#, java-printf-format
+msgid "Could not add to queue: %s. Press Download to retry."
+msgstr "キューに追加できませんでした：%s。「ダウンロード」で再試行してください。"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:192
+#, java-printf-format
+msgid "Could not add to queue: %s. Press Start Scrape to retry."
+msgstr "キューに追加できませんでした：%s。「取得を開始」で再試行してください。"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:593
+#, java-printf-format
+msgid "Could not add to queue: %s. Press Start to retry."
+msgstr "キューに追加できませんでした：%s。「開始」で再試行してください。"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:592
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:394
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:191
+#, java-printf-format
+msgid ""
+"Could not add to queue: %s. This download remains in Downloads; manage it "
+"there."
+msgstr "キューに追加できませんでした：%s。このダウンロードは「ダウンロード」に残っています。そちらで管理してください。"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:114
+#, java-printf-format
+msgid "Could not apply settings: %s. Previous values were restored."
+msgstr "設定を適用できませんでした：%s。以前の値に戻しました。"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:76
+msgid "Could not connect to the server. Check your network and proxy settings."
+msgstr "サーバーに接続できませんでした。ネットワークとプロキシの設定を確認してください。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1125
+#, java-printf-format
+msgid "Could not delete all selected download files: %s"
+msgstr "選択したダウンロードのファイルをすべて削除できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:948
+#, java-printf-format
+msgid "Could not delete all selected downloads: %s"
+msgstr "選択したダウンロードをすべて削除できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:80
+msgid "Could not establish a secure connection. Check your network settings."
+msgstr "安全な接続を確立できませんでした。ネットワーク設定を確認してください。"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:301
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:324
+#, java-printf-format
+msgid "Could not fetch info: %s"
+msgstr "情報を取得できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/HtmlImportExport.java:314
+msgid "Could not fetch the remote HTML source"
+msgstr "リモートの HTML ソースを取得できませんでした"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:269
+msgid "Could not import URL list"
+msgstr "URL リストをインポートできませんでした"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:332
+#, java-printf-format
+msgid "Could not import this URL sequence: %s"
+msgstr "この URL の連番をインポートできませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:440
+#, java-printf-format
+msgid "Could not import this list: %s"
+msgstr "このリストをインポートできませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2219
+#, java-printf-format
+msgid "Could not import this remote HTML page: %s"
+msgstr "このリモート HTML ページをインポートできませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:432
+#, java-printf-format
+msgid ""
+"Could not load file metadata: %s. Starting the download will include all "
+"files."
+msgstr "ファイルのメタデータを読み込めませんでした：%s。ダウンロードを開始するとすべてのファイルが含まれます。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1389
+#, java-printf-format
+msgid "Could not move download: %s"
+msgstr "ダウンロードを移動できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1593
+#, java-printf-format
+msgid "Could not open %s"
+msgstr "%s を開けませんでした"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2022
+#: src/main/java/org/odm/gtk4/MainWindow.java:2059
+msgid "Could not open containing folder"
+msgstr "保存先フォルダーを開けませんでした"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2025
+#: src/main/java/org/odm/gtk4/MainWindow.java:2056
+msgid "Could not open downloaded file"
+msgstr "ダウンロードしたファイルを開けませんでした"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2035
+msgid "Could not open save folder"
+msgstr "保存フォルダーを開けませんでした"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:921
+#, java-printf-format
+msgid "Could not pause all selected downloads: %s"
+msgstr "選択したダウンロードをすべて一時停止できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1762
+#, java-printf-format
+msgid "Could not pause downloads: %s"
+msgstr "ダウンロードを一時停止できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:389
+#, java-printf-format
+msgid "Could not queue torrents. %s"
+msgstr "トレントをキューに追加できませんでした。%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2151
+#, java-printf-format
+msgid "Could not read links from this HTML file: %s"
+msgstr "この HTML ファイルからリンクを読み取れませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/HtmlImportExport.java:264
+msgid "Could not read the selected HTML file"
+msgstr "選択した HTML ファイルを読み取れませんでした"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1763
+#, java-printf-format
+msgid "Could not resume downloads: %s"
+msgstr "ダウンロードを再開できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2106
+msgid "Could not reveal downloaded file"
+msgstr "ダウンロードしたファイルをファイルマネージャーで表示できませんでした"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1512
+#, java-printf-format
+msgid "Could not run all subtitle downloads: %s"
+msgstr "字幕のダウンロードをすべて実行できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:952
+#, java-printf-format
+msgid "Could not start all selected downloads: %s"
+msgstr "選択したダウンロードをすべて開始できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2302
+msgid "Could not start download scheduler"
+msgstr "ダウンロードのスケジューラーを開始できませんでした"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:939
+#, java-printf-format
+msgid "Could not start or resume all selected downloads: %s"
+msgstr "選択したダウンロードをすべて開始または再開できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:188
+msgid "Could not update mirrors"
+msgstr "ミラーを更新できませんでした"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1576
+#, java-printf-format
+msgid "Could not update website mirror: %s"
+msgstr "ウェブサイトのミラーを更新できませんでした：%s"
+
+#: src/main/resources/ui/import-sequence.ui:87
+msgid "Count:"
+msgstr "件数："
+
+#: src/main/resources/ui/new-website.ui:55
+msgid "Crawl scope:"
+msgstr "クロール範囲："
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:144
+#, java-printf-format
+msgid "Current URL: %s"
+msgstr "現在の URL：%s"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:831
+#, java-printf-format
+msgid "Current: %s"
+msgstr "現在：%s"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:413
+msgid "Custom antivirus command including file placeholder"
+msgstr "ファイルのプレースホルダーを含むカスタムウイルススキャンコマンド"
+
+#: src/main/resources/ui/settings.ui:469
+msgid "Custom antivirus command:"
+msgstr "カスタムウイルススキャンコマンド："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:892
+msgid "Custom command"
+msgstr "カスタムコマンド"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1984
+#: src/main/resources/ui/completion-command.ui:6
+msgid "Custom completion command"
+msgstr "完了時のカスタムコマンド"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:32
+msgid "Custom external depth"
+msgstr "外部リンクの深さを指定"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:250
+msgid ""
+"Custom file scanner command; include {file} as an argument. Quotes group "
+"arguments. Exit 0 means the command completed; inspect its output for the "
+"verdict."
+msgstr "カスタムファイルスキャンコマンド。引数に {file} を含めてください。引用符で引数をまとめられます。終了コード 0 はコマンドの完了を示します。判定結果は出力を確認してください。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1635
+msgid "Custom…"
+msgstr "カスタム…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2954
+#, java-printf-format
+msgid "DHT: %d seed"
+msgid_plural "DHT: %d seeds"
+msgstr[0] "DHT：%d シード"
+
+#: src/main/resources/ui/main-window.ui:584
+msgid "DHT: —"
+msgstr "DHT：—"
+
+#: src/main/resources/ui/settings.ui:122
+msgid "Default download directory:"
+msgstr "既定のダウンロードディレクトリー："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:453
+msgid "Default download folder"
+msgstr "既定のダウンロードフォルダー"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:94
+msgid "Default download speed limit for supporting engines; 0 means unlimited."
+msgstr "対応するエンジンでの既定のダウンロード速度制限。0 で無制限です。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:88
+msgid ""
+"Default maximum connections for new downloads, capped to each engine's "
+"supported limit: aria2 16, HTTrack 8; yt-dlp fragments can exceed 16."
+msgstr "新規ダウンロードの既定の最大接続数。各エンジンの上限（aria2 は 16、HTTrack は 8）までに制限されます。yt-dlp のフラグメント数は 16 を超えられます。"
+
+#: src/main/resources/ui/new-media.ui:107
+msgid "Default profile (optional)"
+msgstr "既定のプロファイル（任意）"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:96
+msgid ""
+"Default upload speed limit for supporting bidirectional engines; 0 means "
+"unlimited."
+msgstr "対応する双方向エンジンでの既定のアップロード速度制限。0 で無制限です。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:429
+msgid "Delay between HTTrack files in seconds"
+msgstr "HTTrack のファイル取得間隔（秒）"
+
+#: src/main/resources/ui/settings.ui:359
+msgid "Delay between files (seconds):"
+msgstr "ファイル取得間隔（秒）："
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1337
+#: src/main/java/org/odm/gtk4/MainWindow.java:1676
+#: src/main/resources/ui/main-window.ui:177
+msgid "Delete"
+msgstr "削除"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1111
+msgid "Delete Files"
+msgstr "ファイルを削除"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:202
+msgid ""
+"Delete the existing output file or folder before starting a new download. "
+"Existing downloads keep the engine's resume policy."
+msgstr "新規ダウンロードの開始前に既存の出力ファイルまたはフォルダーを削除します。既存のダウンロードにはエンジンの再開ポリシーが維持されます。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1338
+#: src/main/java/org/odm/gtk4/MainWindow.java:1677
+msgid "Delete with Files"
+msgstr "ファイルごと削除"
+
+#: src/main/resources/ui/new-website.ui:52
+msgid "Depth:"
+msgstr "深さ："
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:50
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1630
+msgid "Desktop notification"
+msgstr "デスクトップ通知"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1367
+msgid "Destination cannot be changed for this download"
+msgstr "このダウンロードの保存先は変更できません"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:48
+#, java-printf-format
+msgid "Detailed output for %s"
+msgstr "%s の詳細な出力"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:72
+msgid "Detect supported download URLs copied by other applications."
+msgstr "他のアプリケーションでコピーされた対応するダウンロード URL を検出します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:440
+msgid "Detecting installed scanners…"
+msgstr "インストール済みスキャナーを検出中…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:49
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:52
+msgid "Disabled"
+msgstr "無効"
+
+#: src/main/resources/ui/settings.ui:409
+msgid ""
+"Disabled by default. Cleanup removes records from ODM history only and never "
+"deletes downloaded files."
+msgstr "既定では無効です。クリーンアップは ODM の履歴のみを削除し、ダウンロードしたファイルは削除しません。"
+
+#: src/main/resources/ui/new-website.ui:80
+msgid "Do not use a cookie file for this mirror."
+msgstr "このミラーに Cookie ファイルを使用しません。"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:54
+msgid "Documents"
+msgstr "ドキュメント"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1685
+msgid "Donation"
+msgstr "寄付"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+msgid "Down Speed"
+msgstr "ダウンロード速度"
+
+#: src/main/resources/ui/main-window.ui:251
+#: src/main/resources/ui/main-window.ui:488
+msgid "Down speed"
+msgstr "ダウンロード速度"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:424
+#: src/main/resources/ui/new-media.ui:150
+#: src/main/resources/ui/search-torrents.ui:131
+msgid "Download"
+msgstr "ダウンロード"
+
+#: src/main/resources/ui/new-download.ui:144
+msgctxt "tab-title"
+msgid "Download"
+msgstr "ダウンロード"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:424
+#, java-printf-format
+msgid "Download (%d)"
+msgstr "ダウンロード（%d）"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:23
+msgid "Download Error"
+msgstr "ダウンロードエラー"
+
+#: src/main/resources/ui/property.ui:6
+msgid "Download Properties"
+msgstr "ダウンロードのプロパティ"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1325
+#: src/main/java/org/odm/gtk4/MainWindow.java:1632
+#: src/main/java/org/odm/gtk4/MainWindow.java:1669
+msgid "Download Subtitles"
+msgstr "字幕をダウンロード"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:123
+msgid "Download URL"
+msgstr "ダウンロード URL"
+
+#: src/main/java/org/odm/gtk4/DownloadSubmission.java:154
+#, java-printf-format
+msgid "Download added. Could not move the original descriptor to Trash: %s"
+msgstr "ダウンロードを追加しました。元の記述ファイルをゴミ箱に移動できませんでした：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:458
+msgid "Download category filters"
+msgstr "ダウンロードのカテゴリーフィルター"
+
+#: src/main/java/org/odm/gtk4/DesktopNotifications.java:36
+msgid "Download completed"
+msgstr "ダウンロード完了"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:125
+msgid "Download destination folder"
+msgstr "ダウンロードの保存先フォルダー"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:23
+msgid "Download error details"
+msgstr "ダウンロードエラーの詳細"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:530
+msgid "Download handlers did not initialize within 60s"
+msgstr "ダウンロードハンドラーが 60 秒以内に初期化されませんでした"
+
+#: src/main/resources/ui/new-media.ui:70
+msgid "Download playlist"
+msgstr "プレイリストをダウンロード"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:66
+#: src/main/resources/ui/main-window.ui:434
+msgid "Download progress"
+msgstr "ダウンロードの進捗"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:74
+#, java-printf-format
+msgid ""
+"Download progress: %s. %s. Average speed: %s. Solid line: download speed. "
+"Dashed line: average speed."
+msgstr "ダウンロードの進捗：%s。%s。平均速度：%s。実線：ダウンロード速度。破線：平均速度。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:457
+msgid "Download status filters"
+msgstr "ダウンロードの状態フィルター"
+
+#: src/main/resources/ui/main-window.ui:391
+msgid "Downloaded:"
+msgstr "ダウンロード済み："
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1507
+#, java-printf-format
+msgid "Downloading subtitles for %d download…"
+msgid_plural "Downloading subtitles for %d downloads…"
+msgstr[0] "%d 件のダウンロードの字幕を取得中…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1506
+#, java-printf-format
+msgid "Downloading subtitles for “%s”…"
+msgstr "「%s」の字幕をダウンロード中…"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:62
+#: src/main/java/org/odm/gtk4/MainWindow.java:459
+#: src/main/resources/ui/main-window.ui:473
+msgid "Downloads"
+msgstr "ダウンロード"
+
+#: src/main/resources/ui/new-media.ui:92
+msgid "Duration"
+msgstr "長さ"
+
+#: src/main/resources/ui/main-window.ui:389
+msgid "ETA:"
+msgstr "残り時間："
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+#: src/main/resources/ui/main-window.ui:249
+msgid "Elapsed"
+msgstr "経過時間"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:172
+msgid ""
+"Embed available title, artist, chapter, and other metadata in the media file."
+msgstr "タイトル、アーティスト、チャプターなど、利用可能なメタデータをメディアファイルに埋め込みます。"
+
+#: src/main/resources/ui/settings.ui:320
+msgid "Embed metadata"
+msgstr "メタデータを埋め込む"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:170
+msgid ""
+"Embed the media thumbnail as cover art when the selected output supports it. "
+"This may require FFmpeg."
+msgstr "選択した出力形式が対応している場合、メディアのサムネイルをカバー画像として埋め込みます。FFmpeg が必要な場合があります。"
+
+#: src/main/resources/ui/settings.ui:319
+msgid "Embed thumbnail"
+msgstr "サムネイルを埋め込む"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:375
+msgid "Enable Tor circuit monitor"
+msgstr "Tor 回線の監視を有効化"
+
+#: src/main/resources/ui/import-list.ui:203
+#: src/main/resources/ui/import-sequence.ui:211
+#: src/main/resources/ui/network-options.ui:178
+#: src/main/resources/ui/settings.ui:232
+msgid "Enable Tor:"
+msgstr "Tor を有効化："
+
+#: src/main/resources/ui/settings.ui:148
+msgid "Enable auto save"
+msgstr "自動保存を有効化"
+
+#: src/main/resources/ui/settings.ui:142
+msgid "Enable clipboard monitoring"
+msgstr "クリップボードの監視を有効化"
+
+#: src/main/resources/ui/settings.ui:139
+msgid "Enable folder monitoring"
+msgstr "フォルダーの監視を有効化"
+
+#: src/main/resources/ui/settings.ui:387
+msgid "Enable scheduling"
+msgstr "スケジュールを有効化"
+
+#: src/main/resources/ui/settings.ui:144
+msgid "Enable system tray icon"
+msgstr "システムトレイアイコンを有効化"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1647
+msgid "Enable/Disable Tor"
+msgstr "Tor を有効化/無効化"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:52
+msgid "Enabled"
+msgstr "有効"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+msgid "End Date"
+msgstr "終了日時"
+
+#: src/main/resources/ui/main-window.ui:255
+msgid "End date"
+msgstr "終了日時"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:52
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:55
+msgid "Engine default"
+msgstr "エンジンの既定値"
+
+#: src/main/resources/ui/settings.ui:278
+msgid "Engine default (6881-6999)"
+msgstr "エンジンの既定値（6881-6999）"
+
+#: src/main/resources/ui/import-list.ui:70
+#: src/main/resources/ui/import-sequence.ui:99
+#: src/main/resources/ui/main-window.ui:378
+msgid "Engine:"
+msgstr "エンジン："
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:154
+msgid "Enter a URL"
+msgstr "URL を入力してください"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:661
+msgid "Enter a URL or choose a torrent/metalink file."
+msgstr "URL を入力するか、トレント/Metalink ファイルを選択してください。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1493
+msgid "Enter a command for the Custom antivirus scanner"
+msgstr "カスタムウイルススキャナーのコマンドを入力してください"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:184
+msgid "Enter a search term."
+msgstr "検索語を入力してください。"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:236
+#: src/main/resources/ui/new-download.ui:162
+msgid "Enter a torrent, magnet, or Metalink source to inspect its files."
+msgstr "ファイルを確認するには、トレント、マグネット、または Metalink のソースを入力してください。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2199
+msgid "Enter a valid HTTP(S) page URL"
+msgstr "有効な HTTP(S) ページの URL を入力してください"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:274
+msgid "Enter a valid download URL or magnet link."
+msgstr "有効なダウンロード URL またはマグネットリンクを入力してください。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2175
+#, java-printf-format
+msgid ""
+"Enter an HTTP(S) page. Up to %d links are imported from a page up to %d MiB; "
+"relative links use the page's final address after redirects."
+msgstr "HTTP(S) ページを入力してください。最大 %d 件のリンクを、最大 %d MiB のページからインポートします。相対リンクにはリダイレクト後の最終アドレスを使用します。"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:438
+msgid "Enter at least one subtitle language"
+msgstr "字幕の言語を 1 つ以上入力してください"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1483
+msgid "Enter subtitle language codes separated by commas (for example, en,fr)."
+msgstr "字幕の言語コードをコンマで区切って入力してください（例：en,fr）。"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:23
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Error"
+msgstr "エラー"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:383
+msgid "Error record retention in days, zero to never remove by age"
+msgstr "エラーの履歴の保存日数。0 で日数による削除を無効化"
+
+#: src/main/resources/ui/main-window.ui:314
+msgid "Error:"
+msgstr "エラー："
+
+#: src/main/resources/ui/new-website.ui:64
+msgid "Exclude URL patterns:"
+msgstr "除外する URL パターン："
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:119
+msgid "Excluded website URL patterns"
+msgstr "除外するウェブサイトの URL パターン"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:620
+#: src/main/java/org/odm/gtk4/MainWindow.java:1621
+#: src/main/java/org/odm/gtk4/TrayMenu.java:38
+msgid "Exit"
+msgstr "終了"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:129
+msgid "Expected SFTP host key digest"
+msgstr "期待する SFTP ホスト鍵のダイジェスト"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:131
+msgid ""
+"Expected server public-key digest: sha-1=<40 hex digits> or md5=<32 hex "
+"digits>. Leaving it blank disables aria2 host-key verification."
+msgstr "期待するサーバー公開鍵のダイジェスト：sha-1=<16 進数 40 桁> または md5=<16 進数 32 桁>。空欄の場合は aria2 のホスト鍵検証が無効になります。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1618
+msgid "Export Download List"
+msgstr "ダウンロードリストをエクスポート"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2243
+msgid "Export download list"
+msgstr "ダウンロードリストをエクスポート"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2259
+msgid "Exported download list"
+msgstr "ダウンロードリストをエクスポートしました"
+
+#: src/main/resources/ui/import-list.ui:103
+msgid "Extension"
+msgstr "拡張子"
+
+#: src/main/resources/ui/new-website.ui:58
+msgid "External depth:"
+msgstr "外部リンクの深さ："
+
+#: src/main/resources/ui/new-website.ui:59
+msgid "External link levels followed when Custom external depth is selected."
+msgstr "「外部リンクの深さを指定」を選択した場合にたどる外部リンクの階層数。"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:117
+msgid "External website crawl depth"
+msgstr "外部ウェブサイトのクロール深度"
+
+#: src/main/resources/ui/settings.ui:289
+msgid "Extra trackers:"
+msgstr "追加トラッカー："
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:345
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:286
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:294
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:340
+msgid "Failed"
+msgstr "失敗"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:327
+#, java-printf-format
+msgid "Failed (%s)"
+msgstr "失敗（%s）"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1576
+msgid "Failed to save settings — check configuration permissions"
+msgstr "設定を保存できませんでした — 設定ファイルの権限を確認してください"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:156
+#, java-printf-format
+msgid "Failed: %s"
+msgstr "失敗：%s"
+
+#: src/main/resources/ui/new-media.ui:51
+msgid "Fetch info"
+msgstr "情報を取得"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:306
+msgid "Fetching media info…"
+msgstr "メディア情報を取得中…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2209
+msgid "Fetching page and importing links…"
+msgstr "ページを取得してリンクをインポート中…"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:52
+msgid "File System"
+msgstr "ファイルシステム"
+
+#: src/main/resources/ui/settings.ui:265
+msgid "File allocation:"
+msgstr "ファイル領域の確保："
+
+#: src/main/resources/ui/sources.ui:7
+msgid "File whose mirrors are shown below"
+msgstr "下にミラーを表示するファイル"
+
+#: src/main/resources/ui/new-download.ui:62
+msgid "File:"
+msgstr "ファイル："
+
+#: src/main/resources/ui/new-download.ui:192
+#: src/main/resources/ui/search-torrents.ui:94
+msgid "Filename"
+msgstr "ファイル名"
+
+#: src/main/resources/ui/new-download.ui:102
+msgid "Filename:"
+msgstr "ファイル名："
+
+#: src/main/resources/ui/main-window.ui:512
+#: src/main/resources/ui/new-download.ui:231
+#: src/main/resources/ui/search-torrents.ui:116
+msgid "Files"
+msgstr "ファイル"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:137
+msgid "Files grouped by checked torrent"
+msgstr "チェックしたトレント別のファイル"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:127
+msgid "Files in the torrent or Metalink"
+msgstr "トレントまたは Metalink 内のファイル"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:282
+msgid "Files unavailable"
+msgstr "ファイルを取得できません"
+
+#: src/main/resources/ui/import-list.ui:62
+msgid "Filter by extension:"
+msgstr "拡張子で絞り込み："
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+#: src/main/resources/ui/main-window.ui:457
+msgid "Finished"
+msgstr "完了"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:60
+msgid ""
+"Folder used for new downloads unless another destination is chosen in a "
+"download dialog."
+msgstr "ダウンロードダイアログで別の保存先を選択しない場合に、新規ダウンロードに使用するフォルダー。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:64
+msgid ""
+"Folder watched for new .torrent, .metalink, and .meta4 descriptor files when "
+"folder monitoring is enabled."
+msgstr "フォルダー監視が有効な場合に、新しい .torrent、.metalink、.meta4 記述ファイルを監視するフォルダー。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1673
+msgid "Force Download"
+msgstr "強制ダウンロード"
+
+#: src/main/resources/ui/new-media.ui:58
+msgid "Format:"
+msgstr "形式："
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:336
+msgid "Formats fetched"
+msgstr "形式を取得しました"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Fri"
+msgstr "金"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1073
+#: src/main/resources/ui/main-window.ui:446
+#: src/main/resources/ui/settings.ui:157
+msgid "General"
+msgstr "一般"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:388
+msgid "Global proxy host"
+msgstr "グローバルプロキシのホスト"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:391
+msgid "Global proxy password"
+msgstr "グローバルプロキシのパスワード"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:389
+msgid "Global proxy port"
+msgstr "グローバルプロキシのポート"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:106
+msgid ""
+"Global proxy protocol used by new downloads; select None to disable the "
+"global proxy."
+msgstr "新規ダウンロードのグローバルプロキシのプロトコル。「なし」を選択すると無効になります。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:390
+msgid "Global proxy username"
+msgstr "グローバルプロキシのユーザー名"
+
+#: src/main/java/org/odm/gtk4/HtmlImportExport.java:258
+#, java-printf-format
+msgid "HTML source exceeds the %d MiB import limit"
+msgstr "HTML ソースがインポート上限の %d MiB を超えています"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:100
+msgid ""
+"HTTP Cookie header sent by new downloads when supported; leave empty to omit "
+"it."
+msgstr "対応する新規ダウンロードで送信する HTTP Cookie ヘッダー。空欄の場合は送信しません。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:98
+msgid ""
+"HTTP Referer header sent by new downloads when supported; leave empty to use "
+"the engine default."
+msgstr "対応する新規ダウンロードで送信する HTTP Referer ヘッダー。空欄の場合はエンジンの既定値を使用します。"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:124
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:123
+msgid "HTTP cookie header"
+msgstr "HTTP Cookie ヘッダー"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:122
+msgid "HTTP referer"
+msgstr "HTTP リファラー"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:123
+msgid "HTTP referrer"
+msgstr "HTTP リファラー"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:125
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:124
+msgid "HTTP user agent"
+msgstr "HTTP ユーザーエージェント"
+
+#: src/main/java/org/odm/gtk4/ImportEngine.java:10
+msgid "HTTP/Torrent"
+msgstr "HTTP/トレント"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1593
+msgid "HTTrack log"
+msgstr "HTTrack のログ"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1551
+msgid ""
+"HTTrack will revisit the remote site using the existing mirror cache. "
+"Keeping old files is safer and recommended."
+msgstr "HTTrack は既存のミラーキャッシュを使用してサイトを再取得します。安全のため、古いファイルの保持を推奨します。"
+
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:278
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:488
+msgid "High"
+msgstr "高"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:371
+msgid "History cleanup interval in hours"
+msgstr "履歴のクリーンアップ間隔（時間）"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:46
+msgid "Home"
+msgstr "ホーム"
+
+#: src/main/resources/ui/settings.ui:294
+msgid "Honor external aria2 configuration"
+msgstr "外部の aria2 設定を使用"
+
+#: src/main/resources/ui/settings.ui:322
+msgid "Honor external yt-dlp configuration"
+msgstr "外部の yt-dlp 設定を使用"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:108
+msgid "Host name or IP address of the global proxy server."
+msgstr "グローバルプロキシサーバーのホスト名または IP アドレス。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:126
+msgid ""
+"How aria2 reserves disk space before downloading: none, prealloc, or Linux "
+"falloc."
+msgstr "ダウンロード前に aria2 がディスク領域を確保する方法：none、prealloc、または Linux の falloc。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:212
+msgid "How often ODM evaluates the enabled history cleanup rules."
+msgstr "有効な履歴クリーンアップルールを ODM が評価する頻度。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:148
+msgid ""
+"How often ODM reapplies the extra tracker list to active torrents; 0 "
+"disables periodic refresh."
+msgstr "実行中のトレントに追加トラッカーリストを再適用する頻度。0 で定期更新を無効にします。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:403
+msgid "IPv6 DHT policy"
+msgstr "IPv6 DHT ポリシー"
+
+#: src/main/resources/ui/settings.ui:279
+msgid "IPv6 DHT:"
+msgstr "IPv6 DHT："
+
+#: src/main/resources/ui/import-list.ui:130
+msgid "Import"
+msgstr "インポート"
+
+#: src/main/resources/ui/import-remote.ui:40
+msgid "Import Links"
+msgstr "リンクをインポート"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:235
+msgid "Import Links from HTML"
+msgstr "HTML からリンクをインポート"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1617
+#: src/main/resources/ui/import-remote.ui:6
+msgid "Import Links from Remote"
+msgstr "リモートからリンクをインポート"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1614
+#: src/main/resources/ui/import-sequence.ui:50
+msgid "Import URL Sequence"
+msgstr "URL の連番をインポート"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:112
+msgid "Import destination folder"
+msgstr "インポート先フォルダー"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:108
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:108
+msgid "Import download engine"
+msgstr "インポートのダウンロードエンジン"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1616
+msgid "Import from HTML File"
+msgstr "HTML ファイルからインポート"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1615
+#: src/main/resources/ui/import-list.ui:35
+msgid "Import from Text File"
+msgstr "テキストファイルからインポート"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:107
+msgid "Imported URL extension filter"
+msgstr "インポートする URL の拡張子フィルター"
+
+#: src/main/resources/ui/settings.ui:394
+msgid "Inactive — downloads paused"
+msgstr "無効 — ダウンロード一時停止中"
+
+#: src/main/resources/ui/new-website.ui:61
+msgid "Include URL patterns:"
+msgstr "含める URL パターン："
+
+#: src/main/resources/ui/new-website.ui:67
+msgid "Include archive files"
+msgstr "アーカイブファイルを含める"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:121
+msgid "Include archive files in this website mirror"
+msgstr "このウェブサイトのミラーにアーカイブファイルを含める"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:32
+msgid "Include nearby external assets"
+msgstr "関連する外部リソースを含める"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:118
+msgid "Included website URL patterns"
+msgstr "含めるウェブサイトの URL パターン"
+
+#: src/main/resources/ui/search-torrents.ui:73
+msgid "Indexer"
+msgstr "インデクサー"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1657
+msgid "Info Panel"
+msgstr "情報パネル"
+
+#: src/main/resources/ui/main-window.ui:312
+msgid "Info hash:"
+msgstr "Info ハッシュ："
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:252
+msgid "Initializing download engines…"
+msgstr "ダウンロードエンジンを初期化中…"
+
+#: src/main/resources/ui/jackett-settings.ui:13
+msgid "Install / Update"
+msgstr "インストール / 更新"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:87
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:155
+msgid "Installing Jackett…"
+msgstr "Jackett をインストール中…"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:328
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:346
+msgid "Interrupted"
+msgstr "中断"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:201
+#, java-printf-format
+msgid "Invalid request: %s"
+msgstr "無効なリクエスト：%s"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:147
+msgid "Jackett is not installed"
+msgstr "Jackett がインストールされていません"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:146
+msgid ""
+"Keep aria2's native encryption policy, require an obfuscated handshake, or "
+"require ARC4 payload encryption."
+msgstr "aria2 の標準の暗号化ポリシーを維持するか、難読化ハンドシェイクまたは ARC4 ペイロード暗号化を必須にします。"
+
+#: src/main/resources/ui/settings.ui:408
+msgid "Keep completed and canceled records after restart"
+msgstr "再起動後も完了・キャンセル済みの履歴を保持"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:204
+msgid ""
+"Keep existing files and give colliding downloads names such as name_1, "
+"name_2, and so on. Takes precedence over Override output path."
+msgstr "既存のファイルを保持し、名前が重複するダウンロードに name_1、name_2 などの名前を付けます。「出力先を上書き」より優先されます。"
+
+#: src/main/java/org/odm/gtk4/PathChooserButton.java:265
+#, java-printf-format
+msgid "Last used: %s"
+msgstr "最終使用：%s"
+
+#: src/main/resources/ui/new-media.ui:80
+msgid ""
+"Leave blank for all items, enter comma-separated item numbers, or use "
+"START:END:STEP ranges."
+msgstr "空欄で全項目を選択します。項目番号をコンマで区切るか、START:END:STEP（開始:終了:間隔）形式で範囲を指定してください。"
+
+#: src/main/resources/ui/main-window.ui:472
+#: src/main/resources/ui/search-torrents.ui:65
+msgid "Leechers"
+msgstr "リーチャー"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+#: src/main/resources/ui/main-window.ui:250
+msgid "Left"
+msgstr "残り"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1656
+msgid "Left Panel"
+msgstr "左パネル"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:174
+msgid ""
+"Let yt-dlp use aria2 for supported media fragments and direct media URLs."
+msgstr "対応するメディアフラグメントと直接メディア URL に yt-dlp が aria2 を使用できるようにします。"
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:64
+#, java-printf-format
+msgid "Link copied"
+msgid_plural "%d Links copied"
+msgstr[0] "%d 件のリンクをコピーしました"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:107
+msgid ""
+"Live mirrors are available for HTTP, FTP, SFTP and Metalink downloads using "
+"aria2."
+msgstr "aria2 を使う HTTP、FTP、SFTP、Metalink ダウンロードでは、ミラーの状況をリアルタイムで確認できます。"
+
+#: src/main/resources/ui/new-media.ui:104
+msgid ""
+"Load cookies directly from a local browser for previewing and downloading "
+"this media."
+msgstr "このメディアのプレビューとダウンロード用に、ローカルブラウザーから Cookie を直接読み込みます。"
+
+#: src/main/resources/ui/new-media.ui:103
+msgid "Load cookies from:"
+msgstr "Cookie の読み込み元："
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:262
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:378
+msgid "Loading file metadata…"
+msgstr "ファイルのメタデータを読み込み中…"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:289
+#, java-printf-format
+msgid "Loading files… %d torrent remaining."
+msgid_plural "Loading files… %d torrents remaining."
+msgstr[0] "ファイルを読み込み中… 残り %d 件のトレント。"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:197
+msgid "Loading indexers…"
+msgstr "インデクサーを読み込み中…"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:212
+msgid "Loading settings and discovering tools…"
+msgstr "設定を読み込み、ツールを検出中…"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:281
+msgid "Loading…"
+msgstr "読み込み中…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:156
+msgid ""
+"Local RPC port used by ODM's aria2 daemon. The default 6801 avoids aria2's "
+"conventional port 6800; changes apply after restarting ODM."
+msgstr "ODM の aria2 デーモンのローカル RPC ポート。既定値 6801 は aria2 の通常のポート 6800 との競合を避けます。変更は ODM の再起動後に適用されます。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:408
+msgid "Local peer discovery policy"
+msgstr "ローカルピア検出ポリシー"
+
+#: src/main/resources/ui/settings.ui:283
+msgid "Local peer discovery:"
+msgstr "ローカルピア検出："
+
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:277
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:487
+msgid "Low"
+msgstr "低"
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:12
+msgid "MP4 (prefer H.264/AAC)"
+msgstr "MP4（H.264/AAC を優先）"
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:63
+#, java-printf-format
+msgid "Magnet URI copied"
+msgid_plural "%d Magnet URIs copied"
+msgstr[0] "%d 件のマグネット URI をコピーしました"
+
+#: src/main/resources/ui/new-media.ui:113
+msgid ""
+"Mark matching segments as chapters, or explicitly remove them from the "
+"output file."
+msgstr "一致する区間をチャプターとしてマークするか、出力ファイルから明示的に削除します。"
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:25
+msgid "Mark segments as chapters"
+msgstr "区間をチャプターとしてマーク"
+
+#: src/main/resources/ui/import-list.ui:153
+#: src/main/resources/ui/import-sequence.ui:161
+#: src/main/resources/ui/settings.ui:180
+msgid "Max Connections:"
+msgstr "最大接続数："
+
+#: src/main/resources/ui/import-list.ui:159
+#: src/main/resources/ui/import-sequence.ui:167
+#: src/main/resources/ui/settings.ui:186
+msgid "Max Download Speed (KB/s):"
+msgstr "最大ダウンロード速度（KB/s）："
+
+#: src/main/resources/ui/import-list.ui:161
+#: src/main/resources/ui/import-sequence.ui:169
+#: src/main/resources/ui/settings.ui:188
+msgid "Max Upload Speed (KB/s):"
+msgstr "最大アップロード速度（KB/s）："
+
+#: src/main/resources/ui/settings.ui:131
+msgid "Max concurrent downloads:"
+msgstr "最大同時ダウンロード数："
+
+#: src/main/resources/ui/network-options.ui:94
+msgid "Max connections:"
+msgstr "最大接続数："
+
+#: src/main/resources/ui/network-options.ui:100
+msgid "Max download speed (KiB/s):"
+msgstr "最大ダウンロード速度（KiB/s）："
+
+#: src/main/resources/ui/settings.ui:267
+msgid "Max peers:"
+msgstr "最大ピア数："
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:63
+#, java-printf-format
+msgid "Max speed: %s"
+msgstr "最大速度：%s"
+
+#: src/main/resources/ui/network-options.ui:102
+msgid "Max upload speed (KiB/s):"
+msgstr "最大アップロード速度（KiB/s）："
+
+#: src/main/resources/ui/settings.ui:351
+msgid "Maximum HTML file (MiB):"
+msgstr "HTML ファイルの最大サイズ（MiB）："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:421
+msgid "Maximum HTML file size in MiB, zero for unlimited"
+msgstr "HTML ファイルの最大サイズ（MiB）。0 で無制限"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:427
+msgid "Maximum HTTrack connections per second"
+msgstr "HTTrack の 1 秒あたりの最大接続数"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:222
+msgid ""
+"Maximum URLs accepted by one URL-list, generated-sequence, or HTML import."
+msgstr "URL リスト、生成した連番、または HTML の 1 回のインポートで受け付ける最大 URL 数。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:385
+msgid "Maximum URLs accepted by one import"
+msgstr "1 回のインポートで受け付ける最大 URL 数"
+
+#: src/main/resources/ui/settings.ui:432
+msgid "Maximum URLs per import:"
+msgstr "1 回のインポートの最大 URL 数："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:252
+msgid "Maximum antivirus scan duration in seconds; 0 waits without a timeout."
+msgstr "ウイルススキャンの最大時間（秒）。0 で時間制限なしに待機します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:90
+msgid ""
+"Maximum attempts for new downloads when supported; 0 uses the selected "
+"engine's default."
+msgstr "対応する新規ダウンロードの最大試行回数。0 で選択したエンジンの既定値を使用します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:379
+msgid "Maximum completed history records, zero for unlimited"
+msgstr "完了した履歴の最大件数。0 で無制限"
+
+#: src/main/resources/ui/settings.ui:417
+msgid "Maximum completed records (0 = unlimited):"
+msgstr "完了した履歴の最大件数（0 = 無制限）："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:216
+msgid ""
+"Maximum completed records kept when automatic cleanup runs; 0 means "
+"unlimited."
+msgstr "自動クリーンアップ時に保持する完了済み履歴の最大件数。0 で無制限です。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:365
+msgid "Maximum concurrent downloads"
+msgstr "最大同時ダウンロード数"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:114
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:115
+msgid "Maximum connections"
+msgstr "最大接続数"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:377
+msgid "Maximum download history records, zero for unlimited"
+msgstr "ダウンロード履歴の最大件数。0 で無制限"
+
+#: src/main/resources/ui/settings.ui:415
+msgid "Maximum download records (0 = unlimited):"
+msgstr "ダウンロード履歴の最大件数（0 = 無制限）："
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:118
+msgid "Maximum download speed in KB per second"
+msgstr "最大ダウンロード速度（KB/秒）"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:119
+msgid "Maximum download speed in KiB per second"
+msgstr "最大ダウンロード速度（KiB/秒）"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:62
+msgid ""
+"Maximum downloads ODM may run at once; additional downloads remain queued."
+msgstr "ODM が同時に実行できるダウンロードの最大数。残りはキューで待機します。"
+
+#: src/main/resources/ui/settings.ui:353
+msgid "Maximum duration (minutes):"
+msgstr "最大時間（分）："
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:105
+msgid "Maximum generated URLs"
+msgstr "生成する最大 URL 数"
+
+#: src/main/resources/ui/settings.ui:434
+msgid "Maximum import source size (MiB):"
+msgstr "インポート元の最大サイズ（MiB）："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:387
+msgid "Maximum import source size in MiB"
+msgstr "インポート元の最大サイズ（MiB）"
+
+#: src/main/resources/ui/settings.ui:355
+msgid "Maximum links:"
+msgstr "最大リンク数："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:423
+msgid "Maximum mirror duration in minutes, zero for unlimited"
+msgstr "ミラー作成の最大時間（分）。0 で無制限"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:425
+msgid "Maximum mirror link count, zero for unlimited"
+msgstr "ミラーの最大リンク数。0 で無制限"
+
+#: src/main/resources/ui/settings.ui:347
+msgid "Maximum mirror size (MiB):"
+msgstr "ミラーの最大サイズ（MiB）："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:417
+msgid "Maximum mirror size in MiB, zero for unlimited"
+msgstr "ミラーの最大サイズ（MiB）。0 で無制限"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:196
+msgid ""
+"Maximum new connections HTTrack opens per second. Lower values are gentler "
+"on remote servers; 0 disables this throttle."
+msgstr "HTTrack が 1 秒に開く新規接続の最大数。小さい値ほどリモートサーバーの負荷を抑えます。0 でこの制限を無効にします。"
+
+#: src/main/resources/ui/settings.ui:349
+msgid "Maximum non-HTML file (MiB):"
+msgstr "HTML 以外のファイルの最大サイズ（MiB）："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:419
+msgid "Maximum non-HTML file size in MiB, zero for unlimited"
+msgstr "HTML 以外のファイルの最大サイズ（MiB）。0 で無制限"
+
+#: src/main/resources/ui/new-website.ui:53
+msgid "Maximum number of link levels to crawl for this website."
+msgstr "このウェブサイトでクロールするリンクの最大階層数。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:128
+msgid "Maximum peers per BitTorrent download; 0 means unlimited."
+msgstr "BitTorrent ダウンロードごとの最大ピア数。0 で無制限です。"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:116
+#, java-printf-format
+msgid "Maximum simultaneous connections supported by this engine: %d."
+msgstr "このエンジンが対応する最大同時接続数：%d。"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:115
+msgid "Maximum simultaneous media fragments (1–64)."
+msgstr "最大同時メディアフラグメント数（1～64）。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:224
+msgid ""
+"Maximum size of a local URL list or local/remote HTML source parsed in "
+"memory."
+msgstr "メモリー内で解析するローカル URL リスト、またはローカル/リモート HTML ソースの最大サイズ。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:214
+msgid ""
+"Maximum total history records kept when automatic cleanup runs; 0 means "
+"unlimited. Active downloads are never removed."
+msgstr "自動クリーンアップ時に保持する履歴の最大総数。0 で無制限です。実行中のダウンロードは削除されません。"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:120
+msgid "Maximum upload speed in KB per second"
+msgstr "最大アップロード速度（KB/秒）"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:121
+msgid "Maximum upload speed in KiB per second"
+msgstr "最大アップロード速度（KiB/秒）"
+
+#: src/main/java/org/odm/gtk4/ImportEngine.java:11
+#: src/main/resources/ui/new-media.ui:131
+msgid "Media"
+msgstr "メディア"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:156
+msgid "Media URL"
+msgstr "メディア URL"
+
+#: src/main/resources/ui/new-media.ui:45
+msgid "Media URL:"
+msgstr "メディア URL："
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:158
+msgid "Media container profile"
+msgstr "メディアコンテナーのプロファイル"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:169
+msgid "Media destination folder"
+msgstr "メディアの保存先フォルダー"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:157
+msgid "Media format"
+msgstr "メディア形式"
+
+#: src/main/resources/ui/settings.ui:263
+msgid "Min split size (MB):"
+msgstr "最小分割サイズ（MB）："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:198
+msgid "Minimum pause in seconds between file requests; 0 adds no ODM delay."
+msgstr "ファイルリクエスト間の最小待機時間（秒）。0 の場合、ODM は待機時間を追加しません。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:234
+msgid ""
+"Minutes between automatic checks while Tor and the circuit monitor are "
+"running."
+msgstr "Tor と回線監視の実行中に自動チェックする間隔（分）。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:136
+msgid "Minutes to seed after completion; used by time-based policies."
+msgstr "完了後にシードする時間（分）。時間ベースのポリシーに使用します。"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:63
+#: src/main/resources/ui/sources.ui:10
+msgid "Mirror URL"
+msgstr "ミラー URL"
+
+#: src/main/resources/ui/sources.ui:16
+msgid "Mirror URL for the selected file"
+msgstr "選択したファイルのミラー URL"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:110
+msgid ""
+"Mirrors must provide the same file. Hover over a source to see its current "
+"URL."
+msgstr "ミラーは同じファイルを提供する必要があります。ソースにポインターを合わせると現在の URL が表示されます。"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:174
+msgid "Mirrors updated."
+msgstr "ミラーを更新しました。"
+
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:480
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:484
+msgid "Mixed"
+msgstr "混在"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:64
+msgid "Mixed values are preserved unless you change their control."
+msgstr "異なる値が混在している場合、対応する項目を変更しない限り値は保持されます。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Mon"
+msgstr "月"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:236
+msgid ""
+"Monitor the Tor circuit while Tor is running. A failed automatic check "
+"enables Offline Mode and sends a desktop notification."
+msgstr "Tor の実行中に回線を監視します。自動チェックが失敗するとオフラインモードを有効にし、デスクトップ通知を送信します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:454
+msgid "Monitored folder"
+msgstr "監視フォルダー"
+
+#: src/main/resources/ui/settings.ui:133
+msgid "Monitored folder:"
+msgstr "監視フォルダー："
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:112
+msgid "Mounted Volume"
+msgstr "マウント済みボリューム"
+
+#: src/main/resources/ui/main-window.ui:181
+msgid "Move down"
+msgstr "下へ"
+
+#: src/main/resources/ui/settings.ui:141
+msgid "Move processed watched descriptors to Trash"
+msgstr "処理済みの監視対象記述ファイルをゴミ箱に移動"
+
+#: src/main/resources/ui/settings.ui:147
+msgid "Move selected .torrent/.metalink/.meta4 descriptors to Trash"
+msgstr "選択した .torrent/.metalink/.meta4 記述ファイルをゴミ箱に移動"
+
+#: src/main/resources/ui/sources.ui:19
+msgid "Move this mirror to the front of the waiting sources"
+msgstr "このミラーを待機中ソースの先頭に移動"
+
+#: src/main/resources/ui/main-window.ui:182
+msgid "Move to bottom"
+msgstr "一番下へ"
+
+#: src/main/resources/ui/main-window.ui:180
+msgid "Move to top"
+msgstr "一番上へ"
+
+#: src/main/resources/ui/main-window.ui:179
+msgid "Move up"
+msgstr "上へ"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1386
+#, java-printf-format
+msgid "Moved “%s”"
+msgstr "「%s」を移動しました"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "Movies"
+msgstr "映画"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1381
+#, java-printf-format
+msgid "Moving “%s”…"
+msgstr "「%s」を移動中…"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:56
+msgid "Music"
+msgstr "音楽"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+#: src/main/resources/ui/main-window.ui:225
+#: src/main/resources/ui/main-window.ui:504
+#: src/main/resources/ui/search-torrents.ui:53
+msgid "Name"
+msgstr "名前"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:125
+msgid "Netscape cookie file for this website mirror"
+msgstr "このウェブサイトのミラー用の Netscape Cookie ファイル"
+
+#: src/main/resources/ui/new-website.ui:72
+msgid "Netscape cookie file:"
+msgstr "Netscape Cookie ファイル："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1077
+#: src/main/resources/ui/settings.ui:244
+msgid "Network"
+msgstr "ネットワーク"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1644
+msgid "Never (paused)"
+msgstr "許可しない（一時停止）"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1609
+#: src/main/java/org/odm/gtk4/TrayMenu.java:29
+#: src/main/resources/ui/new-download.ui:19
+msgid "New Download"
+msgstr "新規ダウンロード"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1610
+#: src/main/resources/ui/new-media.ui:15
+msgid "New Media Download"
+msgstr "新規メディアダウンロード"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1648
+msgid "New Tor Identity"
+msgstr "新しい Tor ID"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2577
+#, java-printf-format
+msgid "New Tor identity failed: %s"
+msgstr "新しい Tor ID の取得に失敗しました：%s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2579
+msgid "New Tor identity requested; new connections use clean circuits"
+msgstr "新しい Tor ID を要求しました。新規接続には新しい回線を使用します"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2581
+msgid "New Tor identity unavailable (Tor control request failed)"
+msgstr "新しい Tor ID を利用できません（Tor 制御リクエストの失敗）"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2557
+msgid "New Tor identity unavailable (invalid control configuration)"
+msgstr "新しい Tor ID を利用できません（制御設定が無効）"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1611
+#: src/main/resources/ui/new-website.ui:19
+msgid "New Website Scrape"
+msgstr "新規ウェブサイト取得"
+
+#: src/main/resources/ui/main-window.ui:174
+msgid "New download"
+msgstr "新規ダウンロード"
+
+#: src/main/resources/ui/main-window.ui:474
+msgid "Next update"
+msgstr "次回更新"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1641
+msgid "Night Hours"
+msgstr "夜間"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:380
+msgid "No extension"
+msgstr "拡張子なし"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:471
+msgid "No selectable files were found in this source."
+msgstr "このソースに選択可能なファイルが見つかりませんでした。"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:85
+msgid "No settings changed"
+msgstr "設定は変更されていません"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:72
+msgid "No speed history available"
+msgstr "速度の履歴がありません"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:946
+msgid "No supported antivirus scanner was found and validated."
+msgstr "対応するウイルススキャナーを検出・検証できませんでした。"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:203
+msgid "No torrents found."
+msgstr "トレントが見つかりませんでした。"
+
+#: src/main/java/org/odm/gtk4/DialogOptions.java:23
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:19
+#: src/main/resources/ui/network-options.ui:44
+#: src/main/resources/ui/network-options.ui:51
+msgid "None"
+msgstr "なし"
+
+#: src/main/resources/ui/new-media.ui:110
+msgid "None (browser source applies)"
+msgstr "なし（ブラウザーを使用）"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1638
+msgid "None (custom grid)"
+msgstr "なし（カスタムスケジュール）"
+
+#: src/main/resources/ui/new-website.ui:79
+msgid "None selected"
+msgstr "未選択"
+
+#: src/main/java/org/odm/gtk4/FileTreeSupport.java:489
+msgid "Normal"
+msgstr "通常"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:282
+msgid "Not loaded"
+msgstr "未読み込み"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:39
+msgid "Not supported by the selected download engine or protocol."
+msgstr "選択したダウンロードエンジンまたはプロトコルでは対応していません。"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:246
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:272
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:278
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:303
+msgid "Not tested"
+msgstr "未テスト"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1629
+msgid "Notify (sound)"
+msgstr "通知（音）"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:37
+msgid "Number"
+msgstr "数値"
+
+#: src/main/resources/ui/property.ui:56
+msgid "OK"
+msgstr "OK"
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:24
+msgid "Off"
+msgstr "オフ"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1620
+#: src/main/java/org/odm/gtk4/TrayMenu.java:36
+msgid "Offline Mode"
+msgstr "オフラインモード"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1315
+#: src/main/java/org/odm/gtk4/MainWindow.java:1667
+#: src/main/java/org/odm/gtk4/TrayMenu.java:28
+msgid "Open"
+msgstr "開く"
+
+#: src/main/resources/ui/settings.ui:95
+msgid "Open Download Manager - Settings"
+msgstr "Open Download Manager - 設定"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1316
+#: src/main/java/org/odm/gtk4/MainWindow.java:1668
+msgid "Open Folder"
+msgstr "フォルダーを開く"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1332
+#: src/main/java/org/odm/gtk4/MainWindow.java:1672
+msgid "Open HTTrack Error Log"
+msgstr "HTTrack のエラーログを開く"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1329
+#: src/main/java/org/odm/gtk4/MainWindow.java:1671
+msgid "Open HTTrack Log"
+msgstr "HTTrack のログを開く"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:464
+msgid "Open displayed save folder"
+msgstr "表示されている保存フォルダーを開く"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:263
+msgid "Open the Files tab to load selectable file metadata."
+msgstr "選択可能なファイルのメタデータを読み込むには、「ファイル」タブを開いてください。"
+
+#: src/main/resources/ui/main-window.ui:344
+msgid "Open the download folder"
+msgstr "ダウンロードフォルダーを開く"
+
+#: src/main/resources/ui/new-website.ui:70
+msgid ""
+"Optional Name: value headers separated with |. They apply only to this "
+"mirror; avoid storing credentials unless required."
+msgstr "任意のヘッダーを「名前: 値」形式で | で区切って指定します。このミラーのみに適用されます。必要な場合以外は認証情報の保存を避けてください。"
+
+#: src/main/resources/ui/new-website.ui:79
+msgid "Optional Netscape-format cookie file used only by this mirror."
+msgstr "このミラーのみで使用する Netscape 形式の Cookie ファイル（任意）。"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:164
+msgid "Optional browser profile"
+msgstr "ブラウザープロファイル（任意）"
+
+#: src/main/resources/ui/new-media.ui:107
+msgid ""
+"Optional browser profile name or path. Leave blank to use the browser's "
+"default profile."
+msgstr "ブラウザープロファイルの名前またはパス（任意）。空欄の場合はブラウザーの既定のプロファイルを使用します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:114
+msgid "Optional password used to authenticate with the global proxy."
+msgstr "グローバルプロキシの認証に使用するパスワード（任意）。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:112
+msgid "Optional username used to authenticate with the global proxy."
+msgstr "グローバルプロキシの認証に使用するユーザー名（任意）。"
+
+#: src/main/resources/ui/import-list.ui:215
+#: src/main/resources/ui/import-sequence.ui:223
+#: src/main/resources/ui/new-download.ui:276
+#: src/main/resources/ui/new-media.ui:139
+#: src/main/resources/ui/new-website.ui:96 src/main/resources/ui/property.ui:30
+#: src/main/resources/ui/search-torrents.ui:121
+msgid "Options"
+msgstr "オプション"
+
+#: src/main/resources/ui/new-media.ui:64
+msgid "Options:"
+msgstr "オプション："
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:57
+msgid "Other"
+msgstr "その他"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+msgid "Others"
+msgstr "その他"
+
+#: src/main/java/org/odm/gtk4/PathChooserButton.java:191
+msgid "Other…"
+msgstr "その他…"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:126
+msgid "Output filename"
+msgstr "出力ファイル名"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:142
+msgid ""
+"Override BitTorrent Peer Exchange for new downloads. Private torrents still "
+"disable peer exchange."
+msgstr "新規ダウンロードの BitTorrent ピア交換設定を上書きします。プライベートトレントでは引き続きピア交換が無効になります。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:140
+msgid ""
+"Override aria2's IPv6 DHT discovery policy. Engine default emits no ODM "
+"option; changes require restarting ODM."
+msgstr "aria2 の IPv6 DHT 検出ポリシーを上書きします。「エンジンの既定値」では ODM のオプションを渡しません。変更には ODM の再起動が必要です。"
+
+#: src/main/resources/ui/settings.ui:401
+msgid "Override file path"
+msgstr "ファイルパスを上書き"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:144
+msgid ""
+"Override local-network peer discovery for new torrents. aria2's native "
+"default is disabled."
+msgstr "新規トレントのローカルネットワークでのピア検出設定を上書きします。aria2 の標準設定では無効です。"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:281
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:338
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:339
+msgid "Passed"
+msgstr "合格"
+
+#: src/main/resources/ui/import-list.ui:195
+#: src/main/resources/ui/import-sequence.ui:203
+#: src/main/resources/ui/network-options.ui:160
+#: src/main/resources/ui/settings.ui:224
+msgid "Password:"
+msgstr "パスワード："
+
+#: src/main/resources/ui/new-media.ui:55
+msgid "Paste a media URL, then Fetch info to list formats."
+msgstr "メディア URL を貼り付け、「情報を取得」で形式を一覧表示します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:182
+msgid ""
+"Path to the HTTrack executable; leave empty to discover it automatically. "
+"Changes take effect after restarting ODM."
+msgstr "HTTrack の実行ファイルのパス。空欄の場合は自動検出します。変更は ODM の再起動後に適用されます。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:242
+msgid ""
+"Path to the Subliminal executable used by the Download Subtitles completion "
+"action; leave empty to discover it automatically."
+msgstr "完了後の「字幕をダウンロード」操作で使用する Subliminal の実行ファイルのパス。空欄の場合は自動検出します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:230
+msgid ""
+"Path to the Tor executable managed by ODM; changes take effect after "
+"restarting ODM."
+msgstr "ODM が管理する Tor の実行ファイルのパス。変更は ODM の再起動後に適用されます。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:120
+msgid ""
+"Path to the aria2c executable; leave empty to discover it automatically. A "
+"running ODM aria2 daemon changes on restart."
+msgstr "aria2c の実行ファイルのパス。空欄の場合は自動検出します。実行中の ODM aria2 デーモンは再起動時に切り替わります。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:238
+msgid ""
+"Path to the curl executable used by fallback downloads; changes take effect "
+"after restarting ODM."
+msgstr "フォールバックのダウンロードに使用する curl の実行ファイルのパス。変更は ODM の再起動後に適用されます。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:226
+msgid ""
+"Path to the proxychains executable used for SOCKS and Tor-routed downloads; "
+"changes take effect after restarting ODM."
+msgstr "SOCKS および Tor 経由のダウンロードで使用する proxychains の実行ファイルのパス。変更は ODM の再起動後に適用されます。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:164
+msgid ""
+"Path to the yt-dlp executable; leave empty to discover it automatically."
+msgstr "yt-dlp の実行ファイルのパス。空欄の場合は自動検出します。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1318
+#: src/main/resources/ui/main-window.ui:175
+msgid "Pause"
+msgstr "一時停止"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1674
+#: src/main/java/org/odm/gtk4/TrayMenu.java:31
+msgid "Pause All"
+msgstr "すべて一時停止"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Paused"
+msgstr "一時停止中"
+
+#: src/main/resources/ui/main-window.ui:487
+msgid "Peer ID"
+msgstr "ピア ID"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:405
+msgid "Peer exchange policy"
+msgstr "ピア交換ポリシー"
+
+#: src/main/resources/ui/settings.ui:281
+msgid "Peer exchange:"
+msgstr "ピア交換："
+
+#: src/main/resources/ui/settings.ui:269
+msgid "Peer speed limit (KB/s):"
+msgstr "ピア速度制限（KB/s）："
+
+#: src/main/resources/ui/main-window.ui:495
+msgid "Peers"
+msgstr "ピア"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:210
+msgid ""
+"Periodically remove old records from ODM history according to the limits "
+"below. Downloaded files are never removed."
+msgstr "以下の上限に従って、ODM の古い履歴を定期的に削除します。ダウンロードしたファイルは削除しません。"
+
+#: src/main/resources/ui/settings.ui:148
+msgid "Periodically save ODM download and session state"
+msgstr "ODM のダウンロードとセッションの状態を定期保存"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:84
+msgid ""
+"Periodically save ODM download and session state so it can be recovered "
+"after a crash."
+msgstr "クラッシュ後に復元できるように、ODM のダウンロードとセッションの状態を定期的に保存します。"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:81
+msgid "Permission denied. Check access to the selected file or folder."
+msgstr "アクセスが拒否されました。選択したファイルまたはフォルダーのアクセス権を確認してください。"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+msgid "Photos"
+msgstr "写真"
+
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:58
+msgid "Pictures"
+msgstr "画像"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:160
+msgid "Playlist item numbers or ranges"
+msgstr "プレイリストの項目番号または範囲"
+
+#: src/main/resources/ui/new-media.ui:75
+msgid "Playlist items:"
+msgstr "プレイリストの項目："
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:335
+#, java-printf-format
+msgid "Playlist preview fetched — %d item"
+msgid_plural "Playlist preview fetched — %d items"
+msgstr[0] "プレイリストのプレビューを取得しました — %d 項目"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:161
+msgid "Playlist preview items"
+msgstr "プレイリストのプレビュー項目"
+
+#: src/main/resources/ui/sources.ui:19
+msgid "Prefer"
+msgstr "優先"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1651
+msgid "Preferences"
+msgstr "設定"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:130
+msgid ""
+"Preferred BitTorrent speed threshold. When every torrent is slower, aria2 "
+"may temporarily request more peers; 0 disables the threshold."
+msgstr "BitTorrent の優先速度しきい値。すべてのトレントがこの速度を下回る場合、aria2 は一時的にピアを追加要求することがあります。0 でしきい値を無効にします。"
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:14
+msgid "Preserve native formats"
+msgstr "元の形式を保持"
+
+#: src/main/resources/ui/settings.ui:293
+msgid "Preserve remote modification time"
+msgstr "リモートの更新日時を保持"
+
+#: src/main/resources/ui/import-sequence.ui:115
+msgid "Preview"
+msgstr "プレビュー"
+
+#: src/main/resources/ui/main-window.ui:507
+#: src/main/resources/ui/new-download.ui:211
+#: src/main/resources/ui/search-torrents.ui:103
+msgid "Priority"
+msgstr "優先度"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+msgid "Programs"
+msgstr "プログラム"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+#: src/main/resources/ui/main-window.ui:239
+#: src/main/resources/ui/main-window.ui:506
+msgid "Progress"
+msgstr "進捗"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1335
+#: src/main/java/org/odm/gtk4/MainWindow.java:1679
+msgid "Properties"
+msgstr "プロパティ"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:61
+#, java-printf-format
+msgid "Properties — %d download"
+msgid_plural "Properties — %d downloads"
+msgstr[0] "プロパティ — %d 件のダウンロード"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:60
+#, java-printf-format
+msgid "Properties — %s"
+msgstr "プロパティ — %s"
+
+#: src/main/resources/ui/import-list.ui:189
+#: src/main/resources/ui/import-sequence.ui:197
+#: src/main/resources/ui/settings.ui:218
+msgid "Proxy Host:"
+msgstr "プロキシホスト："
+
+#: src/main/resources/ui/import-list.ui:191
+#: src/main/resources/ui/import-sequence.ui:199
+#: src/main/resources/ui/settings.ui:220
+msgid "Proxy Port:"
+msgstr "プロキシポート："
+
+#: src/main/resources/ui/import-list.ui:187
+#: src/main/resources/ui/import-sequence.ui:195
+#: src/main/resources/ui/settings.ui:216
+msgid "Proxy Type:"
+msgstr "プロキシの種類："
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:127
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:126
+msgid "Proxy host"
+msgstr "プロキシホスト"
+
+#: src/main/resources/ui/network-options.ui:154
+msgid "Proxy host:"
+msgstr "プロキシホスト："
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:132
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:129
+msgid "Proxy password"
+msgstr "プロキシのパスワード"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:128
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:127
+msgid "Proxy port"
+msgstr "プロキシポート"
+
+#: src/main/resources/ui/network-options.ui:156
+msgid "Proxy port:"
+msgstr "プロキシポート："
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:126
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:125
+msgid "Proxy type"
+msgstr "プロキシの種類"
+
+#: src/main/resources/ui/network-options.ui:152
+msgid "Proxy type:"
+msgstr "プロキシの種類："
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:130
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:128
+msgid "Proxy username"
+msgstr "プロキシのユーザー名"
+
+#: src/main/resources/ui/settings.ui:439
+msgid "Proxychains:"
+msgstr "Proxychains："
+
+#: src/main/resources/ui/jackett-settings.ui:24
+msgid "Public indexer"
+msgstr "公開インデクサー"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:85
+msgid "Public torrent indexers"
+msgstr "公開トレントインデクサー"
+
+#: src/main/resources/ui/search-torrents.ui:69
+msgid "Published"
+msgstr "公開日"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Queued"
+msgstr "待機中"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:399
+#, java-printf-format
+msgid "Queued %d torrent."
+msgid_plural "Queued %d torrents."
+msgstr[0] "%d 件のトレントをキューに追加しました。"
+
+#: src/main/resources/ui/settings.ui:261
+msgid "RPC port:"
+msgstr "RPC ポート："
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+#: src/main/resources/ui/main-window.ui:254
+msgid "Ratio"
+msgstr "共有比率"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:49
+msgid "Ratio limit"
+msgstr "共有比率の上限"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:49
+msgid "Ratio or time"
+msgstr "共有比率または時間"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:418
+msgid "Reading descriptor files…"
+msgstr "記述ファイルを読み取り中…"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:277
+#: src/main/resources/ui/main-window.ui:544
+msgid "Ready"
+msgstr "準備完了"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1324
+msgid "Recheck Data"
+msgstr "データを再検証"
+
+#: src/main/resources/ui/settings.ui:140
+msgid "Recursive"
+msgstr "再帰的"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:318
+msgid "Referer values"
+msgstr "リファラーの値"
+
+#: src/main/resources/ui/import-list.ui:169
+#: src/main/resources/ui/import-sequence.ui:177
+#: src/main/resources/ui/network-options.ui:120
+#: src/main/resources/ui/settings.ui:196
+msgid "Referer:"
+msgstr "リファラー："
+
+#: src/main/resources/ui/jackett-settings.ui:29
+msgid "Refresh indexers"
+msgstr "インデクサーを更新"
+
+#: src/main/resources/ui/settings.ui:323
+msgid ""
+"Remember successful media IDs across playlists and restarts, even after "
+"removing records from the download list. Disable this preference to download "
+"a video again."
+msgstr "ダウンロード済みメディアの ID をプレイリストや再起動をまたいで記憶します。ダウンロードリストから削除しても保持されます。動画を再ダウンロードするにはこの設定を無効にしてください。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:178
+msgid ""
+"Remember successfully downloaded videos across playlists and restarts, even "
+"after removing records. Applies when a media download starts or resumes; "
+"disable this preference to download a video again."
+msgstr "ダウンロード済み動画をプレイリストや再起動をまたいで記憶します。履歴を削除しても保持されます。メディアのダウンロード開始・再開時に適用されます。再ダウンロードするには無効にしてください。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2179
+msgid "Remote HTML page URL"
+msgstr "リモート HTML ページの URL"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2190
+msgid "Remote import is unavailable while Offline Mode is enabled"
+msgstr "オフラインモードではリモートからのインポートは利用できません"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:285
+msgid "Removal failed"
+msgstr "削除に失敗しました"
+
+#: src/main/resources/ui/sources.ui:18
+msgid "Remove"
+msgstr "削除"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1678
+msgid "Remove All Finished"
+msgstr "完了済みをすべて削除"
+
+#: src/main/resources/ui/settings.ui:419
+msgid "Remove completed records after (days, 0 = never):"
+msgstr "完了した履歴の削除までの日数（0 = 削除しない）："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:218
+msgid ""
+"Remove completed records older than this many days when automatic cleanup "
+"runs; 0 disables age-based removal."
+msgstr "自動クリーンアップ時に、指定日数を超えた完了済み履歴を削除します。0 で日数による削除を無効にします。"
+
+#: src/main/resources/ui/settings.ui:421
+msgid "Remove error records after (days, 0 = never):"
+msgstr "エラーの履歴の削除までの日数（0 = 削除しない）："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:220
+msgid ""
+"Remove error records older than this many days when automatic cleanup runs; "
+"0 disables age-based removal."
+msgstr "自動クリーンアップ時に、指定日数を超えたエラー履歴を削除します。0 で日数による削除を無効にします。"
+
+#: src/main/java/org/odm/gtk4/MediaPresentation.java:26
+msgid "Remove segments"
+msgstr "区間を削除"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:257
+msgid "Removing…"
+msgstr "削除中…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2565
+msgid "Requesting new Tor identity…"
+msgstr "新しい Tor ID を要求中…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:55
+msgid "Require encrypted payload"
+msgstr "ペイロード暗号化を必須にする"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:55
+msgid "Require obfuscated handshake"
+msgstr "難読化ハンドシェイクを必須にする"
+
+#: src/main/resources/ui/main-window.ui:256
+msgid "Res."
+msgstr "解像度"
+
+#: src/main/resources/ui/settings.ui:203
+msgid ""
+"Restart ODM to apply changes to normal downloads. Web Scrap does not support "
+"certificate verification."
+msgstr "通常のダウンロードに変更を適用するには ODM を再起動してください。ウェブサイト取得は証明書の検証に対応していません。"
+
+#: src/main/resources/ui/settings.ui:490
+msgid "Restore defaults for the currently selected tab only"
+msgstr "現在選択中のタブのみ既定値に戻す"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+#: src/main/resources/ui/main-window.ui:455
+msgid "Result"
+msgstr "結果"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1319
+msgid "Resume"
+msgstr "再開"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1675
+#: src/main/java/org/odm/gtk4/TrayMenu.java:32
+msgid "Resume All"
+msgstr "すべて再開"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:152
+msgid ""
+"Resume partial files instead of restarting them when a download is retried "
+"or resumed."
+msgstr "ダウンロードの再試行・再開時に、最初からやり直さず部分的なファイルを再開します。"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:417
+msgid "Retrieving magnet metadata from peers…"
+msgstr "ピアからマグネットのメタデータを取得中…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+#: src/main/resources/ui/main-window.ui:253
+msgid "Retry"
+msgstr "再試行"
+
+#: src/main/resources/ui/import-list.ui:157
+#: src/main/resources/ui/import-sequence.ui:165
+#: src/main/resources/ui/settings.ui:184
+msgid "Retry After (s):"
+msgstr "再試行までの待機時間（秒）："
+
+#: src/main/resources/ui/import-list.ui:155
+#: src/main/resources/ui/import-sequence.ui:163
+#: src/main/resources/ui/settings.ui:182
+msgid "Retry Limit:"
+msgstr "再試行回数の上限："
+
+#: src/main/resources/ui/network-options.ui:98
+msgid "Retry after (s):"
+msgstr "再試行までの待機時間（秒）："
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:116
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:116
+msgid "Retry limit"
+msgstr "再試行回数の上限"
+
+#: src/main/resources/ui/network-options.ui:96
+msgid "Retry limit:"
+msgstr "再試行回数の上限："
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:134
+msgid "Route imported downloads through Tor"
+msgstr "インポートしたダウンロードを Tor 経由にする"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:116
+msgid "Route new downloads through the Tor service managed by ODM."
+msgstr "新規ダウンロードを ODM が管理する Tor サービス経由にします。"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:130
+msgid "Route this download through Tor"
+msgstr "このダウンロードを Tor 経由にする"
+
+#: src/main/resources/ui/settings.ui:413
+msgid "Run cleanup every (hours):"
+msgstr "クリーンアップ間隔（時間）："
+
+#: src/main/resources/ui/settings.ui:452
+msgid "Run every"
+msgstr "実行間隔"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:43
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:325
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:343
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:153
+msgid "Running"
+msgstr "実行中"
+
+#: src/main/resources/ui/new-download.ui:258
+msgid "SFTP host key digest:"
+msgstr "SFTP ホスト鍵のダイジェスト："
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:31
+msgid "Same directory"
+msgstr "同じディレクトリー"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:31
+msgid "Same domain"
+msgstr "同じドメイン"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:31
+msgid "Same host"
+msgstr "同じホスト"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Sat"
+msgstr "土"
+
+#: src/main/resources/ui/completion-command.ui:34
+msgid "Save"
+msgstr "保存"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:369
+msgid "Save download history"
+msgstr "ダウンロード履歴を保存"
+
+#: src/main/resources/ui/main-window.ui:337
+msgid "Save folder:"
+msgstr "保存フォルダー："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:168
+msgid "Save the media thumbnail as a separate image file next to the download."
+msgstr "メディアのサムネイルを、ダウンロードと同じ場所に個別の画像ファイルとして保存します。"
+
+#: src/main/resources/ui/settings.ui:318
+msgid "Save thumbnail file"
+msgstr "サムネイルファイルを保存"
+
+#: src/main/resources/ui/import-list.ui:116
+#: src/main/resources/ui/import-sequence.ui:126
+#: src/main/resources/ui/new-download.ui:76
+#: src/main/resources/ui/new-media.ui:118
+#: src/main/resources/ui/search-torrents.ui:124
+msgid "Save to:"
+msgstr "保存先："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1294
+msgid "Saving settings…"
+msgstr "設定を保存中…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:944
+msgid "Scanner discovery failed; custom command remains available."
+msgstr "スキャナーの検出に失敗しました。カスタムコマンドは引き続き利用できます。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:248
+msgid ""
+"Scanner used by Antivirus Scan completion actions; Automatic chooses the "
+"first validated installed scanner."
+msgstr "完了後のウイルススキャンに使用するスキャナー。「自動」は検証済みのインストール済みスキャナーから最初のものを選択します。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1645
+msgid "Schedule"
+msgstr "スケジュール"
+
+#: src/main/resources/ui/search-torrents.ui:42
+#: src/main/resources/ui/search-torrents.ui:79
+msgid "Search"
+msgstr "検索"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:356
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1093
+msgid "Search Engine"
+msgstr "検索エンジン"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1612
+#: src/main/resources/ui/search-torrents.ui:26
+msgid "Search Torrents"
+msgstr "トレントを検索"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:461
+msgid "Search downloads"
+msgstr "ダウンロードを検索"
+
+#: src/main/resources/ui/main-window.ui:189
+msgid "Search downloads…"
+msgstr "ダウンロードを検索…"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:143
+msgid "Search engine unavailable"
+msgstr "検索エンジンを利用できません"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:182
+msgid "Search engine unavailable."
+msgstr "検索エンジンを利用できません。"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:199
+#, java-printf-format
+msgid "Search failed. %s"
+msgstr "検索に失敗しました。%s"
+
+#: src/main/resources/ui/search-torrents.ui:40
+msgid "Search torrents…"
+msgstr "トレントを検索…"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:187
+msgid "Searching…"
+msgstr "検索中…"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:122
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:117
+msgid "Seconds before retry"
+msgstr "再試行までの秒数"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:92
+msgid ""
+"Seconds between retry attempts when supported; 0 uses the selected engine's "
+"default."
+msgstr "対応している場合の再試行間隔（秒）。0 で選択したエンジンの既定値を使用します。"
+
+#: src/main/resources/ui/settings.ui:273
+msgid "Seed ratio:"
+msgstr "シード比率："
+
+#: src/main/resources/ui/settings.ui:275
+msgid "Seed time (min):"
+msgstr "シード時間（分）："
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:222
+msgid "Seeder"
+msgstr "シーダー"
+
+#: src/main/resources/ui/main-window.ui:471
+#: src/main/resources/ui/search-torrents.ui:61
+msgid "Seeders"
+msgstr "シーダー"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:34
+msgid "Seeding"
+msgstr "シード中"
+
+#: src/main/resources/ui/settings.ui:271
+msgid "Seeding policy:"
+msgstr "シードポリシー："
+
+#: src/main/resources/ui/main-window.ui:395
+msgid "Seeds/peers:"
+msgstr "シード/ピア："
+
+#: src/main/resources/ui/new-media.ui:115
+msgid "Segment categories:"
+msgstr "区間のカテゴリー："
+
+#: src/main/resources/ui/main-window.ui:503
+msgid "Sel."
+msgstr "選択"
+
+#: src/main/resources/ui/search-torrents.ui:49
+msgid "Select"
+msgstr "選択"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1650
+msgid "Select All"
+msgstr "すべて選択"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2133
+msgid "Select HTML file"
+msgstr "HTML ファイルを選択"
+
+#: src/main/resources/ui/jackett-settings.ui:20
+msgid "Select Indexers"
+msgstr "インデクサーを選択"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:101
+msgid "Select Netscape cookie file"
+msgstr "Netscape Cookie ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:467
+msgid "Select Subliminal binary"
+msgstr "Subliminal の実行ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:209
+msgid "Select URL list file"
+msgstr "URL リストファイルを選択"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1337
+msgid "Select a default download folder"
+msgstr "既定のダウンロードフォルダーを選択"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:26
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:71
+msgid "Select a download"
+msgstr "ダウンロードを選択"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:73
+msgid "Select a download to view its speed history"
+msgstr "速度の履歴を表示するにはダウンロードを選択してください"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:226
+msgid "Select a supported proxy type to edit this field."
+msgstr "この項目を編集するには、対応するプロキシの種類を選択してください。"
+
+#: src/main/resources/ui/new-download.ui:170
+#: src/main/resources/ui/search-torrents.ui:86
+msgid "Select all"
+msgstr "すべて選択"
+
+#: src/main/resources/ui/new-media.ui:81
+msgid "Select all previewed items"
+msgstr "プレビューの全項目を選択"
+
+#: src/main/resources/ui/settings.ui:390
+msgid "Select an hour to inspect its state"
+msgstr "時間帯を選択して状態を確認"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:461
+msgid "Select aria2c binary"
+msgstr "aria2c の実行ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:701
+msgid "Select at least one file to download."
+msgstr "ダウンロードするファイルを 1 つ以上選択してください。"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:506
+msgid "Select at least one file to start the download."
+msgstr "ダウンロードを開始するにはファイルを 1 つ以上選択してください。"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:621
+msgid "Select at least one playlist item"
+msgstr "プレイリストの項目を 1 つ以上選択してください"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:193
+msgid "Select cookies file"
+msgstr "Cookie ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:466
+msgid "Select curl binary"
+msgstr "curl の実行ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:165
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:148
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:172
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:195
+msgid "Select destination folder"
+msgstr "保存先フォルダーを選択"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:172
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:456
+msgid "Select download folder"
+msgstr "ダウンロードフォルダーを選択"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:128
+msgid "Select every descriptor file"
+msgstr "すべての記述ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/PathChooserButton.java:45
+msgid "Select file…"
+msgstr "ファイルを選択…"
+
+#: src/main/java/org/odm/gtk4/PathChooserButton.java:46
+#: src/main/resources/ui/settings.ui:127
+msgid "Select folder…"
+msgstr "フォルダーを選択…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:463
+msgid "Select httrack binary"
+msgstr "httrack の実行ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:459
+msgid "Select monitored folder"
+msgstr "監視フォルダーを選択"
+
+#: src/main/resources/ui/settings.ui:134
+msgid "Select monitored folder…"
+msgstr "監視フォルダーを選択…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1372
+msgid "Select new destination"
+msgstr "新しい保存先を選択"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:464
+msgid "Select proxychains binary"
+msgstr "proxychains の実行ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:465
+msgid "Select tor binary"
+msgstr "tor の実行ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:162
+msgid "Select torrent or metalink file"
+msgstr "トレントまたは Metalink ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:462
+msgid "Select yt-dlp binary"
+msgstr "yt-dlp の実行ファイルを選択"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:335
+#, java-printf-format
+msgid ""
+"Selected downloads have different %s; leave this unchanged to preserve each "
+"value."
+msgstr "選択したダウンロードの %s は異なっています。各値を保持するには変更しないでください。"
+
+#: src/main/resources/ui/import-sequence.ui:138
+msgid "Sequence"
+msgstr "連番"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:144
+msgid "Sequence destination folder"
+msgstr "連番の保存先フォルダー"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:107
+msgid "Sequence end character"
+msgstr "連番の終了文字"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:104
+msgid "Sequence end number"
+msgstr "連番の終了番号"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:106
+msgid "Sequence start character"
+msgstr "連番の開始文字"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:103
+msgid "Sequence start number"
+msgstr "連番の開始番号"
+
+#: src/main/resources/ui/main-window.ui:184
+msgid "Settings"
+msgstr "設定"
+
+#: src/main/java/org/odm/gtk4/PropertyDialog.java:123
+msgid "Settings applied"
+msgstr "設定を適用しました"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1572
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:286
+msgid "Setup failed"
+msgstr "セットアップに失敗しました"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:76
+msgid "Show the ODM status icon in the desktop system tray when supported."
+msgstr "対応している場合、ODM の状態アイコンをデスクトップのシステムトレイに表示します。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1634
+msgid "Shutdown"
+msgstr "シャットダウン"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:492
+msgid "Shutting down Open Download Manager…"
+msgstr "Open Download Manager を終了中…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1627
+#: src/main/java/org/odm/gtk4/TrayMenu.java:35
+msgid "Silent Mode"
+msgstr "サイレントモード"
+
+#: src/main/resources/ui/settings.ui:143
+msgid "Silent mode"
+msgstr "サイレントモード"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:482
+msgid "Single-file download"
+msgstr "単一ファイルのダウンロード"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+#: src/main/resources/ui/main-window.ui:236
+#: src/main/resources/ui/main-window.ui:505
+#: src/main/resources/ui/new-download.ui:204
+#: src/main/resources/ui/search-torrents.ui:57
+#: src/main/resources/ui/search-torrents.ui:99
+msgid "Size"
+msgstr "サイズ"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:54
+msgid "Size unknown"
+msgstr "サイズ不明"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:190
+msgid ""
+"Skip individual HTML files larger than this many MiB; 0 means unlimited."
+msgstr "指定した MiB 数を超える個々の HTML ファイルをスキップします。0 で無制限です。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:188
+msgid ""
+"Skip individual non-HTML files larger than this many MiB; 0 means unlimited."
+msgstr "指定した MiB 数を超える個々の HTML 以外のファイルをスキップします。0 で無制限です。"
+
+#: src/main/resources/ui/settings.ui:323
+msgid "Skip previously downloaded videos"
+msgstr "ダウンロード済みの動画をスキップ"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:124
+msgid ""
+"Smallest file segment aria2 creates when splitting a download across "
+"connections."
+msgstr "aria2 がダウンロードを複数接続に分割する際に作成する最小ファイルセグメント。"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:62
+msgid "Source file"
+msgstr "ソースファイル"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:295
+msgid "Sources"
+msgstr "ソース"
+
+#: src/main/resources/ui/sources.ui:12
+msgid "Speed"
+msgstr "速度"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:63
+#, java-printf-format
+msgid "Speed: %s"
+msgstr "速度：%s"
+
+#: src/main/resources/ui/main-window.ui:420
+msgid "Speed: —"
+msgstr "速度：—"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:165
+msgid "SponsorBlock action"
+msgstr "SponsorBlock の操作"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:167
+msgid "SponsorBlock segment categories"
+msgstr "SponsorBlock の区間カテゴリー"
+
+#: src/main/resources/ui/new-media.ui:112
+msgid "SponsorBlock:"
+msgstr "SponsorBlock："
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1320
+#: src/main/resources/ui/jackett-settings.ui:14
+msgid "Start"
+msgstr "開始"
+
+#: src/main/resources/ui/main-window.ui:176
+msgid "Start / Resume"
+msgstr "開始 / 再開"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+msgid "Start Date"
+msgstr "開始日時"
+
+#: src/main/resources/ui/import-list.ui:244
+#: src/main/resources/ui/import-sequence.ui:252
+#: src/main/resources/ui/new-download.ui:309
+msgid "Start Download"
+msgstr "ダウンロードを開始"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:78
+msgid "Start ODM automatically when the desktop session begins."
+msgstr "デスクトップセッションの開始時に ODM を自動起動します。"
+
+#: src/main/resources/ui/new-website.ui:109
+msgid "Start Scrape"
+msgstr "取得を開始"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:165
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:480
+msgid "Start Tor from Edit → Tor to change this option."
+msgstr "このオプションを変更するには「編集 → Tor」から Tor を起動してください。"
+
+#: src/main/resources/ui/settings.ui:145
+msgid "Start at login"
+msgstr "ログイン時に起動"
+
+#: src/main/resources/ui/main-window.ui:254
+msgid "Start date"
+msgstr "開始日時"
+
+#: src/main/resources/ui/settings.ui:146
+msgid "Start downloads automatically"
+msgstr "ダウンロードを自動開始"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:109
+msgid "Start or resume the download to edit its mirrors."
+msgstr "ミラーを編集するにはダウンロードを開始または再開してください。"
+
+#: src/main/resources/ui/jackett-settings.ui:18
+msgid "Start with ODM"
+msgstr "ODM と同時に起動"
+
+#: src/main/resources/ui/main-window.ui:456
+msgid "Started"
+msgstr "開始済み"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:88
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:149
+#: src/main/java/org/odm/gtk4/OdmApplication.java:273
+msgid "Starting Jackett…"
+msgstr "Jackett を起動中…"
+
+#: src/main/java/org/odm/gtk4/StartupGate.java:188
+msgid "Starting Open Download Manager…"
+msgstr "Open Download Manager を起動中…"
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:269
+msgid "Starting privacy and scheduling services…"
+msgstr "プライバシーとスケジュールのサービスを起動中…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1570
+#, java-printf-format
+msgid "Starting update for “%s”…"
+msgstr "「%s」の更新を開始中…"
+
+#: src/main/resources/ui/start-shutdown.ui:24
+msgid "Starting..."
+msgstr "起動中..."
+
+#: src/main/java/org/odm/gtk4/OdmApplication.java:107
+#, java-printf-format
+msgid "Startup failed: %s"
+msgstr "起動に失敗しました：%s"
+
+#: src/main/resources/ui/main-window.ui:490 src/main/resources/ui/sources.ui:11
+msgid "State"
+msgstr "状態"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1684
+msgid "Statistics"
+msgstr "統計"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:51
+#: src/main/resources/ui/main-window.ui:454
+#: src/main/resources/ui/main-window.ui:470
+#: src/main/resources/ui/search-torrents.ui:110
+msgid "Status"
+msgstr "状態"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:18
+#, java-printf-format
+msgid ""
+"Status: %s\n"
+"Result: %s"
+msgstr "状態：%s\n結果：%s"
+
+#: src/main/resources/ui/jackett-settings.ui:15
+msgid "Stop"
+msgstr "停止"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:194
+msgid ""
+"Stop after discovering this many links; 0 disables HTTrack's link-count "
+"limit."
+msgstr "指定数のリンクを検出したら停止します。0 で HTTrack のリンク数制限を無効にします。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:186
+msgid ""
+"Stop after this many MiB have been mirrored; 0 means unlimited. The first-"
+"run default is 1024 MiB."
+msgstr "指定した MiB 数をミラーしたら停止します。0 で無制限です。初回起動時の既定値は 1024 MiB です。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:192
+msgid "Stop the crawl after this many minutes; 0 means unlimited."
+msgstr "指定した分数でクロールを停止します。0 で無制限です。"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:148
+msgid "Stopped"
+msgstr "停止済み"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:92
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:154
+msgid "Stopping Jackett…"
+msgstr "Jackett を停止中…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2337
+msgid "Stopping Tor service…"
+msgstr "Tor サービスを停止中…"
+
+#: src/main/resources/ui/settings.ui:461
+msgid "Subliminal:"
+msgstr "Subliminal："
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1530
+#, java-printf-format
+msgid "Subtitle action completed for %d download"
+msgid_plural "Subtitle actions completed for %d downloads"
+msgstr[0] "%d 件のダウンロードの字幕処理が完了しました"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1529
+#, java-printf-format
+msgid "Subtitle action completed for “%s”"
+msgstr "「%s」の字幕処理が完了しました"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1523
+#, java-printf-format
+msgid "Subtitle download failed for %2$d of %1$d download — see Actions output"
+msgid_plural ""
+"Subtitle download failed for %2$d of %1$d downloads — see Actions output"
+msgstr[0] "%1$d 件中 %2$d 件の字幕ダウンロードに失敗しました — 操作の出力を確認してください"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1522
+#, java-printf-format
+msgid "Subtitle download failed for “%s” — see Actions output"
+msgstr "「%s」の字幕ダウンロードに失敗しました — 操作の出力を確認してください"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:162
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:362
+msgid "Subtitle languages"
+msgstr "字幕の言語"
+
+#: src/main/resources/ui/new-media.ui:100 src/main/resources/ui/settings.ui:463
+msgid "Subtitle languages:"
+msgstr "字幕の言語："
+
+#: src/main/resources/ui/new-media.ui:71
+msgid "Subtitles"
+msgstr "字幕"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:326
+msgid "Succeeded"
+msgstr "成功"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Sun"
+msgstr "日"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1633
+msgid "Suspend"
+msgstr "サスペンド"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPolicy.java:187
+msgid "Suspend the computer when the download completes"
+msgstr "ダウンロード完了時にコンピューターをサスペンド"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:138
+msgid ""
+"TCP peer and UDP DHT listen port or range, such as 6881-6999. Blank keeps "
+"aria2's native setting; changes require restarting ODM."
+msgstr "TCP ピアと UDP DHT の待受ポートまたは範囲（例：6881-6999）。空欄は aria2 の標準設定を維持します。変更には ODM の再起動が必要です。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:110
+msgid "TCP port of the global proxy server."
+msgstr "グローバルプロキシサーバーの TCP ポート。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:509
+#, java-printf-format
+msgid "THREAT DETECTED in %s — scan result: %s"
+msgstr "%s で脅威を検出 — スキャン結果：%s"
+
+#: src/main/resources/ui/jackett-settings.ui:30
+msgid "Test"
+msgstr "テスト"
+
+#: src/main/resources/ui/jackett-settings.ui:30
+msgid "Test all listed indexers"
+msgstr "一覧のすべてのインデクサーをテスト"
+
+#: src/main/resources/ui/jackett-settings.ui:25
+msgid "Test status"
+msgstr "テスト状態"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:342
+#, java-printf-format
+msgid "Testing indexers… %d/%d"
+msgstr "インデクサーをテスト中… %d/%d"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:255
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:341
+msgid "Testing…"
+msgstr "テスト中…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:1497
+msgid "The Custom antivirus command must include {file}"
+msgstr "カスタムウイルススキャンコマンドには {file} を含める必要があります"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:616
+msgid "The application will stop its download services and close."
+msgstr "アプリケーションはダウンロードサービスを停止して終了します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:949
+msgid "The configured scanner is unavailable."
+msgstr "設定されたスキャナーを利用できません。"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:82
+msgid "The file or folder could not be found."
+msgstr "ファイルまたはフォルダーが見つかりませんでした。"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:84
+msgid "The operation was canceled."
+msgstr "操作はキャンセルされました。"
+
+#: src/main/java/org/odm/gtk4/HtmlImportExport.java:305
+msgid "The remote source is not HTML"
+msgstr "リモートのソースは HTML ではありません"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:78
+msgid "The request timed out. Please try again."
+msgstr "リクエストがタイムアウトしました。もう一度お試しください。"
+
+#: src/main/java/org/odm/gtk4/UiErrors.java:74
+msgid ""
+"The server address could not be found. Check the address and network "
+"settings."
+msgstr "サーバーのアドレスが見つかりませんでした。アドレスとネットワーク設定を確認してください。"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:122
+msgid ""
+"These options apply to torrent transfers. The search engine uses its own "
+"connection settings."
+msgstr "これらのオプションはトレントの転送に適用されます。検索エンジンは独自の接続設定を使用します。"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:45
+msgid "This action did not produce detailed output."
+msgstr "この操作の詳細な出力はありません。"
+
+#: src/main/java/org/odm/gtk4/ActionOutputDialog.java:44
+msgid ""
+"This action is still running. Detailed output will be available when it "
+"finishes."
+msgstr "この操作はまだ実行中です。完了後に詳細な出力が表示されます。"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:194
+msgid "This engine supports HTTP/HTTPS proxies; SOCKS and Tor are unavailable."
+msgstr "このエンジンは HTTP/HTTPS プロキシに対応しています。SOCKS と Tor は利用できません。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1105
+#, java-printf-format
+msgid "This permanently removes files for \"%s\"."
+msgstr "「%s」のファイルを完全に削除します。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1103
+#, java-printf-format
+msgid "This permanently removes files for %d selected downloads."
+msgstr "選択した %d 件のダウンロードのファイルを完全に削除します。"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionControls.java:197
+msgid ""
+"This protocol supports SOCKS proxies; HTTP/HTTPS proxying is unavailable."
+msgstr "このプロトコルは SOCKS プロキシに対応しています。HTTP/HTTPS プロキシは利用できません。"
+
+#: src/main/java/org/odm/gtk4/DialogOptions.java:243
+msgid "This proxy type is not supported for this download"
+msgstr "このダウンロードはこの種類のプロキシに対応していません"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Thu"
+msgstr "木"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:49
+msgid "Time limit"
+msgstr "時間制限"
+
+#: src/main/resources/ui/main-window.ui:421
+msgid ""
+"Time-weighted average of recorded download speeds, excluding paused time. "
+"Shown by the dashed line."
+msgstr "一時停止時間を除いた、記録済みダウンロード速度の時間加重平均。破線で表示します。"
+
+#: src/main/resources/ui/new-media.ui:91
+msgid "Title"
+msgstr "タイトル"
+
+#: src/main/resources/ui/import-sequence.ui:85
+#: src/main/resources/ui/import-sequence.ui:91
+msgid "To:"
+msgstr "終了："
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1649
+msgid "Tor"
+msgstr "Tor"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2454
+#, java-printf-format
+msgid "Tor bootstrap: %d%%"
+msgstr "Tor の初期化：%d%%"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2509
+#, java-printf-format
+msgid "Tor check failed — %s"
+msgstr "Tor のチェックに失敗 — %s"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2508
+#, java-printf-format
+msgid "Tor check failed — Offline Mode enabled. %s"
+msgstr "Tor のチェックに失敗 — オフラインモードを有効にしました。%s"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:373
+msgid "Tor check interval in minutes"
+msgstr "Tor チェックの間隔（分）"
+
+#: src/main/resources/ui/settings.ui:443
+msgid "Tor check:"
+msgstr "Tor チェック："
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2544
+msgid "Tor is not running"
+msgstr "Tor は実行されていません"
+
+#: src/main/java/org/odm/gtk4/DialogOptions.java:259
+msgid "Tor is selected. Start the Tor service from Edit → Tor first."
+msgstr "Tor が選択されています。先に「編集 → Tor」から Tor サービスを起動してください。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2367
+#: src/main/java/org/odm/gtk4/TorServiceController.java:46
+msgid "Tor service could not be stopped"
+msgstr "Tor サービスを停止できませんでした"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2358
+msgid "Tor service failed to start"
+msgstr "Tor サービスの起動に失敗しました"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2399
+msgid "Tor service reported an error"
+msgstr "Tor サービスでエラーが報告されました"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2348
+#: src/main/java/org/odm/gtk4/MainWindow.java:2397
+msgid "Tor service started"
+msgstr "Tor サービスを起動しました"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2375
+#: src/main/java/org/odm/gtk4/MainWindow.java:2398
+msgid "Tor service stopped"
+msgstr "Tor サービスを停止しました"
+
+#: src/main/java/org/odm/gtk4/TorFailureNotification.java:13
+msgid "Tor verification failed"
+msgstr "Tor の検証に失敗しました"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2511
+#, java-printf-format
+msgid "Tor verified — %s"
+msgstr "Tor を検証しました — %s"
+
+#: src/main/java/org/odm/gtk4/DialogOptions.java:242
+msgid "Tor/SOCKS proxying is not supported for this download"
+msgstr "このダウンロードは Tor/SOCKS プロキシに対応していません"
+
+#: src/main/resources/ui/settings.ui:441
+msgid "Tor:"
+msgstr "Tor："
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:135
+msgid "Torrent category"
+msgstr "トレントのカテゴリー"
+
+#: src/main/resources/ui/settings.ui:277
+msgid "Torrent listen ports:"
+msgstr "トレントの待受ポート："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:401
+msgid "Torrent peer and DHT listen ports"
+msgstr "トレントピアと DHT の待受ポート"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:136
+msgid "Torrent search results; check torrents to download"
+msgstr "トレントの検索結果。ダウンロードするトレントにチェックしてください"
+
+#: src/main/java/org/odm/gtk4/SearchTorrentsDialog.java:134
+msgid "Torrent search terms"
+msgstr "トレントの検索語"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:397
+msgid "Torrent seed ratio limit"
+msgstr "トレントのシード比率上限"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:399
+msgid "Torrent seed time limit in minutes"
+msgstr "トレントのシード時間上限（分）"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:395
+msgid "Torrent seeding policy"
+msgstr "トレントのシードポリシー"
+
+#: src/main/resources/ui/new-download.ui:69
+msgid "Torrent/Metalink file…"
+msgstr "トレント/Metalink ファイル…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2276
+#, java-printf-format
+msgid ""
+"Total: %d\n"
+"Active: %d\n"
+"Queued/paused: %d\n"
+"Finished: %d\n"
+"Errors: %d\n"
+"\n"
+"Downloaded: %s / %s"
+msgstr "合計：%d\n実行中：%d\n待機/一時停止：%d\n完了：%d\nエラー：%d\n\nダウンロード済み：%s / %s"
+
+#: src/main/resources/ui/settings.ui:287
+msgid "Tracker refresh (min, 0 = off):"
+msgstr "トラッカー更新（分、0 = オフ）："
+
+#: src/main/resources/ui/main-window.ui:479
+msgid "Trackers"
+msgstr "トラッカー"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:223
+msgid "Transferring"
+msgstr "転送中"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Tue"
+msgstr "火"
+
+#: src/main/java/org/odm/gtk4/DownloadLinkCopy.java:62
+#, java-printf-format
+msgid "URL copied"
+msgid_plural "%d URLs copied"
+msgstr[0] "%d 件の URL をコピーしました"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:295
+#, java-printf-format
+msgid "URL list exceeds the configured %d MiB limit"
+msgstr "URL リストが設定された %d MiB の上限を超えています"
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:305
+#, java-printf-format
+msgid "URL list exceeds the configured %d URL limit"
+msgstr "URL リストが設定された %d 件の上限を超えています"
+
+#: src/main/java/org/odm/gtk4/ImportSequenceDialog.java:102
+msgid "URL sequence pattern"
+msgstr "URL 連番のパターン"
+
+#: src/main/resources/ui/new-download.ui:56
+msgid "URL/Magnet link"
+msgstr "URL/マグネットリンク"
+
+#: src/main/resources/ui/import-sequence.ui:76
+#: src/main/resources/ui/new-download.ui:48
+msgid "URL:"
+msgstr "URL："
+
+#: src/main/java/org/odm/gtk4/ImportListDialog.java:110
+msgid "URLs to import"
+msgstr "インポートする URL"
+
+#: src/main/resources/ui/settings.ui:402
+msgid "Uniquify output name"
+msgstr "出力名の重複を回避"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:49
+msgid "Unlimited"
+msgstr "無制限"
+
+#: src/main/java/org/odm/gtk4/CompletionActionPolicy.java:90
+#, java-printf-format
+msgid "Unsupported file scanner: %s. Select ClamAV or a custom file scanner."
+msgstr "未対応のファイルスキャナー：%s。ClamAV またはカスタムファイルスキャナーを選択してください。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:52
+msgid "Up Speed"
+msgstr "アップロード速度"
+
+#: src/main/resources/ui/main-window.ui:252
+#: src/main/resources/ui/main-window.ui:489
+msgid "Up speed"
+msgstr "アップロード速度"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1327
+#: src/main/java/org/odm/gtk4/MainWindow.java:1670
+msgid "Update Website Mirror…"
+msgstr "ウェブサイトのミラーを更新…"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1558
+msgid "Update and Keep Old Files"
+msgstr "更新して古いファイルを保持"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1561
+msgid "Update and Remove Missing Files"
+msgstr "更新してリモートにないファイルを削除"
+
+#: src/main/java/org/odm/gtk4/JackettSettingsPane.java:343
+msgid "Updating indexers…"
+msgstr "インデクサーを更新中…"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:167
+msgid "Updating mirrors…"
+msgstr "ミラーを更新中…"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:134
+msgid ""
+"Upload-to-download share ratio at which aria2 stops seeding; used by ratio-"
+"based policies."
+msgstr "aria2 がシードを停止するアップロード対ダウンロードの共有比率。比率ベースのポリシーに使用します。"
+
+#: src/main/resources/ui/jackett-settings.ui:23
+msgid "Use"
+msgstr "使用"
+
+#: src/main/resources/ui/settings.ui:321
+msgid "Use aria2 as external downloader"
+msgstr "aria2 を外部ダウンローダーとして使用"
+
+#: src/main/resources/ui/settings.ui:293
+msgid ""
+"Use the server's last-modified time for HTTP, FTP and SFTP files when "
+"available."
+msgstr "取得可能な場合、HTTP、FTP、SFTP ファイルにサーバーの最終更新日時を使用します。"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:160
+msgid ""
+"Use the server's last-modified time for supported file downloads. Applies "
+"when a download starts or resumes."
+msgstr "対応するファイルのダウンロードにサーバーの最終更新日時を使用します。ダウンロードの開始・再開時に適用されます。"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:137
+msgid "Used"
+msgstr "使用済み"
+
+#: src/main/resources/ui/import-list.ui:173
+#: src/main/resources/ui/import-sequence.ui:181
+#: src/main/resources/ui/network-options.ui:124
+#: src/main/resources/ui/settings.ui:200
+msgid "User Agent:"
+msgstr "ユーザーエージェント："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:102
+msgid ""
+"User-Agent used by new downloads when supported; leave empty for the engine "
+"default."
+msgstr "対応する新規ダウンロードで使用する User-Agent。空欄の場合はエンジンの既定値を使用します。"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:320
+msgid "User-Agent values"
+msgstr "User-Agent の値"
+
+#: src/main/resources/ui/import-list.ui:193
+#: src/main/resources/ui/import-sequence.ui:201
+#: src/main/resources/ui/network-options.ui:158
+#: src/main/resources/ui/settings.ui:222
+msgid "Username:"
+msgstr "ユーザー名："
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:947
+#, java-printf-format
+msgid "Validated %d installed antivirus scanner."
+msgid_plural "Validated %d installed antivirus scanners."
+msgstr[0] "インストール済みの %d 個のウイルススキャナーを検証しました。"
+
+#: src/main/resources/ui/settings.ui:202
+msgid "Verify HTTPS certificates"
+msgstr "HTTPS 証明書を検証"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:462
+#: src/main/java/org/odm/gtk4/MainWindow.java:2502
+#: src/main/resources/ui/main-window.ui:563
+msgid "Verify Tor connection"
+msgstr "Tor 接続を検証"
+
+#: src/main/resources/ui/new-download.ui:135
+msgid "Verify at completion"
+msgstr "完了時に検証"
+
+#: src/main/java/org/odm/gtk4/NewDownloadDialog.java:133
+msgid "Verify checksum at completion"
+msgstr "完了時にチェックサムを検証"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:104
+msgid ""
+"Verify the identity of HTTPS servers for downloads, media requests and "
+"remote HTML imports. Turning this off accepts invalid certificates but keeps "
+"encryption. Normal aria2 downloads require restarting ODM; HTTrack does not "
+"verify certificates. An explicitly honored external yt-dlp configuration can "
+"disable verification."
+msgstr "ダウンロード、メディアリクエスト、リモート HTML インポートで HTTPS サーバーの身元を検証します。無効にすると暗号化は維持されますが、無効な証明書を受け入れます。通常の aria2 ダウンロードには ODM の再起動が必要です。HTTrack は証明書を検証しません。明示的に使用を許可した外部の yt-dlp 設定で検証が無効になる場合があります。"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:2468
+#: src/main/java/org/odm/gtk4/MainWindow.java:2708
+msgid "Verifying Tor connection…"
+msgstr "Tor 接続を検証中…"
+
+#: src/main/resources/ui/new-media.ui:50
+msgid "Video page, playlist, manifest, or direct media URL"
+msgstr "動画ページ、プレイリスト、マニフェスト、または直接メディア URL"
+
+#: src/main/java/org/odm/gtk4/DownloadListPresenter.java:36
+#: src/main/java/org/odm/gtk4/FolderPlaces.java:60
+msgid "Videos"
+msgstr "動画"
+
+#: src/main/java/org/odm/gtk4/SourcesPresenter.java:138
+msgid "Waiting"
+msgstr "待機中"
+
+#: src/main/java/org/odm/gtk4/DownloadProgressGraph.java:72
+msgid "Waiting for speed data"
+msgstr "速度データを待機中"
+
+#: src/main/java/org/odm/gtk4/ImportEngine.java:12
+msgid "Web Scrap"
+msgstr "ウェブサイト取得"
+
+#: src/main/resources/ui/new-website.ui:87
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:114
+msgid "Website URL to mirror"
+msgstr "ミラーするウェブサイトの URL"
+
+#: src/main/resources/ui/new-website.ui:49
+msgid "Website URL:"
+msgstr "ウェブサイト URL："
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:115
+msgid "Website crawl depth"
+msgstr "ウェブサイトのクロール深度"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:116
+msgid "Website crawl scope"
+msgstr "ウェブサイトのクロール範囲"
+
+#: src/main/java/org/odm/gtk4/NewWebsiteDialog.java:163
+msgid "Website download does not have HTTrack settings"
+msgstr "ウェブサイトのダウンロードに HTTrack 設定がありません"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:257
+msgid "Wed"
+msgstr "水"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1643
+msgid "Weekdays"
+msgstr "平日"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1642
+msgid "Weekends"
+msgstr "週末"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:208
+#: src/main/resources/ui/settings.ui:408
+msgid ""
+"When enabled, keep completed and canceled records across restarts. When "
+"disabled, omit only those records from persisted history. Downloaded files "
+"are never deleted; automatic cleanup is controlled separately."
+msgstr "有効にすると、完了・キャンセル済みの履歴を再起動後も保持します。無効にすると、それらの履歴だけを保存対象から除外します。ダウンロードしたファイルは削除しません。自動クリーンアップは別に設定します。"
+
+#: src/main/resources/ui/new-website.ui:65
+msgid ""
+"Whitespace-separated HTTrack wildcard patterns excluded from this mirror."
+msgstr "このミラーから除外する HTTrack のワイルドカードパターン。空白で区切ります。"
+
+#: src/main/resources/ui/new-website.ui:62
+msgid "Whitespace-separated HTTrack wildcard patterns included in this mirror."
+msgstr "このミラーに含める HTTrack のワイルドカードパターン。空白で区切ります。"
+
+#: src/main/java/org/odm/gtk4/DesktopNotifications.java:34
+msgid "Your download has completed."
+msgstr "ダウンロードが完了しました。"
+
+#: src/main/resources/ui/settings.ui:491
+msgid "_Apply"
+msgstr "適用(_A)"
+
+#: src/main/resources/ui/settings.ui:489
+msgid "_Cancel"
+msgstr "キャンセル(_C)"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1680
+msgid "_Download"
+msgstr "ダウンロード(_D)"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1652
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1622
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1687
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: src/main/resources/ui/settings.ui:492
+msgid "_OK"
+msgstr "_OK"
+
+#: src/main/resources/ui/settings.ui:490
+msgid "_Reset"
+msgstr "リセット(_R)"
+
+#: src/main/java/org/odm/gtk4/MainWindow.java:1663
+msgid "_View"
+msgstr "表示(_V)"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:393
+msgid "aria2 RPC port"
+msgstr "aria2 の RPC ポート"
+
+#: src/main/resources/ui/settings.ui:259
+msgid "aria2 path:"
+msgstr "aria2 のパス："
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:308
+msgid "connection counts"
+msgstr "接続数"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:322
+msgid "cookie values"
+msgstr "Cookie の値"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:337
+msgid "critical"
+msgstr "緊急"
+
+#: src/main/resources/ui/settings.ui:459
+msgid "curl:"
+msgstr "curl："
+
+#: src/main/resources/ui/new-media.ui:116
+msgid "default or sponsor,intro,outro"
+msgstr "default または sponsor,intro,outro"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:310
+msgid "download limits"
+msgstr "ダウンロード制限"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:577
+msgid "downloads allowed"
+msgstr "ダウンロード可能"
+
+#: src/main/java/org/odm/gtk4/SettingsDialog.java:577
+msgid "downloads paused"
+msgstr "ダウンロード一時停止中"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:336
+msgid "high"
+msgstr "高"
+
+#: src/main/resources/ui/settings.ui:345
+msgid "httrack path:"
+msgstr "httrack のパス："
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:334
+msgid "low"
+msgstr "低"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:335
+msgid "medium"
+msgstr "中"
+
+#: src/main/resources/ui/settings.ui:454
+msgid "min"
+msgstr "分"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:324
+msgid "proxy routes"
+msgstr "プロキシ経路"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:316
+msgid "retry delays"
+msgstr "再試行間隔"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:314
+msgid "retry limits"
+msgstr "再試行回数の上限"
+
+#: src/main/resources/ui/new-download.ui:266
+msgid "sha-1=<40 hex digits>"
+msgstr "sha-1=<16 進数 40 桁>"
+
+#: src/main/java/org/odm/gtk4/DetailTabsPresenter.java:203
+#, java-printf-format
+msgid "tier %d"
+msgstr "階層 %d"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:723
+msgid "unknown length"
+msgstr "長さ不明"
+
+#: src/main/java/org/odm/gtk4/NewMediaDialog.java:341
+msgid "unknown uploader"
+msgstr "投稿者不明"
+
+#: src/main/java/org/odm/gtk4/NetworkOptionsPane.java:312
+msgid "upload limits"
+msgstr "アップロード制限"
+
+#: src/main/resources/ui/settings.ui:316
+msgid "yt-dlp path:"
+msgstr "yt-dlp のパス："

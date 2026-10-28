@@ -17,12 +17,28 @@ class I18nTest {
         "fr_BE.UTF-8, , fr",
         "fr_CA.UTF-8, , fr",
         "en_US.UTF-8, , en",
-        "de_DE.UTF-8, , en",
-        "en_US.UTF-8, de:fr_CA:en, fr",
+        "de_DE.UTF-8, , de",
+        "de_AT.UTF-8, , de",
+        "es_ES.UTF-8, , es",
+        "es_MX.UTF-8, , es",
+        "ja_JP.UTF-8, , ja",
+        "pt_PT.UTF-8, , pt",
+        "pt_BR.UTF-8, , pt",
+        "zh_CN.UTF-8, , zh",
+        "zh_SG.UTF-8, , zh",
+        "it_IT.UTF-8, , en",
+        "en_US.UTF-8, it:fr_CA:en, fr",
+        "en_US.UTF-8, it:de:fr, de",
+        "en_US.UTF-8, it:es:en, es",
+        "en_US.UTF-8, ja:fr, ja",
+        "en_US.UTF-8, pt_BR:fr, pt",
+        "en_US.UTF-8, zh:fr, zh",
         "en_US.UTF-8, en:fr, en",
+        "en_US.UTF-8, en:de:es:ja:pt:zh, en",
         "fr_FR.UTF-8, en, en",
         "C, fr, en",
-        "C.UTF-8, fr, en"
+        "C.UTF-8, fr, en",
+        "C.UTF-8, de:es:ja:pt:zh, en"
     })
     void nativeGtkAndJavaUseTheSystemLanguage(String locale, String language, String expected) throws Exception {
         Path output = temporary.resolve("locale.log");
