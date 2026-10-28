@@ -194,7 +194,7 @@ compile() {
 # Create packages
 package() {
     prepare_m2
-    local version="${1:-0.3.1}"
+    local version="${1:-0.3.2}"
     if [[ ! "$version" =~ ^[0-9]+([.][0-9]+){1,3}$ ]]; then
         echo "Invalid package version: expected numeric dotted version" >&2
         return 2
@@ -209,7 +209,7 @@ package() {
 
 # Verify the built packages (same container requirements as package).
 verify() {
-    local version="${1:-0.3.1}"
+    local version="${1:-0.3.2}"
     if [[ ! "$version" =~ ^[0-9]+([.][0-9]+){1,3}$ ]]; then
         echo "Invalid package version: expected numeric dotted version" >&2
         return 2

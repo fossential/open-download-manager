@@ -29,6 +29,12 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="0.3.2" date="2026-10-29">
+      <description>
+        <p>Adds complete Simplified Chinese, Spanish, German, Portuguese and Japanese translations,
+        with regional locale support and localized plural forms.</p>
+      </description>
+    </release>
     <release version="0.3.1" date="2026-09-27"/>
   </releases>
   <provides>
