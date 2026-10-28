@@ -9,6 +9,9 @@ permissions:
 
 jobs:
     validation:
+        permissions:
+            contents: read
+            actions: write
         uses: ./.github/workflows/test-ci.yml
 
     release:
